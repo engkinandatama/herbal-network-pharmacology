@@ -106,7 +106,7 @@ plant:
     
     # Benzophenone glucoside - ACE inhibitor
     - name: "Mahkoside A"
-      pubchem_cid: null  # Not in PubChem, search SMILES manually
+      pubchem_cid: 71451475
       part: "Buah"
       activity: "ACE inhibitor"
   
