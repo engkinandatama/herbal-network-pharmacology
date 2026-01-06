@@ -265,3 +265,247 @@ class ManualTargetPrediction:
             return combined
         
         return pd.DataFrame()
+
+
+class STITCHPredictor:
+    """
+    Automated target prediction using STITCH database.
+    
+    STITCH (Search Tool for Interactions of Chemicals) is a sister database
+    of STRING and provides chemical-protein interactions with confidence scores.
+    
+    API Documentation: http://stitch.embl.de/cgi/help.pl?UserId=abcdef&sessionId=123
+    """
+    
+    STITCH_API_URL = "http://stitch.embl.de/api"
+    
+    def __init__(self, config: Config):
+        """
+        Initialize STITCH predictor.
+        
+        Args:
+            config: Configuration object
+        """
+        self.config = config
+        self.compounds: List[Dict[str, Any]] = []
+        self.predictions: List[Dict[str, Any]] = []
+        self._species = 9606  # Homo sapiens
+        self._score_threshold = config.get("analysis.target_probability_threshold", 0.4) * 1000  # STITCH uses 0-1000
+        self._request_delay = 1.0
+    
+    def load_compounds(self, filename: str = "compounds.csv") -> pd.DataFrame:
+        """Load compounds from saved CSV."""
+        input_path = self.config.data_dir / "raw" / filename
+        
+        if input_path.exists():
+            df = pd.read_csv(input_path)
+            self.compounds = df.to_dict("records")
+            return df
+        else:
+            raise FileNotFoundError(f"Compounds file not found: {input_path}")
+    
+    def _query_stitch_by_name(self, compound_name: str) -> List[Dict[str, Any]]:
+        """
+        Query STITCH by compound name.
+        
+        Args:
+            compound_name: Name of the compound
+            
+        Returns:
+            List of interaction data
+        """
+        url = f"{self.STITCH_API_URL}/json/interactors"
+        
+        params = {
+            "identifiers": compound_name,
+            "species": self._species,
+            "limit": 100,
+        }
+        
+        try:
+            response = requests.get(url, params=params, timeout=60)
+            
+            if response.status_code == 200:
+                return response.json()
+            else:
+                return []
+                
+        except Exception as e:
+            print(f"STITCH query failed for {compound_name}: {e}")
+            return []
+    
+    def _query_stitch_interactions(self, compound_name: str) -> List[Dict[str, Any]]:
+        """
+        Get protein interactions for a compound from STITCH.
+        
+        Args:
+            compound_name: Name of the compound
+            
+        Returns:
+            List of target dictionaries
+        """
+        url = f"{self.STITCH_API_URL}/json/interaction_partners"
+        
+        params = {
+            "identifiers": compound_name,
+            "species": self._species,
+            "required_score": int(self._score_threshold),
+            "limit": 50,
+        }
+        
+        targets = []
+        
+        try:
+            response = requests.get(url, params=params, timeout=60)
+            
+            if response.status_code == 200:
+                data = response.json()
+                
+                for item in data:
+                    # STITCH returns both chemical-protein and protein-protein
+                    # We only want chemical-protein interactions
+                    string_id_a = item.get("stringId_A", "")
+                    string_id_b = item.get("stringId_B", "")
+                    
+                    # Chemical IDs start with "CID" or "s" prefix in STITCH
+                    if string_id_a.startswith("CID") or string_id_a.startswith("s"):
+                        protein_id = string_id_b
+                        protein_name = item.get("preferredName_B", "")
+                    elif string_id_b.startswith("CID") or string_id_b.startswith("s"):
+                        protein_id = string_id_a
+                        protein_name = item.get("preferredName_A", "")
+                    else:
+                        continue  # Skip protein-protein interactions
+                    
+                    target_data = {
+                        "compound_name": compound_name,
+                        "target_name": protein_name,
+                        "gene_symbol": protein_name.upper(),
+                        "string_id": protein_id,
+                        "score": item.get("score", 0) / 1000,  # Normalize to 0-1
+                        "source": "STITCH"
+                    }
+                    targets.append(target_data)
+                    
+        except Exception as e:
+            print(f"STITCH interaction query failed for {compound_name}: {e}")
+        
+        return targets
+    
+    def predict_all(self) -> List[Dict[str, Any]]:
+        """
+        Predict targets for all compounds using STITCH.
+        
+        Returns:
+            All predicted targets
+        """
+        if not self.compounds:
+            self.load_compounds()
+        
+        print(f"Querying STITCH for {len(self.compounds)} compounds...")
+        
+        for compound in tqdm(self.compounds, desc="STITCH prediction"):
+            name = compound.get("name", "")
+            
+            if name:
+                targets = self._query_stitch_interactions(name)
+                self.predictions.extend(targets)
+                time.sleep(self._request_delay)  # Rate limiting
+        
+        print(f"Found {len(self.predictions)} compound-target interactions")
+        return self.predictions
+    
+    def get_predictions_df(self) -> pd.DataFrame:
+        """Get predictions as DataFrame."""
+        return pd.DataFrame(self.predictions)
+    
+    def get_unique_targets(self) -> List[str]:
+        """Get list of unique target gene symbols."""
+        return list(set(p.get("gene_symbol") for p in self.predictions if p.get("gene_symbol")))
+    
+    def save_targets(self, filename: Optional[str] = None) -> Path:
+        """Save predictions to CSV."""
+        df = self.get_predictions_df()
+        
+        if filename is None:
+            filename = "predicted_targets_stitch.csv"
+        
+        output_path = self.config.data_dir / "processed" / filename
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        df.to_csv(output_path, index=False)
+        
+        # Also save unique targets
+        unique_targets = self.get_unique_targets()
+        targets_path = self.config.data_dir / "processed" / "unique_targets.txt"
+        with open(targets_path, "w") as f:
+            f.write("\n".join(unique_targets))
+        
+        return output_path
+
+
+class CombinedTargetPredictor:
+    """
+    Combines multiple target prediction sources.
+    
+    Uses STITCH (automated) as primary source, with option to
+    merge with manually obtained SwissTargetPrediction results.
+    """
+    
+    def __init__(self, config: Config):
+        self.config = config
+        self.stitch_predictor = STITCHPredictor(config)
+        self.all_predictions: List[Dict[str, Any]] = []
+    
+    def predict_with_stitch(self) -> List[Dict[str, Any]]:
+        """Run automated prediction with STITCH."""
+        self.stitch_predictor.load_compounds()
+        predictions = self.stitch_predictor.predict_all()
+        self.all_predictions.extend(predictions)
+        return predictions
+    
+    def merge_swiss_results(self, swiss_csv_path: str) -> pd.DataFrame:
+        """
+        Merge manually obtained SwissTargetPrediction results.
+        
+        Args:
+            swiss_csv_path: Path to SwissTargetPrediction results CSV
+            
+        Returns:
+            Combined DataFrame
+        """
+        swiss_df = pd.read_csv(swiss_csv_path)
+        swiss_df["source"] = "SwissTargetPrediction"
+        
+        stitch_df = pd.DataFrame(self.all_predictions)
+        
+        combined = pd.concat([stitch_df, swiss_df], ignore_index=True)
+        
+        # Remove duplicates (same compound-target pair)
+        combined = combined.drop_duplicates(
+            subset=["compound_name", "gene_symbol"],
+            keep="first"
+        )
+        
+        return combined
+    
+    def get_unique_targets(self) -> List[str]:
+        """Get all unique targets from all sources."""
+        return list(set(p.get("gene_symbol") for p in self.all_predictions if p.get("gene_symbol")))
+    
+    def save_all(self, filename: str = "predicted_targets.csv") -> Path:
+        """Save all predictions to CSV."""
+        df = pd.DataFrame(self.all_predictions)
+        
+        output_path = self.config.data_dir / "processed" / filename
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        df.to_csv(output_path, index=False)
+        
+        # Save unique targets
+        unique_targets = self.get_unique_targets()
+        targets_path = self.config.data_dir / "processed" / "unique_targets.txt"
+        with open(targets_path, "w") as f:
+            f.write("\n".join(unique_targets))
+        
+        return output_path
