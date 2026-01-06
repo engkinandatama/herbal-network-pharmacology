@@ -1,0 +1,119 @@
+# Network Pharmacology Toolkit - Default Configuration
+# Copy this file to config/projects/<your_project>.yaml and customize
+
+# =============================================================================
+# PROJECT INFORMATION
+# =============================================================================
+project:
+  name: "network-pharmacology-study"
+  description: "Network pharmacology analysis"
+  author: "Your Name"
+  version: "1.0.0"
+
+# =============================================================================
+# PLANT/HERBAL INFORMATION
+# =============================================================================
+plant:
+  name: "Plant Name"
+  latin_name: "Genus species"
+  # List of known compounds (optional, for literature-based data)
+  known_compounds: []
+  # Keywords for database search
+  search_keywords: []
+
+# =============================================================================
+# DISEASE INFORMATION
+# =============================================================================
+disease:
+  name: "Disease Name"
+  # IDs for database queries
+  disgenet_id: ""  # e.g., "C0011849" for Diabetes
+  omim_id: ""
+  # Keywords for GeneCards search
+  search_keywords: []
+
+# =============================================================================
+# DATABASE SOURCES
+# =============================================================================
+databases:
+  compounds:
+    - knapsack
+    - pubchem
+    - literature
+  targets:
+    - swisstargerprediction
+    - pharmmapper
+  disease_genes:
+    - genecards
+    - disgenet
+    - omim
+  ppi:
+    - string
+
+# =============================================================================
+# API CONFIGURATIONS
+# =============================================================================
+api:
+  swisstargerprediction:
+    url: "http://www.swisstargetprediction.ch"
+    species: "Homo sapiens"
+  string:
+    url: "https://string-db.org/api"
+    species: 9606  # Homo sapiens
+    score_threshold: 0.4
+  disgenet:
+    url: "https://www.disgenet.org/api"
+    # api_key: ""  # Optional, for higher rate limits
+  pubchem:
+    url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
+
+# =============================================================================
+# ANALYSIS PARAMETERS
+# =============================================================================
+analysis:
+  # Target prediction
+  target_probability_threshold: 0.1
+  max_targets_per_compound: 100
+  
+  # Network analysis
+  ppi_confidence_threshold: 0.4
+  hub_gene_top_n: 10
+  
+  # Enrichment analysis
+  enrichment_pvalue_threshold: 0.05
+  enrichment_top_n: 20
+  
+  # Docking
+  top_compounds_for_docking: 5
+  top_targets_for_docking: 3
+  
+  # ADMET
+  lipinski_violations_max: 1
+
+# =============================================================================
+# OUTPUT SETTINGS
+# =============================================================================
+output:
+  data_dir: "data"
+  figures_dir: "outputs/figures"
+  tables_dir: "outputs/tables"
+  
+  # Figure settings
+  figure_format: "png"  # png, svg, pdf
+  figure_dpi: 300
+  
+  # Color scheme
+  colors:
+    primary: "#2E86AB"
+    secondary: "#A23B72"
+    accent: "#F18F01"
+    background: "#FFFFFF"
+    network_node: "#4ECDC4"
+    network_edge: "#95A5A6"
+
+# =============================================================================
+# LOGGING
+# =============================================================================
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/analysis.log"

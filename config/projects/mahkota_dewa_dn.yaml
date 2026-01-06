@@ -1,0 +1,149 @@
+# Network Pharmacology Study: Mahkota Dewa - Diabetic Nephropathy
+# Project-specific configuration
+
+# =============================================================================
+# PROJECT INFORMATION
+# =============================================================================
+project:
+  name: "mahkota-dewa-diabetic-nephropathy"
+  description: "Network pharmacology analysis of Phaleria macrocarpa against Diabetic Nephropathy"
+  author: "Engki Nandatama"
+  version: "1.0.0"
+
+# =============================================================================
+# PLANT INFORMATION - Mahkota Dewa
+# =============================================================================
+plant:
+  name: "Mahkota Dewa"
+  latin_name: "Phaleria macrocarpa"
+  family: "Thymelaeaceae"
+  
+  # Known compounds from literature and databases
+  known_compounds:
+    # Flavonoids
+    - name: "Kaempferol"
+      pubchem_cid: 5280863
+      smiles: "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+    - name: "Myricetin"
+      pubchem_cid: 5281672
+      smiles: "C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+    - name: "Quercetin"
+      pubchem_cid: 5280343
+      smiles: "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
+    - name: "Naringenin"
+      pubchem_cid: 932
+      smiles: "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+    - name: "Rutin"
+      pubchem_cid: 5280805
+      smiles: null  # Too long, will fetch from PubChem
+    
+    # Benzophenones
+    - name: "Mahkoside A"
+      pubchem_cid: null
+      smiles: null
+    
+    # Lignans
+    - name: "Pinoresinol"
+      pubchem_cid: 73399
+      smiles: null
+    
+    # Terpenoids
+    - name: "Squalene"
+      pubchem_cid: 638072
+      smiles: null
+    
+    # Alkaloids
+    - name: "Phalerin"
+      pubchem_cid: null
+      smiles: null
+    
+    # Saponins
+    - name: "Icariside"
+      pubchem_cid: null
+      smiles: null
+  
+  search_keywords:
+    - "Phaleria macrocarpa"
+    - "Mahkota Dewa"
+    - "God's Crown"
+
+# =============================================================================
+# DISEASE INFORMATION - Diabetic Nephropathy
+# =============================================================================
+disease:
+  name: "Diabetic Nephropathy"
+  description: "Kidney disease caused by diabetes mellitus"
+  
+  # Database IDs
+  disgenet_id: "C0011881"  # Diabetic Nephropathy
+  omim_id: "603933"
+  mesh_id: "D003928"
+  
+  search_keywords:
+    - "Diabetic Nephropathy"
+    - "Diabetic Kidney Disease"
+    - "DKD"
+    - "DN"
+
+# =============================================================================
+# DATABASE SOURCES
+# =============================================================================
+databases:
+  compounds:
+    - literature  # Use known_compounds above
+    - pubchem     # Fetch additional details
+    - knapsack    # Search for more compounds
+  targets:
+    - swisstargerprediction
+  disease_genes:
+    - genecards
+    - disgenet
+  ppi:
+    - string
+
+# =============================================================================
+# ANALYSIS PARAMETERS (Overrides)
+# =============================================================================
+analysis:
+  # Target prediction
+  target_probability_threshold: 0.1
+  max_targets_per_compound: 100
+  
+  # Network analysis
+  ppi_confidence_threshold: 0.4
+  hub_gene_top_n: 10
+  
+  # Enrichment
+  enrichment_pvalue_threshold: 0.05
+  enrichment_top_n: 20
+  
+  # Docking - focus on top compounds and key targets
+  top_compounds_for_docking: 5
+  top_targets_for_docking: 3
+  docking_exhaustiveness: 8
+  
+  # MD Simulation
+  md_duration_ns: 50
+  md_temperature_k: 310
+  
+  # ADMET
+  lipinski_violations_max: 2  # More lenient for natural compounds
+
+# =============================================================================
+# OUTPUT
+# =============================================================================
+output:
+  data_dir: "data/mahkota_dewa_dn"
+  figures_dir: "outputs/figures/mahkota_dewa_dn"
+  tables_dir: "outputs/tables/mahkota_dewa_dn"
+  
+  figure_format: "png"
+  figure_dpi: 300
+  
+  colors:
+    primary: "#1B4332"      # Dark green (plant theme)
+    secondary: "#40916C"    # Medium green
+    accent: "#D4A373"       # Warm brown (kidney theme)
+    background: "#FFFFFF"
+    network_node: "#52B788"
+    network_edge: "#74C69D"
