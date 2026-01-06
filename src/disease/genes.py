@@ -8,12 +8,20 @@ Retrieves disease-associated genes from:
 - OMIM
 """
 
+import os
 import pandas as pd
 import requests
 import time
 from pathlib import Path
 from typing import List, Dict, Optional, Set, Any
 from tqdm import tqdm
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed
 
 from ..config_loader import Config
 
@@ -69,7 +77,8 @@ class DiseaseGeneCollector:
         Fetch genes from DisGeNET.
         
         Args:
-            api_key: Optional DisGeNET API key for higher rate limits
+            api_key: Optional DisGeNET API key. If not provided, 
+                     loads from DISGENET_API_KEY environment variable.
             
         Returns:
             List of gene dictionaries
@@ -82,15 +91,22 @@ class DiseaseGeneCollector:
             print("You can find the ID at: https://www.disgenet.org/search")
             return self.genes_disgenet
         
+        # Load API key from environment if not provided
+        if not api_key:
+            api_key = os.getenv("DISGENET_API_KEY")
+        
+        if not api_key:
+            print("Warning: No DisGeNET API key found.")
+            print("Set DISGENET_API_KEY in .env file or pass directly.")
+            return self.genes_disgenet
+        
         # DisGeNET API endpoint
         base_url = "https://www.disgenet.org/api"
         
         headers = {
-            "Accept": "application/json"
+            "Accept": "application/json",
+            "Authorization": f"Bearer {api_key}"
         }
-        
-        if api_key:
-            headers["Authorization"] = f"Bearer {api_key}"
         
         try:
             # Get gene-disease associations
