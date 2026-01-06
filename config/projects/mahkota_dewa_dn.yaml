@@ -18,49 +18,97 @@ plant:
   latin_name: "Phaleria macrocarpa"
   family: "Thymelaeaceae"
   
-  # Known compounds from literature and databases
+  # Known compounds from literature - VERIFIED 15 compounds
+  # Reference: Senyawa Fitokimia dan Aktivitas Farmakologi Mahkota Dewa.xlsx
   known_compounds:
-    # Flavonoids
-    - name: "Kaempferol"
-      pubchem_cid: 5280863
-      smiles: "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
-    - name: "Myricetin"
-      pubchem_cid: 5281672
-      smiles: "C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O"
+    # === CORE COMPOUNDS (High relevance to DN) ===
+    
+    # Xanthone - Multi-target: anti-diabetes, ACE inhibitor, antioksidan
+    - name: "Mangiferin"
+      pubchem_cid: 5281647
+      part: "Buah"
+      activity: "Anti-diabetes, ACE inhibitor, Antioksidan"
+    
+    # Phenolic acid - Antioksidan kuat
+    - name: "Gallic acid"
+      pubchem_cid: 370
+      part: "Buah"
+      activity: "Antioksidan, Anti-hiperlipidemia"
+    
+    # Flavonoid - Antioksidan
     - name: "Quercetin"
       pubchem_cid: 5280343
-      smiles: "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O"
-    - name: "Naringenin"
-      pubchem_cid: 932
-      smiles: "C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O"
+      part: "Buah (Perikarp/Mesokarp)"
+      activity: "Antioksidan, Anti-inflamasi"
+    
+    - name: "Kaempferol"
+      pubchem_cid: 5280863
+      part: "Buah (Perikarp/Mesokarp)"
+      activity: "Proteksi stres oksidatif"
+    
+    - name: "Naringin"
+      pubchem_cid: 442428
+      part: "Buah (Perikarp/Mesokarp)"
+      activity: "Antioksidan kuat"
+    
     - name: "Rutin"
       pubchem_cid: 5280805
-      smiles: null  # Too long, will fetch from PubChem
+      part: "Buah (Perikarp/Mesokarp)"
+      activity: "Antioksidan, Vasoprotektif"
     
-    # Benzophenones
-    - name: "Mahkoside A"
-      pubchem_cid: null
-      smiles: null
+    - name: "Myricetin"
+      pubchem_cid: 5281672
+      part: "Buah (Perikarp/Mesokarp)"
+      activity: "Antioksidan"
     
-    # Lignans
-    - name: "Pinoresinol"
-      pubchem_cid: 73399
-      smiles: null
+    # Icariin derivative - Vasorelaksan
+    - name: "Icariside C3"
+      pubchem_cid: 5318997
+      part: "Buah"
+      activity: "Vasorelaksan, Anti-hipertensi"
     
-    # Terpenoids
-    - name: "Squalene"
-      pubchem_cid: 638072
-      smiles: null
+    # === SUPPORTING COMPOUNDS ===
     
-    # Alkaloids
+    # Benzophenone glucoside - Anti-inflamasi
     - name: "Phalerin"
-      pubchem_cid: null
-      smiles: null
+      pubchem_cid: 189609
+      part: "Daun"
+      activity: "Anti-inflamasi (COX-2, NF-κB)"
     
-    # Saponins
-    - name: "Icariside"
-      pubchem_cid: null
-      smiles: null
+    # Benzophenone - Antioksidan terkuat
+    - name: "2,6,4'-trihydroxy-4-methoxybenzophenone"
+      pubchem_cid: 14034820
+      part: "Daun"
+      activity: "Antioksidan (IC50 10.57 µg/mL)"
+    
+    # Flavone glycosides - ROS inhibitor
+    - name: "Vitexin"
+      pubchem_cid: 5280441
+      part: "Daun"
+      activity: "Proteksi ROS"
+    
+    - name: "Isovitexin"
+      pubchem_cid: 162350
+      part: "Daun"
+      activity: "Proteksi ROS"
+    
+    # Xanthone - Sitotoksik
+    - name: "Swertianin"
+      pubchem_cid: 5316833
+      part: "Buah (Daging)"
+      activity: "Antioksidan"
+    
+    # Kaempferol glycoside - Proteksi oksidatif
+    - name: "Kaempferol-3-O-beta-D-glucoside"
+      pubchem_cid: 5282102
+      part: "Buah"
+      activity: "Proteksi stres oksidatif, Caspase-3"
+    
+    # Benzophenone glucoside - ACE inhibitor
+    - name: "Mahkoside A"
+      pubchem_cid: null  # Not in PubChem, search SMILES manually
+      part: "Buah"
+      activity: "ACE inhibitor"
   
   search_keywords:
     - "Phaleria macrocarpa"
