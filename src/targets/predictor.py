@@ -228,46 +228,139 @@ class ManualTargetPrediction:
             for _, row in smiles_df.iterrows():
                 f.write(f"{row['name']}\t{row['smiles']}\n")
         
-        print(f"SMILES list saved to: {output_path}")
-        print(f"\nInstructions:")
-        print("1. Go to http://www.swisstargetprediction.ch/")
-        print("2. Submit each SMILES one by one")
-        print("3. Download results and place in data/processed/")
-        print("4. Run the import function to parse results")
-        
         return output_path
+
+
+class SwissTargetParser:
+    """
+    Parser for SwissTargetPrediction results.
     
-    def import_results(self, results_dir: str) -> pd.DataFrame:
+    Handles both:
+    - Copy-pasted table data (txt format)
+    - Downloaded CSV files
+    """
+    
+    def __init__(self, config: Config):
+        self.config = config
+        self.all_targets: List[Dict[str, Any]] = []
+        self._probability_threshold = config.get("analysis.target_probability_threshold", 0.1)
+    
+    def parse_results(self, filepath: str) -> List[Dict[str, Any]]:
         """
-        Import manually downloaded results.
+        Parse SwissTargetPrediction results from file.
         
         Args:
-            results_dir: Directory containing result files
+            filepath: Path to results file (txt or csv)
             
         Returns:
-            Combined DataFrame
+            List of target dictionaries
         """
-        results_path = Path(results_dir)
-        all_results = []
+        filepath = Path(filepath)
         
-        for file in results_path.glob("*.csv"):
-            df = pd.read_csv(file)
-            df["source_file"] = file.name
-            all_results.append(df)
+        if filepath.suffix.lower() == ".csv":
+            return self._parse_csv(filepath)
+        else:
+            return self._parse_txt(filepath)
+    
+    def _parse_txt(self, filepath: Path) -> List[Dict[str, Any]]:
+        """Parse copy-pasted txt results."""
+        current_compound = None
         
-        if all_results:
-            combined = pd.concat(all_results, ignore_index=True)
+        with open(filepath, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        
+        for line in lines:
+            line = line.strip()
             
-            # Save combined results
-            output_path = self.config.data_dir / "processed" / "predicted_targets.csv"
-            combined.to_csv(output_path, index=False)
+            # Skip empty lines
+            if not line:
+                continue
             
-            return combined
+            # Check for compound header (e.g., "SwissTargetPrediction Quercetin")
+            if "SwissTargetPrediction" in line:
+                parts = line.replace("SwissTargetPrediction", "").strip()
+                current_compound = parts if parts else None
+                continue
+            
+            # Also check for compound name pattern at end of header
+            if line.endswith("SwissTargetPrediction"):
+                parts = line.replace("SwissTargetPrediction", "").strip()
+                current_compound = parts if parts else None
+                continue
+            
+            # Skip header row
+            if line.startswith("Target\t") or line.startswith("Target	"):
+                continue
+            
+            # Parse data row (tab-separated)
+            parts = line.split("\t")
+            if len(parts) >= 6:
+                try:
+                    target_full = parts[0]
+                    gene_symbol = parts[1]
+                    uniprot_id = parts[2]
+                    chembl_id = parts[3] if len(parts) > 3 else ""
+                    target_class = parts[4] if len(parts) > 4 else ""
+                    probability = float(parts[5]) if len(parts) > 5 else 0.0
+                    
+                    # Apply threshold filter
+                    if probability >= self._probability_threshold:
+                        self.all_targets.append({
+                            "compound_name": current_compound or "Unknown",
+                            "target_name": target_full,
+                            "gene_symbol": gene_symbol,
+                            "uniprot_id": uniprot_id,
+                            "chembl_id": chembl_id,
+                            "target_class": target_class,
+                            "probability": probability,
+                            "source": "SwissTargetPrediction"
+                        })
+                except (ValueError, IndexError):
+                    continue
         
-        return pd.DataFrame()
+        return self.all_targets
+    
+    def _parse_csv(self, filepath: Path) -> List[Dict[str, Any]]:
+        """Parse CSV downloaded from SwissTargetPrediction."""
+        df = pd.read_csv(filepath)
+        
+        # Get compound name from filename
+        compound_name = filepath.stem.replace("_targets", "").replace("-", " ").title()
+        
+        for _, row in df.iterrows():
+            probability = row.get("Probability*", row.get("Probability", 0))
+            
+            if probability >= self._probability_threshold:
+                self.all_targets.append({
+                    "compound_name": compound_name,
+                    "target_name": row.get("Target", ""),
+                    "gene_symbol": row.get("Common name", ""),
+                    "uniprot_id": row.get("Uniprot ID", ""),
+                    "chembl_id": row.get("ChEMBL ID", ""),
+                    "target_class": row.get("Target Class", ""),
+                    "probability": probability,
+                    "source": "SwissTargetPrediction"
+                })
+        
+        return self.all_targets
+    
+    def save_targets(self, filename: str = "predicted_targets.csv") -> Path:
+        """Save parsed targets to CSV."""
+        output_path = self.config.data_dir / "processed" / filename
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        df = pd.DataFrame(self.all_targets)
+        df.to_csv(output_path, index=False)
+        
+        # Also save unique targets list
+        unique_targets = df["gene_symbol"].dropna().unique().tolist()
+        targets_file = output_path.parent / "unique_targets.txt"
+        with open(targets_file, "w") as f:
+            f.write("\n".join(unique_targets))
+        
+        return output_path
 
 
-class STITCHPredictor:
     """
     Automated target prediction using STITCH database.
     

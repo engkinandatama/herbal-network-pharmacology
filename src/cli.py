@@ -119,16 +119,18 @@ def collect(ctx, source):
 
 
 @cli.command()
-@click.option("--source", "-s",
-              type=click.Choice(["stitch", "swiss", "combined"]),
-              default="stitch",
-              help="Prediction source: stitch (automated), swiss (manual), or combined")
+@click.option("--parse", "-p",
+              type=click.Path(exists=True),
+              help="Parse SwissTargetPrediction results from file (txt or csv)")
 @click.pass_context
-def predict_targets(ctx, source):
-    """Predict drug targets for compounds.
+def predict_targets(ctx, parse):
+    """Predict drug targets using SwissTargetPrediction.
     
-    Default uses STITCH (fully automated). Use --source swiss for manual 
-    SwissTargetPrediction workflow, or combined for both.
+    This is a semi-manual workflow:
+    1. First run without --parse to generate SMILES list
+    2. Submit SMILES to SwissTargetPrediction website
+    3. Copy results to a txt file or download CSV
+    4. Run with --parse to process results
     """
     config = ctx.obj.get("config")
     
@@ -136,66 +138,44 @@ def predict_targets(ctx, source):
         console.print("[red]Error: No config file specified. Use --config option.[/red]")
         return
     
-    console.print(f"[cyan]Predicting targets for: {config.plant_name}[/cyan]")
-    console.print(f"[cyan]Source: {source}[/cyan]\n")
+    console.print(f"[cyan]Target prediction for: {config.plant_name}[/cyan]\n")
     
-    if source == "stitch":
-        from .targets.predictor import STITCHPredictor
+    if parse:
+        # Parse existing SwissTargetPrediction results
+        from .targets.predictor import SwissTargetParser
         
-        predictor = STITCHPredictor(config)
+        parser = SwissTargetParser(config)
         
         with Progress(
             SpinnerColumn(),
             TextColumn("[progress.description]{task.description}"),
             console=console
         ) as progress:
-            task = progress.add_task("Loading compound data...", total=None)
-            predictor.load_compounds()
+            task = progress.add_task("Parsing SwissTargetPrediction results...", total=None)
+            targets = parser.parse_results(parse)
             progress.update(task, completed=True)
             
-            task = progress.add_task("Querying STITCH database (automated)...", total=None)
-            targets = predictor.predict_all()
-            progress.update(task, completed=True)
-            console.print(f"  [green]✓[/green] Found {len(targets)} compound-target interactions")
+        console.print(f"  [green]✓[/green] Found {len(targets)} compound-target pairs")
         
-        output_file = predictor.save_targets()
+        output_file = parser.save_targets()
         console.print(f"\n[green]Targets saved to: {output_file}[/green]")
         
-    elif source == "swiss":
+    else:
+        # Generate SMILES list for manual submission
         from .targets.predictor import ManualTargetPrediction
         
         helper = ManualTargetPrediction(config)
-        output_file = helper.generate_smiles_list()
+        smiles_file = helper.generate_smiles_list()
         
-        console.print(f"\n[yellow]Manual workflow required:[/yellow]")
-        console.print("1. Open http://www.swisstargetprediction.ch/")
-        console.print(f"2. Submit SMILES from: {output_file}")
-        console.print("3. Download results to data/processed/swiss_results/")
-        console.print("4. Run: predict-targets --source combined")
-        
-    elif source == "combined":
-        from .targets.predictor import CombinedTargetPredictor
-        
-        predictor = CombinedTargetPredictor(config)
-        
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
-            console=console
-        ) as progress:
-            task = progress.add_task("Querying STITCH...", total=None)
-            predictor.predict_with_stitch()
-            progress.update(task, completed=True)
-        
-        # Check for Swiss results
-        swiss_dir = config.data_dir / "processed" / "swiss_results"
-        if swiss_dir.exists():
-            console.print("  [green]✓[/green] Merging SwissTargetPrediction results...")
-            for csv_file in swiss_dir.glob("*.csv"):
-                predictor.merge_swiss_results(str(csv_file))
-        
-        output_file = predictor.save_all()
-        console.print(f"\n[green]Combined targets saved to: {output_file}[/green]")
+        console.print("[yellow]═══ SwissTargetPrediction Workflow ═══[/yellow]\n")
+        console.print(f"SMILES list generated: [cyan]{smiles_file}[/cyan]\n")
+        console.print("[bold]Steps:[/bold]")
+        console.print("1. Open [link=http://www.swisstargetprediction.ch/]swisstargetprediction.ch[/link]")
+        console.print("2. Submit each SMILES (one compound at a time)")
+        console.print("3. Select 'Homo sapiens' as organism")
+        console.print("4. Copy result table OR download CSV")
+        console.print("5. Save all results to a single .txt file")
+        console.print(f"6. Run: [cyan]predict-targets --parse your_results.txt[/cyan]")
 
 
 @cli.command()
