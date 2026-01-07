@@ -55,7 +55,7 @@ def parse_pdb_components(pdb_file: Path) -> Dict:
     }
 
 
-def extract_binding_site(pdb_file: Path, ligand_name: str, padding: float = 10.0) -> Optional[Dict]:
+def extract_binding_site(pdb_file: Path, ligand_name: str, padding: float = 10.0, chain: str = None) -> Optional[Dict]:
     """
     Extract binding site coordinates and auto-calculate grid box size.
     
@@ -63,6 +63,7 @@ def extract_binding_site(pdb_file: Path, ligand_name: str, padding: float = 10.0
         pdb_file: Path to PDB file
         ligand_name: Name of co-crystal ligand
         padding: Extra space around ligand (default 10 Å)
+        chain: Filter ligand by chain ID (e.g., 'A')
         
     Returns:
         Dictionary with center coordinates and box dimensions, or None
@@ -73,17 +74,21 @@ def extract_binding_site(pdb_file: Path, ligand_name: str, padding: float = 10.0
         for line in f:
             if line.startswith('HETATM'):
                 res_name = line[17:20].strip()
+                line_chain = line[21]
+                # Filter by ligand name and optionally by chain
                 if res_name == ligand_name:
-                    try:
-                        x = float(line[30:38])
-                        y = float(line[38:46])
-                        z = float(line[46:54])
-                        coords.append((x, y, z))
-                    except ValueError:
-                        continue
+                    if chain is None or line_chain == chain:
+                        try:
+                            x = float(line[30:38])
+                            y = float(line[38:46])
+                            z = float(line[46:54])
+                            coords.append((x, y, z))
+                        except ValueError:
+                            continue
     
     if not coords:
         return None
+
     
     # Calculate bounding box of ligand
     xs = [c[0] for c in coords]
@@ -245,16 +250,17 @@ def main(input_dir: str, output_dir: str, chain: str, keep_metals: bool):
         print(f"  Waters: {components['waters']}")
         print(f"  Metals: {components['metals']}")
         
-        # Extract binding site from first ligand (auto-calculate size)
+        # Extract binding site from first ligand (auto-calculate size, filter by chain)
         if components['ligands']:
             first_ligand = components['ligands'][0]
-            site = extract_binding_site(pdb_file, first_ligand)
+            site = extract_binding_site(pdb_file, first_ligand, chain=chain if chain != 'ALL' else None)
             if site:
                 binding_sites[pdb_id] = site
-                print(f"  📍 Binding site from {first_ligand}:")
+                print(f"  📍 Binding site from {first_ligand} (Chain {chain}):")
                 print(f"     Center: ({site['center_x']}, {site['center_y']}, {site['center_z']})")
                 print(f"     Size:   ({site['size_x']} × {site['size_y']} × {site['size_z']}) Å")
                 print(f"     Ligand atoms: {site['ligand_atoms']}, Padding: {site['padding']} Å")
+
         
         # Clean PDB
         clean_file = output_path / f"{pdb_id}_clean.pdb"
