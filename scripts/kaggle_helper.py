@@ -8,9 +8,9 @@ Commands:
     python kaggle_helper.py download  - Download results
 
 Requirements:
-    1. pip install kaggle
-    2. Put kaggle.json in ~/.kaggle/ (Windows: C:/Users/<user>/.kaggle/)
-    3. Get kaggle.json from: https://www.kaggle.com/settings -> API -> Create New Token
+    1. pip install kaggle python-dotenv
+    2. Set KAGGLE_API_TOKEN in .env file
+    3. Get token from: https://www.kaggle.com/settings -> API -> Create New Token
 """
 
 import argparse
@@ -18,6 +18,18 @@ import json
 import os
 import sys
 from pathlib import Path
+
+# Load environment variables from .env
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent.parent / ".env"
+    load_dotenv(env_path)
+except ImportError:
+    pass  # dotenv not installed, use system env vars
+
+# Set Kaggle API token from environment
+if os.getenv("KAGGLE_API_TOKEN"):
+    os.environ["KAGGLE_KEY"] = os.getenv("KAGGLE_API_TOKEN")
 
 try:
     from kaggle.api.kaggle_api_extended import KaggleApi
@@ -31,7 +43,7 @@ except ImportError:
 
 CONFIG = {
     # Kaggle username (from your profile URL)
-    "username": "engkinandatama",  # CHANGE THIS
+    "username": "engkinandatama",
     
     # Kernel/Notebook slug (will be created from notebook name)
     "kernel_slug": "md-simulation-264thm-pparg",
@@ -39,9 +51,9 @@ CONFIG = {
     # Notebook path
     "notebook_path": Path(__file__).parent.parent / "notebooks" / "kaggle" / "md_simulation_264THM_PPARG.ipynb",
     
-    # Dataset dependencies (after you upload input files)
+    # Dataset dependencies
     "dataset_sources": [
-        # "username/md-simulation-files"  # Uncomment after creating dataset
+        "engkinandatama/md-simulation-264thm-pparg-input"
     ],
     
     # GPU settings
@@ -189,10 +201,14 @@ def list_kernels():
         print(f"\n{'='*60}")
         for k in kernels:
             print(f"📓 {k.ref}")
-            print(f"   Status: {k.status}")
-            print(f"   Last run: {k.lastRunTime}")
+            # Handle different API versions
+            if hasattr(k, 'status'):
+                print(f"   Status: {k.status}")
+            if hasattr(k, 'lastRunTime'):
+                print(f"   Last run: {k.lastRunTime}")
             print()
         print(f"{'='*60}")
+        print(f"✅ Found {len(kernels)} kernel(s)")
         
         return kernels
     except Exception as e:
