@@ -1,0 +1,15 @@
+{
+  "id": "engkinandatama/md-simulation-264thm-pparg",
+  "title": "MD Simulation - 264THM PPARG",
+  "code_file": "E:\\Project\\herbal-network-pharmacology\\notebooks\\kaggle\\md_simulation_264THM_PPARG.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "engkinandatama/md-simulation-264thm-pparg-input"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

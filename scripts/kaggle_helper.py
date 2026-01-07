@@ -98,7 +98,7 @@ def push_notebook():
     
     # Save metadata
     metadata_path = notebook_path.parent / "kernel-metadata.json"
-    with open(metadata_path, "w") as f:
+    with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(kernel_metadata, f, indent=2)
     
     print(f"📤 Pushing notebook: {CONFIG['kernel_slug']}")
