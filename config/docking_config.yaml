@@ -65,19 +65,20 @@ targets:
     reference: "https://www.rcsb.org/structure/1TBF"
     
   RELA:
-    pdb_id: "1VKX"  # NF-kB p50/p65 heterodimer with DNA, used in docking
-    pdb_alt: "1NFI"  # p65 subunit
+    pdb_id: "3QXY"  # RelA subunit with ligand, used for virtual screening
+    pdb_alt: "1VKX"  # p65/p50 heterodimer (DNA only)
     chain: "A"
-    resolution: 2.60
+    resolution: 2.00
     binding_site:
       center_x: 0.0
       center_y: 0.0
       center_z: 0.0
-      size_x: 30
-      size_y: 30
-      size_z: 30
-    description: "NF-kB p65/p50 heterodimer, inflammation target"
-    reference: "https://www.rcsb.org/structure/1VKX"
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "NF-kB RelA subunit, inflammation target"
+    reference: "https://www.rcsb.org/structure/3QXY"
+
 
 # Test ligands (from Mahkota Dewa)
 ligands:
