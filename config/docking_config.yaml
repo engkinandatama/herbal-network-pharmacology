@@ -1,25 +1,14 @@
 # Docking Configuration
 # Mahkota Dewa - Diabetic Nephropathy
+# PDB IDs verified from RCSB PDB database
 
-# Target proteins (PDB IDs)
+# Target proteins (PDB IDs) - VERIFIED
 targets:
   PPARG:
-    pdb_id: "2PRG"
+    pdb_id: "6MS7"  # Best resolution: 1.43 Å, human PPAR-gamma
+    pdb_alt: "2PRG"  # Alternative: 2.30 Å
     chain: "A"
-    resolution: 2.3
-    binding_site:
-      center_x: 15.0
-      center_y: 30.0
-      center_z: -5.0
-      size_x: 25
-      size_y: 25
-      size_z: 25
-    description: "PPAR-gamma, nuclear receptor for glucose/lipid metabolism"
-    
-  HMGCR:
-    pdb_id: "1HWK"
-    chain: "A"
-    resolution: 2.1
+    resolution: 1.43
     binding_site:
       center_x: 0.0
       center_y: 0.0
@@ -27,12 +16,29 @@ targets:
       size_x: 25
       size_y: 25
       size_z: 25
-    description: "HMG-CoA reductase, statin target"
+    description: "PPAR-gamma ligand-binding domain, nuclear receptor"
+    reference: "https://www.rcsb.org/structure/6MS7"
+    
+  HMGCR:
+    pdb_id: "1HWK"  # Human HMG-CoA reductase with atorvastatin, 2.22 Å
+    pdb_alt: "8PKN"  # CryoEM 2.1 Å (newer)
+    chain: "A"
+    resolution: 2.22
+    binding_site:
+      center_x: 0.0
+      center_y: 0.0
+      center_z: 0.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "HMG-CoA reductase catalytic domain, statin target"
+    reference: "https://www.rcsb.org/structure/1HWK"
     
   AGTR1:
-    pdb_id: "4YAY"
+    pdb_id: "4YAY"  # Human AT1R, commonly used in docking studies
+    pdb_alt: "8TH4"  # Newer: with losartan (May 2024)
     chain: "A"
-    resolution: 2.8
+    resolution: 2.80
     binding_site:
       center_x: 0.0
       center_y: 0.0
@@ -41,11 +47,13 @@ targets:
       size_y: 25
       size_z: 25
     description: "Angiotensin II type 1 receptor, ARB target"
+    reference: "https://www.rcsb.org/structure/4YAY"
     
   PDE5A:
-    pdb_id: "1UDT"
+    pdb_id: "1TBF"  # Human PDE5A with sildenafil, 2004
+    pdb_alt: "2H42"  # With sildenafil showing H-loop conformation
     chain: "A"
-    resolution: 1.4
+    resolution: 2.00
     binding_site:
       center_x: 0.0
       center_y: 0.0
@@ -53,20 +61,23 @@ targets:
       size_x: 25
       size_y: 25
       size_z: 25
-    description: "Phosphodiesterase 5A, sildenafil target"
+    description: "Phosphodiesterase 5A catalytic domain, sildenafil target"
+    reference: "https://www.rcsb.org/structure/1TBF"
     
   RELA:
-    pdb_id: "1NFI"
+    pdb_id: "1VKX"  # NF-kB p50/p65 heterodimer with DNA, used in docking
+    pdb_alt: "1NFI"  # p65 subunit
     chain: "A"
-    resolution: 2.7
+    resolution: 2.60
     binding_site:
       center_x: 0.0
       center_y: 0.0
       center_z: 0.0
-      size_x: 25
-      size_y: 25
-      size_z: 25
-    description: "NF-kB p65 subunit, inflammation"
+      size_x: 30
+      size_y: 30
+      size_z: 30
+    description: "NF-kB p65/p50 heterodimer, inflammation target"
+    reference: "https://www.rcsb.org/structure/1VKX"
 
 # Test ligands (from Mahkota Dewa)
 ligands:
