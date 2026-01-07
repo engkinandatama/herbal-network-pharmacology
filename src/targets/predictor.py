@@ -361,11 +361,14 @@ class SwissTargetParser:
         return output_path
 
 
+class STITCHPredictor:
     """
     Automated target prediction using STITCH database.
     
     STITCH (Search Tool for Interactions of Chemicals) is a sister database
     of STRING and provides chemical-protein interactions with confidence scores.
+    
+    NOTE: STITCH API is deprecated since 2015 and may not work properly.
     
     API Documentation: http://stitch.embl.de/cgi/help.pl?UserId=abcdef&sessionId=123
     """

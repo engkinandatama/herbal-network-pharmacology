@@ -199,15 +199,25 @@ def get_disease_genes(ctx):
         TextColumn("[progress.description]{task.description}"),
         console=console
     ) as progress:
-        task = progress.add_task("Querying GeneCards...", total=None)
+        # OpenTargets (primary, free, no auth)
+        task = progress.add_task("Querying OpenTargets (free API)...", total=None)
+        genes_ot = collector.fetch_opentargets()
+        progress.update(task, completed=True)
+        console.print(f"  [green]✓[/green] Found {len(genes_ot)} genes from OpenTargets")
+        
+        # GeneCards (manual download required)
+        task = progress.add_task("Checking GeneCards...", total=None)
         genes_gc = collector.fetch_genecards()
         progress.update(task, completed=True)
-        console.print(f"  [green]✓[/green] Found {len(genes_gc)} genes from GeneCards")
+        if genes_gc:
+            console.print(f"  [green]✓[/green] Found {len(genes_gc)} genes from GeneCards")
         
-        task = progress.add_task("Querying DisGeNET...", total=None)
+        # DisGeNET (may require valid API key)
+        task = progress.add_task("Checking DisGeNET...", total=None)
         genes_dg = collector.fetch_disgenet()
         progress.update(task, completed=True)
-        console.print(f"  [green]✓[/green] Found {len(genes_dg)} genes from DisGeNET")
+        if genes_dg:
+            console.print(f"  [green]✓[/green] Found {len(genes_dg)} genes from DisGeNET")
     
     # Merge and save
     all_genes = collector.merge_genes()

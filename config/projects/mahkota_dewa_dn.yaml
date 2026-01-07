@@ -123,7 +123,8 @@ disease:
   description: "Kidney disease caused by diabetes mellitus"
   
   # Database IDs
-  disgenet_id: "C0011881"  # Diabetic Nephropathy
+  opentargets_id: "EFO_0000401"  # OpenTargets EFO ID for Diabetic Nephropathy (FREE API)
+  disgenet_id: "C0011881"  # Diabetic Nephropathy (UMLS)
   omim_id: "603933"
   mesh_id: "D003928"
   

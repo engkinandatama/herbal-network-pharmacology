@@ -29,6 +29,9 @@ from ..config_loader import Config
 class DiseaseGeneCollector:
     """Collects disease-associated genes from multiple databases."""
     
+    # OpenTargets GraphQL API - FREE, no auth required
+    OPENTARGETS_URL = "https://api.platform.opentargets.org/api/v4/graphql"
+    
     def __init__(self, config: Config):
         """
         Initialize the collector.
@@ -37,11 +40,103 @@ class DiseaseGeneCollector:
             config: Configuration object
         """
         self.config = config
+        self.genes_opentargets: List[Dict[str, Any]] = []
         self.genes_genecards: List[Dict[str, Any]] = []
         self.genes_disgenet: List[Dict[str, Any]] = []
         self.genes_omim: List[Dict[str, Any]] = []
         self.all_genes: List[Dict[str, Any]] = []
         self._request_delay = 1.0
+    
+    def fetch_opentargets(self, score_threshold: float = 0.1) -> List[Dict[str, Any]]:
+        """
+        Fetch genes from OpenTargets Platform (FREE, no auth required).
+        
+        Args:
+            score_threshold: Minimum association score (0-1)
+            
+        Returns:
+            List of gene dictionaries
+        """
+        efo_id = self.config.get("disease.opentargets_id", "")
+        disease_name = self.config.disease_name
+        
+        if not efo_id:
+            # Try to construct from common patterns
+            print(f"OpenTargets EFO ID not specified for {disease_name}")
+            return self.genes_opentargets
+        
+        # GraphQL query for disease-gene associations
+        query = """
+        query diseaseAssociations($diseaseId: String!) {
+          disease(efoId: $diseaseId) {
+            id
+            name
+            associatedTargets(page: {index: 0, size: 1000}) {
+              count
+              rows {
+                target {
+                  id
+                  approvedSymbol
+                  approvedName
+                  proteinIds {
+                    id
+                    source
+                  }
+                }
+                score
+              }
+            }
+          }
+        }
+        """
+        
+        try:
+            response = requests.post(
+                self.OPENTARGETS_URL,
+                json={"query": query, "variables": {"diseaseId": efo_id}},
+                timeout=120
+            )
+            
+            if response.status_code == 200:
+                data = response.json()
+                
+                if 'data' in data and data['data'].get('disease'):
+                    disease = data['data']['disease']
+                    targets = disease['associatedTargets']['rows']
+                    
+                    for row in targets:
+                        if row['score'] >= score_threshold:
+                            target = row['target']
+                            
+                            # Get UniProt ID if available
+                            uniprot_id = ""
+                            for pid in target.get('proteinIds', []):
+                                if pid.get('source') == 'uniprot_swissprot':
+                                    uniprot_id = pid.get('id', '')
+                                    break
+                            
+                            gene_data = {
+                                "gene_symbol": target.get('approvedSymbol', ''),
+                                "gene_name": target.get('approvedName', ''),
+                                "ensembl_id": target.get('id', ''),
+                                "uniprot_id": uniprot_id,
+                                "score": row['score'],
+                                "disease_name": disease_name,
+                                "source": "OpenTargets"
+                            }
+                            self.genes_opentargets.append(gene_data)
+                    
+                    print(f"OpenTargets: Found {len(self.genes_opentargets)} genes (score >= {score_threshold})")
+                else:
+                    print("Disease not found in OpenTargets")
+                    
+            else:
+                print(f"OpenTargets API error: {response.status_code}")
+                
+        except Exception as e:
+            print(f"OpenTargets fetch failed: {e}")
+        
+        return self.genes_opentargets
     
     def fetch_genecards(self) -> List[Dict[str, Any]]:
         """
@@ -180,7 +275,7 @@ class DiseaseGeneCollector:
         Returns:
             Merged unique gene list
         """
-        all_data = self.genes_genecards + self.genes_disgenet + self.genes_omim
+        all_data = self.genes_opentargets + self.genes_genecards + self.genes_disgenet + self.genes_omim
         
         # Track unique genes
         seen_genes: Set[str] = set()
