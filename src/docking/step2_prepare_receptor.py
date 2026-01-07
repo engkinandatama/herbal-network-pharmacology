@@ -55,12 +55,17 @@ def parse_pdb_components(pdb_file: Path) -> Dict:
     }
 
 
-def extract_ligand_coordinates(pdb_file: Path, ligand_name: str) -> Optional[Tuple[float, float, float]]:
+def extract_binding_site(pdb_file: Path, ligand_name: str, padding: float = 10.0) -> Optional[Dict]:
     """
-    Extract center coordinates of a ligand for binding site definition.
+    Extract binding site coordinates and auto-calculate grid box size.
     
+    Args:
+        pdb_file: Path to PDB file
+        ligand_name: Name of co-crystal ligand
+        padding: Extra space around ligand (default 10 Å)
+        
     Returns:
-        (center_x, center_y, center_z) or None
+        Dictionary with center coordinates and box dimensions, or None
     """
     coords = []
     
@@ -80,11 +85,41 @@ def extract_ligand_coordinates(pdb_file: Path, ligand_name: str) -> Optional[Tup
     if not coords:
         return None
     
-    center_x = sum(c[0] for c in coords) / len(coords)
-    center_y = sum(c[1] for c in coords) / len(coords)
-    center_z = sum(c[2] for c in coords) / len(coords)
+    # Calculate bounding box of ligand
+    xs = [c[0] for c in coords]
+    ys = [c[1] for c in coords]
+    zs = [c[2] for c in coords]
     
-    return (center_x, center_y, center_z)
+    min_x, max_x = min(xs), max(xs)
+    min_y, max_y = min(ys), max(ys)
+    min_z, max_z = min(zs), max(zs)
+    
+    # Center = midpoint of bounding box
+    center_x = (min_x + max_x) / 2
+    center_y = (min_y + max_y) / 2
+    center_z = (min_z + max_z) / 2
+    
+    # Size = ligand dimensions + padding on each side
+    size_x = (max_x - min_x) + padding
+    size_y = (max_y - min_y) + padding
+    size_z = (max_z - min_z) + padding
+    
+    # Ensure minimum box size of 20 Å
+    size_x = max(size_x, 20.0)
+    size_y = max(size_y, 20.0)
+    size_z = max(size_z, 20.0)
+    
+    return {
+        'ligand': ligand_name,
+        'center_x': round(center_x, 2),
+        'center_y': round(center_y, 2),
+        'center_z': round(center_z, 2),
+        'size_x': round(size_x, 2),
+        'size_y': round(size_y, 2),
+        'size_z': round(size_z, 2),
+        'ligand_atoms': len(coords),
+        'padding': padding
+    }
 
 
 def clean_pdb(
@@ -210,18 +245,16 @@ def main(input_dir: str, output_dir: str, chain: str, keep_metals: bool):
         print(f"  Waters: {components['waters']}")
         print(f"  Metals: {components['metals']}")
         
-        # Extract binding site from first ligand
+        # Extract binding site from first ligand (auto-calculate size)
         if components['ligands']:
             first_ligand = components['ligands'][0]
-            center = extract_ligand_coordinates(pdb_file, first_ligand)
-            if center:
-                binding_sites[pdb_id] = {
-                    'ligand': first_ligand,
-                    'center_x': round(center[0], 2),
-                    'center_y': round(center[1], 2),
-                    'center_z': round(center[2], 2)
-                }
-                print(f"  📍 Binding site from {first_ligand}: ({center[0]:.2f}, {center[1]:.2f}, {center[2]:.2f})")
+            site = extract_binding_site(pdb_file, first_ligand)
+            if site:
+                binding_sites[pdb_id] = site
+                print(f"  📍 Binding site from {first_ligand}:")
+                print(f"     Center: ({site['center_x']}, {site['center_y']}, {site['center_z']})")
+                print(f"     Size:   ({site['size_x']} × {site['size_y']} × {site['size_z']}) Å")
+                print(f"     Ligand atoms: {site['ligand_atoms']}, Padding: {site['padding']} Å")
         
         # Clean PDB
         clean_file = output_path / f"{pdb_id}_clean.pdb"
