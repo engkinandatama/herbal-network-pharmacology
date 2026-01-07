@@ -342,6 +342,54 @@ def admet(ctx):
 
 
 @cli.command()
+@click.option("--targets", "-t", default=5, help="Number of top hub genes to dock against")
+@click.option("--compounds", "-c", default=10, help="Number of top drug-like compounds to dock")
+@click.option("--prepare-only", is_flag=True, help="Only prepare ligands, don't run docking")
+@click.pass_context
+def dock(ctx, targets, compounds, prepare_only):
+    """Perform molecular docking using AutoDock Vina."""
+    config = ctx.obj.get("config")
+    
+    if not config:
+        console.print("[red]Error: No config file specified. Use --config option.[/red]")
+        return
+    
+    console.print("[cyan]Molecular Docking Analysis[/cyan]\n")
+    
+    from .docking.docker import MolecularDocker
+    
+    docker = MolecularDocker(config)
+    
+    # Check Vina installation
+    if not docker.check_vina_installed():
+        console.print("[yellow]Warning: AutoDock Vina not found in PATH.[/yellow]")
+        console.print("[yellow]Please install Vina: https://vina.scripps.edu/[/yellow]")
+        if not prepare_only:
+            console.print("[yellow]Continuing with ligand preparation only...[/yellow]")
+            prepare_only = True
+    
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        console=console
+    ) as progress:
+        task = progress.add_task("Preparing ligands...", total=None)
+        prepared = docker.prepare_ligands()
+        progress.update(task, completed=True)
+        console.print(f"  [green]✓[/green] Prepared {len(prepared)} ligands")
+        
+        if not prepare_only:
+            task = progress.add_task("Running docking...", total=None)
+            results = docker.run_docking()
+            progress.update(task, completed=True)
+            console.print(f"  [green]✓[/green] Completed {len(results)} docking runs")
+            
+            docker.save_results()
+    
+    console.print(f"\n[green]Docking analysis complete![/green]")
+
+
+@cli.command()
 @click.option("--type", "-t",
               type=click.Choice(["network", "enrichment", "venn", "all"]),
               default="all",
