@@ -1,11 +1,11 @@
 {
-    "id": "engkinandatama/md-test-cpu-setup",
-    "title": "MD Test CPU Setup",
-    "code_file": "md_test_cpu_only.ipynb",
+    "id": "engkinandatama/md-simulation-264thm-pparg",
+    "title": "MD Simulation 264THM PPARG",
+    "code_file": "md_simulation_264THM_PPARG.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": true,
-    "enable_gpu": false,
+    "enable_gpu": true,
     "enable_internet": true,
     "dataset_sources": [
         "engkinandatama/md-simulation-264thm-pparg-input"
