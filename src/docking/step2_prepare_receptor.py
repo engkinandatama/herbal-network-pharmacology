@@ -18,15 +18,31 @@ from typing import Dict, List, Optional, Tuple
 import click
 
 
+# Common solvents, buffers, and crystallization artifacts to exclude
+# These are NOT drug-like ligands and should be skipped for binding site
+COMMON_SOLVENTS = {
+    # Solvents and cryoprotectants
+    'GOL', 'EDO', 'PEG', 'PG4', 'PE4', 'P6G', 'MPD', 'DMS', 'DMF', 'ACN',
+    '1PE', '2PE', 'ETO', 'EOH', 'MOH', 'IPA', 'TRS', 'BME', 'DTT',
+    # Buffers and salts  
+    'SO4', 'PO4', 'CIT', 'ACT', 'FMT', 'TAR', 'BCT', 'IMD', 'EPE', 'MES',
+    'HEP', 'TRS', 'CAC', 'AZI', 'SCN', 'NO3', 'CL', 'BR', 'IOD',
+    # Common additives
+    'ADP', 'ATP', 'NAD', 'NAP', 'FAD', 'FMN', 'HEM',  # cofactors (might want these)
+    'DOD', 'UNX', 'UNL', 'UNK',  # unknown/dummy atoms
+}
+
+
 def parse_pdb_components(pdb_file: Path) -> Dict:
     """
     Parse PDB file and identify components.
     
     Returns:
-        Dictionary with chains, ligands, waters, metals info
+        Dictionary with chains, ligands (excluding common solvents), waters, metals info
     """
     chains = set()
-    ligands = []
+    all_ligands = []
+    drug_ligands = []
     waters = 0
     metals = []
     protein_atoms = 0
@@ -44,11 +60,23 @@ def parse_pdb_components(pdb_file: Path) -> Dict:
                 elif res_name in ['ZN', 'MG', 'CA', 'FE', 'MN', 'CU', 'NA', 'K', 'CL']:
                     metals.append(res_name)
                 else:
-                    ligands.append(res_name)
+                    all_ligands.append(res_name)
+                    # Only add to drug_ligands if not a common solvent
+                    if res_name not in COMMON_SOLVENTS:
+                        drug_ligands.append(res_name)
+    
+    # Deduplicate while preserving order
+    seen = set()
+    unique_drug_ligands = []
+    for lig in drug_ligands:
+        if lig not in seen:
+            seen.add(lig)
+            unique_drug_ligands.append(lig)
     
     return {
         'chains': sorted(chains),
-        'ligands': list(set(ligands)),
+        'ligands': unique_drug_ligands,  # Drug-like ligands only
+        'all_ligands': list(set(all_ligands)),  # All ligands for reference
         'waters': waters,
         'metals': list(set(metals)),
         'protein_atoms': protein_atoms
