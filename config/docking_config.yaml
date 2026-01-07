@@ -1,0 +1,108 @@
+# Docking Configuration
+# Mahkota Dewa - Diabetic Nephropathy
+
+# Target proteins (PDB IDs)
+targets:
+  PPARG:
+    pdb_id: "2PRG"
+    chain: "A"
+    resolution: 2.3
+    binding_site:
+      center_x: 15.0
+      center_y: 30.0
+      center_z: -5.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "PPAR-gamma, nuclear receptor for glucose/lipid metabolism"
+    
+  HMGCR:
+    pdb_id: "1HWK"
+    chain: "A"
+    resolution: 2.1
+    binding_site:
+      center_x: 0.0
+      center_y: 0.0
+      center_z: 0.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "HMG-CoA reductase, statin target"
+    
+  AGTR1:
+    pdb_id: "4YAY"
+    chain: "A"
+    resolution: 2.8
+    binding_site:
+      center_x: 0.0
+      center_y: 0.0
+      center_z: 0.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "Angiotensin II type 1 receptor, ARB target"
+    
+  PDE5A:
+    pdb_id: "1UDT"
+    chain: "A"
+    resolution: 1.4
+    binding_site:
+      center_x: 0.0
+      center_y: 0.0
+      center_z: 0.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "Phosphodiesterase 5A, sildenafil target"
+    
+  RELA:
+    pdb_id: "1NFI"
+    chain: "A"
+    resolution: 2.7
+    binding_site:
+      center_x: 0.0
+      center_y: 0.0
+      center_z: 0.0
+      size_x: 25
+      size_y: 25
+      size_z: 25
+    description: "NF-kB p65 subunit, inflammation"
+
+# Test ligands (from Mahkota Dewa)
+ligands:
+  - Quercetin
+  - Kaempferol
+  - Apigenin
+  - Luteolin
+  - Matairesinol
+
+# Control compounds (approved drugs)
+controls:
+  - name: Pioglitazone
+    target: PPARG
+    pubchem_id: 4829
+    
+  - name: Atorvastatin
+    target: HMGCR
+    pubchem_id: 60823
+    
+  - name: Losartan
+    target: AGTR1
+    pubchem_id: 3961
+    
+  - name: Sildenafil
+    target: PDE5A
+    pubchem_id: 5212
+
+# Docking parameters
+docking:
+  exhaustiveness: 8
+  num_modes: 9
+  energy_range: 3
+  seed: 42
+
+# Expected output
+output:
+  results_file: "docking_results.csv"
+  poses_dir: "docking/outputs"
+  best_poses: 3  # Number of best poses to keep per run
