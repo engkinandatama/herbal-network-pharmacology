@@ -1,6 +1,6 @@
 {
-    "id": "engkinandatama/md-simulation-264thm-pparg",
-    "title": "MD Simulation 264THM PPARG",
+    "id": "engkinandatama/md-simulation-264thm-pparg-gpu",
+    "title": "MD Simulation 264THM PPARG GPU",
     "code_file": "md_simulation_264THM_PPARG_gpu.ipynb",
     "language": "python",
     "kernel_type": "notebook",

@@ -1,14 +1,14 @@
 {
-    "id": "engkinandatama/md-simulation-264thm-pparg",
-    "title": "MD Simulation 264THM PPARG",
-    "code_file": "md_simulation_264THM_PPARG_gpu.ipynb",
+    "id": "engkinandatama/md-simulation-luteolin-pde5a",
+    "title": "MD Simulation Luteolin PDE5A",
+    "code_file": "md_simulation_Luteolin_PDE5A_gpu.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": true,
     "enable_gpu": true,
     "enable_internet": true,
     "dataset_sources": [
-        "engkinandatama/md-simulation-264thm-pparg-input"
+        "engkinandatama/luteolin-pde5a-input"
     ],
     "competition_sources": [],
     "kernel_sources": []
