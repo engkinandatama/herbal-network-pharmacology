@@ -1,0 +1,86 @@
+Tentu, ini panduan *step-by-step* dari Kaggle sampai jadi video cantik di laptop, khusus buat spek laptop yang "santuy" (seperti MX230).
+
+Anggap ini resep masak: **Siapkan Bahan (Kaggle)** -> **Masak (Laptop)**.
+
+---
+
+### TAHAP 1: Di Kaggle (Persiapan Bahan) 🍳
+
+Tujuannya: Mengecilkan file video yang tadinya bergiga-giga jadi cuma puluhan MB supaya laptop kamu gak berat.
+
+1. **Buka Notebook Analisis** (yang sudah kita bahas tadi, tempat kamu jahit file).
+2. **Jalankan Perintah "Diet" Ini:**
+Copy-paste kode ini di cell baru. Kita akan ambil 1 frame setiap 100 ps (total jadi 500 frame untuk 50 ns).
+```bash
+%%bash
+# Pastikan kamu punya file gabungan 'full_traj.xtc' dan 'topol.tpr' di folder saat ini
+
+# 1. Buat file trajectory versi ringan (Lite)
+# -dt 100 : loncat setiap 100 ps (biar file kecil)
+# -pbc mol -ur compact : biar protein gak loncat keluar kotak
+
+echo "0" | gmx trjconv -s topol.tpr -f full_traj.xtc -o movie_lite.xtc -dt 100 -pbc mol -ur compact
+
+# 2. Buat file struktur dasar (.gro) dari frame pertama buat wadahnya
+echo "0" | gmx trjconv -s topol.tpr -f full_traj.xtc -o frame_awal.gro -dump 0
+
+```
+
+
+3. **Download 2 File Ini:**
+Cek folder Output di kanan, lalu download:
+* `movie_lite.xtc` (Ini isinya gerakannya, size kecil).
+* `frame_awal.gro` (Ini isinya bentuk atomnya).
+
+
+
+---
+
+### TAHAP 2: Di Laptop (Visualisasi ChimeraX) 🎨
+
+Tujuannya: Bikin video cinematic tanpa ribet setting manual.
+
+1. **Buka UCSF ChimeraX.**
+2. **Drag & Drop File:**
+* Tarik file `frame_awal.gro` ke layar ChimeraX.
+* Lalu tarik file `movie_lite.xtc` ke layar yang sama.
+* *Sekarang proteinnya harusnya sudah muncul dan bisa digerakkan slider timeline-nya di bawah.*
+
+
+3. **Masukkan Mantra Ajaib:**
+Ketik perintah ini satu per satu di kolom **Command** (di bawah layar):
+* **Biar Kinclong (Preset):**
+```chimerax
+preset publication 1
+
+```
+
+
+*(Layar jadi putih, ada bayangan lembut).*
+* **Biar Berwarna (Coloring):**
+```chimerax
+color bychain; color byhetero
+
+```
+
+
+*(Rantai protein jadi berwarna, obat/ligan jadi beda warna).*
+* **Posisikan Kamera:**
+Putar-putar protein pakai mouse sampai dapat *angle* yang paling ganteng. Zoom in sedikit biar jelas.
+
+
+4. **Rekam Video:**
+Karena tadi kita pakai `-dt 100` untuk 50.000 ps (50 ns), berarti total frame kamu ada sekitar **500 frame**.
+Ketik perintah ini untuk rekam (satu baris panjang):
+```chimerax
+movie record; coordset 1 500; wait 500; movie encode output video_keren.mp4 quality medium
+
+```
+
+
+*(Kalau ternyata videonya berhenti di tengah, ganti angka 500 jadi lebih kecil, atau cek jumlah frame asli di slider timeline bawah).*
+5. **Selesai!**
+Tunggu proses loading selesai. File `video_keren.mp4` akan muncul di folder Documents atau Desktop kamu.
+
+**Tips Tambahan:**
+Kalau pas rekam laptop terasa agak *lag*, itu wajar. Biarkan saja mouse-nya jangan digerakkan sampai proses *encoding* selesai. Selamat mencoba! 🚀
