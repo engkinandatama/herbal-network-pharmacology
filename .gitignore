@@ -19,9 +19,11 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Data files (can be large, regenerate from workflow)
-data/
-!data/.gitkeep
+# Data files (keep research data, exclude large binaries)
+!data/
+data/**/*.xtc
+data/**/*.trr
+data/**/*.edr
 
 # Output files (regenerate from workflow)
 outputs/
