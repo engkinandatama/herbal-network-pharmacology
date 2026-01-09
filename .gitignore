@@ -30,6 +30,7 @@ outputs/
 # Logs
 logs/
 *.log
+kaggle-logs/
 
 # OS files
 .DS_Store
@@ -51,10 +52,20 @@ htmlcov/
 *.tmp
 *.temp
 .cache/
+fix_*.py
 
 # API keys and secrets (if any)
 .env
 *.key
 secrets.yaml
 
-kaggle_dataset_upload/264thm-pparg-analysis/
+# Large files (Kaggle datasets - upload via kaggle API)
+kaggle_dataset_upload/
+kaggle_output/
+*.xtc
+*.trr
+*.edr
+*.cpt
+
+# Simulation checkpoints
+checkpoints/
