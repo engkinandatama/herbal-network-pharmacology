@@ -1,8 +1,8 @@
 # 📝 Concise Paper Guide: Mahkota Dewa × Diabetic Nephropathy
 
-## Judul (Pilih 1)
+## Judul (Final)
 >
-> **"Network Pharmacology and Molecular Dynamics Validation of *Phaleria macrocarpa* Against Diabetic Nephropathy"**
+> **"Multi-Target Molecular Dynamics Validation of *Phaleria macrocarpa* Bioactive Compounds Targeting PPARG and PDE5A in Diabetic Nephropathy"**
 
 ---
 
