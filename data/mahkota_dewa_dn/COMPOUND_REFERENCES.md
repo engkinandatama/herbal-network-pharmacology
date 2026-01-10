@@ -1,52 +1,69 @@
 # Compound References - Phaleria macrocarpa
 
-## ✅ Verified Literature Sources with DOI
+## Sumber Referensi (dari Tinjauan Pustaka)
 
-| No | Citation | DOI | Compounds |
-|----|----------|-----|-----------|
-| 1 | Easmin S, et al. (2014). Phytochemical constituents, phenolics, flavonols, antioxidant and cytotoxicity studies on *Phaleria macrocarpa* fruits. BMC Complement Altern Med. | **10.1186/1472-6882-14-152** | Mangiferin, Kaempferol, Myricetin, Quercetin, Naringin, Rutin |
-| 2 | Oshimi S, et al. (2008). Constituents from the fruits of *Phaleria macrocarpa*. J Nat Med. | **10.1007/s11418-007-0209-9** | Benzophenones, Mahkoside A, Phalerin |
-| 3 | Tambunan RM, et al. (2012). Benzophenone glucoside from *Phaleria macrocarpa* bark and cytotoxicity on L1210 cells. Molecules. | **10.3390/molecules17054986** | 264-trihydroxy-4-methoxybenzophenone, Mahkoside A, Mahkoside B |
-| 4 | Alwi R, et al. (2023). Flavonoid content of *Phaleria macrocarpa* fruit. Malays Appl Biol J. | **10.55230/mabjournal.v52i4.m024** | Flavonoids profiling |
+Senyawa-senyawa yang digunakan dalam studi ini dikumpulkan dari tinjauan pustaka, berdasarkan file:
+`Senyawa Fitokimia dan Aktivitas Farmakologi Mahkota Dewa.xlsx`
+
+### Daftar Referensi
+
+| No | Referensi |
+|----|-----------|
+| 1 | Phaleria macrocarpa (Scheff.) Boerl. (Mahkota Dewa) seed study |
+| 2 | Bioactive compounds and advanced processing technology: Phaleria macrocarpa (Sheff.) Boerl, a review - ResearchGate |
+| 3 | ACE inhibitors activity from purified compounds Fructus Phaleria macrocarpa - ResearchGate |
+| 4 | Antidiabetic Potential of Phaleria macrocarpa Fruit Liquid CO₂ Extract - ResearchGate |
+| 5 | Bridging Indigenous Knowledge and Scientific Evidence for Pharmacological Studies of Phaleria macrocarpa - ResearchGate |
+| 6 | Analisis Komprehensif Konstituen Kimia dan Profil Fitokimia Phaleria macrocarpa (Scheff.) Boerl |
+| 7 | Etnofarmakognosi, Kandungan Kimia serta Aktivitas Farmakologi Tanaman Mahkota Dewa - Universitas Muhammadiyah Palu |
+| 8 | Chemical structures of constituents isolated from Phaleria macrocarpa extracts - ResearchGate |
+| 9 | Review on Phaleria macrocarpa Pharmacological and Phytochemical Properties |
+| 10 | Extraction and identification of biologically important proteins from God's crown - ResearchGate |
 
 ---
 
 ## Compound-Reference Mapping
 
-| Compound | Class | Reference |
-|----------|-------|-----------|
-| Mangiferin | Xanthone | Easmin et al., 2014 |
-| Gallic acid | Phenolic acid | Easmin et al., 2014 |
-| Quercetin | Flavonol | Easmin et al., 2014 |
-| Kaempferol | Flavonol | Easmin et al., 2014 |
-| Myricetin | Flavonol | Easmin et al., 2014 |
-| Rutin | Flavonol glycoside | Easmin et al., 2014 |
-| Naringin | Flavanone glycoside | Easmin et al., 2014 |
-| Luteolin | Flavone | Easmin et al., 2014 |
-| Apigenin | Flavone | Easmin et al., 2014 |
-| Phalerin | Benzophenone | Oshimi et al., 2008 |
-| 264-trihydroxy-4-methoxybenzophenone | Benzophenone | Tambunan et al., 2012 |
-| Mahkoside A | Benzophenone glycoside | Oshimi et al., 2008 |
-| Vitexin | Flavone C-glycoside | Easmin et al., 2014 |
-| Isovitexin | Flavone C-glycoside | Easmin et al., 2014 |
-| Pinoresinol | Lignan | Oshimi et al., 2008 |
-| Lariciresinol | Lignan | Oshimi et al., 2008 |
-| Matairesinol | Lignan | Oshimi et al., 2008 |
-| Chlorogenic acid | Phenolic acid | Easmin et al., 2014 |
-| Caffeic acid | Phenolic acid | Easmin et al., 2014 |
-| beta-Sitosterol | Sterol | Easmin et al., 2014 |
+| Compound | Referensi No. |
+|----------|---------------|
+| Phalerin (benzophenone glucoside) | 2, 6, 7 |
+| Asam galat (Gallic acid) | 2, 4, 7-9 |
+| Mangiferin | 2, 3, 6, 8 |
+| 2,6,4'-trihydroxy-4-methoxybenzophenone | 4, 5, 6 |
+| Icariside C3 | 2, 6, 8 |
+| Naringin | 2, 6 |
+| Quercetin | 2, 6 |
+| Rutin | 2, 6 |
+| Kaempferol | 2 |
+| Myricetin | 2 |
+| Vitexin | 2, 6 |
+| Isovitexin | 2, 6 |
+| Mahkoside A | 6 |
+| Fevicordin A | 5, 6, 8 |
+| Des-asetilflavicordin A | 6, 8 |
+| Swertianin | 6, 8 |
+| Kaempferol-3-O-β-D-glucoside | 6, 9 |
+| Saponin | 6, 7 |
+| Flavonoid (umum) | 6, 7 |
 
 ---
 
-## Methods Statement (Copy-Paste Ready)
+## Status Referensi
 
-> "The bioactive compounds of *Phaleria macrocarpa* were collected through literature review from published phytochemical studies. A total of 26 compounds including flavonoids, benzophenones, lignans, and phenolic acids were identified from previous reports (Easmin et al., 2014; Oshimi et al., 2008; Tambunan et al., 2012). The molecular structures (SMILES) were retrieved from PubChem database."
+⚠️ **Catatan**: Beberapa referensi perlu dilengkapi dengan:
+
+- DOI atau URL lengkap
+- Tahun publikasi
+- Nama jurnal lengkap
+
+### To Do
+
+- [ ] Cari DOI untuk referensi 1-10
+- [ ] Verifikasi ketersediaan artikel
+- [ ] Format sesuai style jurnal target
 
 ---
 
-## Quick Reference Links
+## Methods Statement (Draft)
 
-- Easmin et al., 2014: <https://doi.org/10.1186/1472-6882-14-152>
-- Oshimi et al., 2008: <https://doi.org/10.1007/s11418-007-0209-9>
-- Tambunan et al., 2012: <https://doi.org/10.3390/molecules17054986>
-- Alwi et al., 2023: <https://doi.org/10.55230/mabjournal.v52i4.m024>
+> "The bioactive compounds of *P. macrocarpa* were collected from published phytochemical literature, including review articles and primary research studies on the plant's chemical constituents [Refs 2, 6, 8, 9]. A total of 26 compounds from various classes (flavonoids, benzophenones, lignans, phenolic acids) were identified. Molecular structures (SMILES) were retrieved from PubChem database."
