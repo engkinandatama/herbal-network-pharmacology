@@ -1,0 +1,31 @@
+ei	numCTs	gene_symbol	numVariantsAssociatedToGene	pli	geneDescription	year_initial	year_final	numberChemsIncludedInEvidence	num_pmids_evid	numDiseasesAssociatedToGene	num_pmid_assoc	score	sourceScore	dsi	dpi	num_var_dis
+0.9473684210526315	7	TGFB1	85	0.025965	transforming growth factor beta 1	1993	2025	49		3069	266	1.0		0.25	0.96	5
+0.8294930875576036	2	ACE	250	5.7955E-32	angiotensin I converting enzyme	1989	2025	10		1410	217	1.0		0.33	0.96	5
+0.8990384615384616	104	ALB	51	0.10648	albumin	1984	2025	71		1895	208	1.0		0.3	0.96	0
+0.8918918918918919	3	VEGFA	49	0.1881	vascular endothelial growth factor A	1999	2025	12		2992	111	1.0		0.25	0.96	5
+0.8425925925925926	6	AGT	199	1.6654E-8	angiotensinogen	1992	2025	25		1062	108	1.0		0.36	0.96	2
+0.9393939393939394	12	CCL2	8	0.098507	C-C motif chemokine ligand 2	2000	2025	13		1782	66	0.9		0.31	0.96	1
+0.9848484848484849	1	NFE2L2	36	0.49709	NFE2 like bZIP transcription factor 2	2010	2025	25		1185	66	0.9		0.35	0.96	1
+0.8461538461538461	1	FN1	214	1.0	fibronectin 1	1995	2025	10		1113	39	0.9		0.36	0.91	0
+0.8421052631578947	1	ACE2	54		angiotensin converting enzyme 2	2003	2024	3		689	38	0.9		0.4	0.91	0
+0.9166666666666666	2	ADIPOQ	45	3.5736E-9	adiponectin, C1Q and collagen domain containing	2004	2025	0		797	36	0.9		0.38	0.96	10
+0.9183673469387755	7	INS	75	0.019763	insulin	1989	2025	7		1516	49	0.85		0.32	0.96	1
+0.8947368421052632	0	NOS3	62	2.4053E-25	nitric oxide synthase 3	1999	2024	6		1054	76	0.8		0.36	0.96	10
+0.8775510204081632	0	PPARG	318	0.21172	peroxisome proliferator activated receptor gamma	2003	2024	4		1222	49	0.8		0.34	0.96	4
+0.8461538461538461	0	CNDP1	13	7.3767E-10	carnosine dipeptidase 1	2005	2023	2		94	39	0.8		0.59	0.7	5
+0.8055555555555556	0	SERPINE1	76	0.03418	serpin family E member 1	1994	2024	3		1227	36	0.8		0.34	0.96	6
+0.8636363636363636	0	SOD2	37	0.032187	superoxide dismutase 2	2002	2025	0		970	22	0.8		0.36	1.0	2
+0.9629629629629629	0	ELMO1	221	1.0	engulfment and cell motility 1	2005	2025	0		118	27	0.75		0.56	0.74	4
+0.9473684210526315	0	TXNIP	4	0.0024644	thioredoxin interacting protein	2003	2025	3		306	19	0.75		0.47	0.87	1
+0.9333333333333333	0	RELA	41	0.99992	RELA proto-oncogene, NF-kB subunit	2005	2023	2		774	15	0.75		0.38	0.91	0
+1.0	0	LEPR	179	8.8607E-5	leptin receptor	2005	2023	0		614	8	0.7		0.41	0.91	0
+1.0	0	GAS6	43	1.8607E-8	growth arrest specific 6	2003	2017	2		312	5	0.7		0.47	0.78	0
+1.0	0	AXL	41	2.4167E-6	AXL receptor tyrosine kinase	2003	2008	1		443	3	0.7		0.43	0.87	0
+0.8125	1	TCF7L2	414	0.99541	transcription factor 7 like 2	2007	2025	0		438	16	0.65		0.44	0.91	7
+0.9	0	COL4A1	566	1.0	collagen type IV alpha 1 chain	1997	2023	0		552	10	0.65		0.42	0.87	1
+1.0	0	TGFBI	108	1.1763E-11	transforming growth factor beta induced	2003	2023	0		377	8	0.65		0.45	0.91	0
+0.875	0	KDR	86	1.0	kinase insert domain receptor	2008	2025	8		1133	8	0.65		0.35	0.91	1
+0.75	0	PON1	47	8.2563E-12	paraoxonase 1	2000	2017	0		733	8	0.65		0.39	0.96	2
+1.0	0	CDKN1A	64	1.7452E-5	cyclin dependent kinase inhibitor 1A	1998	2025	0		829	7	0.65		0.38	0.96	0
+1.0	0	YY1	56	1.0	YY1 transcription factor	2019	2026	1		495	6	0.65		0.44	0.91	0
+0.75	0	TGFBR2	617	0.90622	transforming growth factor beta receptor 2	1997	2008	0		1096	4	0.65		0.37	0.91	0

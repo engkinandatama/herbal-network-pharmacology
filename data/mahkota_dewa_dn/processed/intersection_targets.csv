@@ -1,0 +1,35 @@
+compound_name,target_name,gene_symbol,uniprot_id,chembl_id,target_class,probability,source
+Gallic acid,Plasminogen activator inhibitor-1,SERPINE1,P05121,CHEMBL3475,Secreted protein,0.125075959828,SwissTargetPrediction
+Quercetin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,1.0,SwissTargetPrediction
+Quercetin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,1.0,SwissTargetPrediction
+Kaempferol,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.567301899877,SwissTargetPrediction
+Kaempferol,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.40264337958,SwissTargetPrediction
+Myricetin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.718174334384,SwissTargetPrediction
+Icariside C3,Phosphodiesterase 5A,PDE5A,O76074,CHEMBL1827,Phosphodiesterase,0.249459939682,SwissTargetPrediction
+Phalerin,Adenosine A2a receptor,ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.127302569502,SwissTargetPrediction
+Phalerin,Adenosine A2b receptor,ADORA2B,P29275,CHEMBL255,Family A G protein-coupled receptor,0.11150186548,SwissTargetPrediction
+Swertianin,Adenosine A2a receptor,ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.113285953487,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Phosphodiesterase 5A,PDE5A,O76074,CHEMBL1827,Phosphodiesterase,0.12313842565,SwissTargetPrediction
+Mahkoside A,Sodium/glucose cotransporter 2,SLC5A2,P31639,CHEMBL3884,Electrochemical transporter,0.122827320367,SwissTargetPrediction
+Mahkoside A,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.106165761464,SwissTargetPrediction
+Apigenin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Apigenin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.125142648574,SwissTargetPrediction
+Luteolin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.460288741977,SwissTargetPrediction
+Luteolin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.279037062104,SwissTargetPrediction
+beta-Sitosterol,HMG-CoA reductase,HMGCR,P04035,CHEMBL402,Oxidoreductase,0.439393761626,SwissTargetPrediction
+beta-Sitosterol,Vitamin D receptor,VDR,P11473,CHEMBL1977,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Peroxisome proliferator-activated receptor gamma,PPARG,P37231,CHEMBL235,Nuclear receptor,0.106165761464,SwissTargetPrediction
+Pinoresinol,Sodium/glucose cotransporter 2,SLC5A2,P31639,CHEMBL3884,Electrochemical transporter,0.109339753231,SwissTargetPrediction
+Matairesinol,Plasminogen activator inhibitor-1,SERPINE1,P05121,CHEMBL3475,Secreted protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Nuclear factor NF-kappa-B p65 subunit,RELA,Q04206,CHEMBL5533,Transcription factor,0.109339753231,SwissTargetPrediction
+Matairesinol,Type-1 angiotensin II receptor   (by homology),AGTR1,P30556,CHEMBL227,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Naringeninchalcone,Phosphodiesterase 4D,PDE4D,Q08499,CHEMBL288,Phosphodiesterase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.100578902067,SwissTargetPrediction

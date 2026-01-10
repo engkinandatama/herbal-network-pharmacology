@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="undirected"><node id="SERPINE1"/>
+<node id="CYP27B1"/>
+<node id="ADORA2B"/>
+<node id="PDE5A"/>
+<node id="SLC5A2"/>
+<node id="RELA"/>
+<node id="HMGCR"/>
+<node id="KDR"/>
+<node id="AXL"/>
+<node id="PPARG"/>
+<node id="AGTR1"/>
+<node id="ADORA2A"/>
+<node id="PDE4D"/>
+<node id="VDR"/>
+<edge source="SERPINE1" target="CYP27B1">
+  <data key="d0">0.154</data>
+</edge>
+<edge source="SERPINE1" target="ADORA2B">
+  <data key="d0">0.196</data>
+</edge>
+<edge source="SERPINE1" target="PDE5A">
+  <data key="d0">0.201</data>
+</edge>
+<edge source="SERPINE1" target="SLC5A2">
+  <data key="d0">0.33</data>
+</edge>
+<edge source="SERPINE1" target="RELA">
+  <data key="d0">0.338</data>
+</edge>
+<edge source="SERPINE1" target="HMGCR">
+  <data key="d0">0.396</data>
+</edge>
+<edge source="SERPINE1" target="KDR">
+  <data key="d0">0.453</data>
+</edge>
+<edge source="SERPINE1" target="AXL">
+  <data key="d0">0.609</data>
+</edge>
+<edge source="SERPINE1" target="PPARG">
+  <data key="d0">0.732</data>
+</edge>
+<edge source="SERPINE1" target="AGTR1">
+  <data key="d0">0.953</data>
+</edge>
+<edge source="CYP27B1" target="SLC5A2">
+  <data key="d0">0.159</data>
+</edge>
+<edge source="CYP27B1" target="HMGCR">
+  <data key="d0">0.263</data>
+</edge>
+<edge source="CYP27B1" target="RELA">
+  <data key="d0">0.373</data>
+</edge>
+<edge source="CYP27B1" target="PPARG">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="ADORA2B" target="KDR">
+  <data key="d0">0.153</data>
+</edge>
+<edge source="ADORA2B" target="PPARG">
+  <data key="d0">0.276</data>
+</edge>
+<edge source="ADORA2B" target="PDE5A">
+  <data key="d0">0.226</data>
+</edge>
+<edge source="ADORA2B" target="AGTR1">
+  <data key="d0">0.227</data>
+</edge>
+<edge source="ADORA2B" target="ADORA2A">
+  <data key="d0">0.937</data>
+</edge>
+<edge source="PDE5A" target="KDR">
+  <data key="d0">0.291</data>
+</edge>
+<edge source="PDE5A" target="PPARG">
+  <data key="d0">0.347</data>
+</edge>
+<edge source="PDE5A" target="HMGCR">
+  <data key="d0">0.263</data>
+</edge>
+<edge source="PDE5A" target="SLC5A2">
+  <data key="d0">0.22</data>
+</edge>
+<edge source="PDE5A" target="PDE4D">
+  <data key="d0">0.349</data>
+</edge>
+<edge source="PDE5A" target="AGTR1">
+  <data key="d0">0.293</data>
+</edge>
+<edge source="PDE5A" target="ADORA2A">
+  <data key="d0">0.298</data>
+</edge>
+<edge source="PDE5A" target="RELA">
+  <data key="d0">0.496</data>
+</edge>
+<edge source="SLC5A2" target="PPARG">
+  <data key="d0">0.546</data>
+</edge>
+<edge source="SLC5A2" target="HMGCR">
+  <data key="d0">0.275</data>
+</edge>
+<edge source="SLC5A2" target="AGTR1">
+  <data key="d0">0.386</data>
+</edge>
+<edge source="RELA" target="KDR">
+  <data key="d0">0.248</data>
+</edge>
+<edge source="RELA" target="PPARG">
+  <data key="d0">0.998</data>
+</edge>
+<edge source="RELA" target="HMGCR">
+  <data key="d0">0.172</data>
+</edge>
+<edge source="RELA" target="AXL">
+  <data key="d0">0.239</data>
+</edge>
+<edge source="RELA" target="AGTR1">
+  <data key="d0">0.167</data>
+</edge>
+<edge source="RELA" target="ADORA2A">
+  <data key="d0">0.172</data>
+</edge>
+<edge source="HMGCR" target="KDR">
+  <data key="d0">0.324</data>
+</edge>
+<edge source="HMGCR" target="PPARG">
+  <data key="d0">0.661</data>
+</edge>
+<edge source="HMGCR" target="ADORA2A">
+  <data key="d0">0.152</data>
+</edge>
+<edge source="HMGCR" target="AXL">
+  <data key="d0">0.175</data>
+</edge>
+<edge source="HMGCR" target="AGTR1">
+  <data key="d0">0.342</data>
+</edge>
+<edge source="KDR" target="ADORA2A">
+  <data key="d0">0.323</data>
+</edge>
+<edge source="KDR" target="AGTR1">
+  <data key="d0">0.587</data>
+</edge>
+<edge source="KDR" target="AXL">
+  <data key="d0">0.641</data>
+</edge>
+<edge source="KDR" target="PPARG">
+  <data key="d0">0.644</data>
+</edge>
+<edge source="AXL" target="PPARG">
+  <data key="d0">0.341</data>
+</edge>
+<edge source="PPARG" target="PDE4D">
+  <data key="d0">0.165</data>
+</edge>
+<edge source="PPARG" target="ADORA2A">
+  <data key="d0">0.352</data>
+</edge>
+<edge source="PPARG" target="AGTR1">
+  <data key="d0">0.583</data>
+</edge>
+<edge source="AGTR1" target="PDE4D">
+  <data key="d0">0.153</data>
+</edge>
+<edge source="AGTR1" target="ADORA2A">
+  <data key="d0">0.172</data>
+</edge>
+<edge source="ADORA2A" target="PDE4D">
+  <data key="d0">0.2</data>
+</edge>
+</graph></graphml>

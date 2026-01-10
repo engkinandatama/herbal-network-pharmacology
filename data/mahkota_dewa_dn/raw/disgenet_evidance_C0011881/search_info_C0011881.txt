@@ -1,0 +1,23 @@
+SEARCH INFORMATION
+==================
+
+Download Date:       1/7/2026, 10:44:08 AM
+
+SEARCH DETAILS
+--------------
+Search Terms:        Diabetic Nephropathy (CUI: C0011881)
+Analysis Type:       DISEASES
+Data Type:           Summary
+Source:              ALL
+Tab:                 GDA
+Total Results:       2092
+
+FILTERS APPLIED
+---------------
+
+
+DISPLAY SETTINGS
+----------------
+Visible Columns:     geneSymbol, geneDescription, numDiseasesAssociatedToGene, numVariantsAssociatedToGene, score, sourceScore, numPMIDsupportingAssociation, numberChemsIncludedInEvidence, numberPmidsWithChemsIncludedInEvidence, numDBSNPsupportingAssociation, yearInitial, yearFinal, EI, geneDSI, geneDPI, genepLI, numCTs
+
+==================

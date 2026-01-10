@@ -1,0 +1,7 @@
+# Step 2: Receptor Preparation Manifest
+
+1HWK	data/mahkota_dewa_dn/results/docking/receptors/prepared/1HWK.pdbqt
+1TBF	data/mahkota_dewa_dn/results/docking/receptors/prepared/1TBF.pdbqt
+3QXY	data/mahkota_dewa_dn/results/docking/receptors/prepared/3QXY.pdbqt
+4YAY	data/mahkota_dewa_dn/results/docking/receptors/prepared/4YAY.pdbqt
+6MS7	data/mahkota_dewa_dn/results/docking/receptors/prepared/6MS7.pdbqt

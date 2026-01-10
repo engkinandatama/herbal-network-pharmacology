@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:    -9.263      0.000      0.000
+REMARK INTER + INTRA:         -10.585
+REMARK INTER:                 -10.346
+REMARK INTRA:                  -0.239
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      62.121  21.021   9.900  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      61.367  19.877   9.599  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      60.531  19.868   8.465  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      60.434  20.986   7.630  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      61.192  22.090   7.950  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      62.019  22.110   9.049  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      62.684  23.293   9.164  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      62.196  24.003   8.009  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      61.231  23.252   7.244  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      59.771  18.784   8.101  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      59.867  17.625   8.850  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      60.605  17.510   9.961  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      61.392  18.661  10.439  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      61.999  18.569  11.497  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      59.047  16.508   8.345  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      58.668  15.469   9.208  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      57.883  14.407   8.748  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      57.461  14.375   7.422  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      57.821  15.404   6.554  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      58.606  16.465   7.013  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      62.513  21.861  12.002  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      63.011  21.056  10.935  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.078      1.926      7.125
+REMARK INTER + INTRA:         -10.378
+REMARK INTER:                 -10.184
+REMARK INTRA:                  -0.194
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      58.967  17.641   7.555  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      59.821  18.518   8.240  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      60.406  18.117   9.457  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      60.149  16.855  10.001  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      59.312  16.015   9.300  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      58.739  16.390   8.107  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      57.963  15.401   7.582  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      58.126  14.363   8.567  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      58.966  14.754   9.673  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      61.258  18.915  10.180  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      61.602  20.153   9.666  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      61.099  20.661   8.534  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      60.129  19.878   7.748  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      59.617  20.383   6.760  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      62.559  20.908  10.497  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      62.104  21.642  11.602  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      62.998  22.356  12.405  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      64.360  22.338  12.118  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      64.830  21.606  11.030  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      63.936  20.893  10.227  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      57.046  18.224   6.437  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      58.441  17.943   6.331  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.036      2.005      3.547
+REMARK INTER + INTRA:         -10.332
+REMARK INTER:                 -10.106
+REMARK INTRA:                  -0.226
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      62.752  24.282   8.227  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      62.264  23.007   8.551  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      61.642  22.224   7.559  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      61.496  22.696   6.251  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      61.992  23.949   5.965  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      62.609  24.722   6.921  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      63.035  25.912   6.415  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      62.633  25.793   5.037  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      61.949  24.556   4.748  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      61.148  20.965   7.796  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      61.314  20.414   9.054  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      61.866  21.060  10.089  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      62.356  22.439   9.912  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      62.785  23.047  10.883  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      60.790  19.041   9.188  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      61.180  18.243  10.274  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      60.687  16.944  10.421  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      59.792  16.428   9.488  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      59.387  17.210   8.408  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      59.880  18.509   8.261  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      62.600  26.067   9.666  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      63.440  25.048   9.125  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.914      2.038      6.611
+REMARK INTER + INTRA:         -10.195
+REMARK INTER:                  -9.931
+REMARK INTRA:                  -0.264
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      58.793  16.461   8.098  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      59.649  17.419   8.662  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      59.783  18.682   8.053  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      59.078  19.001   6.888  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      58.241  18.041   6.364  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      58.095  16.806   6.952  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      57.207  16.024   6.277  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      56.804  16.908   5.214  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      57.473  18.186   5.251  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      60.593  19.673   8.550  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      61.272  19.444   9.733  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      61.248  18.281  10.397  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      60.448  17.158   9.878  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      60.497  16.078  10.449  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      62.074  20.589  10.203  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      62.856  21.318   9.295  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      63.615  22.412   9.721  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      63.596  22.795  11.060  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      62.817  22.088  11.973  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      62.058  20.994  11.547  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      57.315  15.266   9.389  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      58.559  15.253   8.692  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.653      1.141      2.908
+REMARK INTER + INTRA:          -9.904
+REMARK INTER:                  -9.663
+REMARK INTRA:                  -0.241
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      61.721  21.864   8.872  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      61.072  20.635   8.679  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      61.241  19.599   9.618  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      62.051  19.770  10.745  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      62.669  20.990  10.908  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      62.507  22.013  10.003  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      63.195  23.130  10.371  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      63.789  22.701  11.611  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      63.477  21.333  11.948  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      60.631  18.374   9.503  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      59.768  18.160   8.443  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      59.539  19.052   7.471  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      60.215  20.361   7.505  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      60.060  21.136   6.572  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      59.130  16.830   8.441  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      59.281  15.977   9.544  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      58.676  14.717   9.563  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      57.907  14.297   8.481  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      57.740  15.135   7.381  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      58.345  16.395   7.362  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      62.669  23.140   7.213  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      61.527  22.930   8.041  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.624      3.178      8.136
+REMARK INTER + INTRA:          -9.871
+REMARK INTER:                  -9.626
+REMARK INTRA:                  -0.245
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      56.941  14.928   6.214  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      57.772  15.827   6.899  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      58.265  15.491   8.175  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      57.938  14.273   8.778  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      57.126  13.410   8.077  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      56.643  13.721   6.826  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      55.877  12.719   6.313  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      55.946  11.742   7.370  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      56.721  12.184   8.504  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      59.089  16.314   8.902  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      59.500  17.508   8.337  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      59.086  17.954   7.145  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      58.149  17.145   6.346  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      57.717  17.598   5.295  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      60.421  18.292   9.182  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      60.776  19.597   8.809  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      61.640  20.358   9.603  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      62.154  19.826  10.782  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      61.804  18.535  11.172  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      60.940  17.774  10.379  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      55.133  15.554   4.942  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      56.505  15.163   4.941  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.095      2.950      7.430
+REMARK INTER + INTRA:          -9.281
+REMARK INTER:                  -9.038
+REMARK INTRA:                  -0.243
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      56.913  14.709   6.761  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      57.828  15.491   7.483  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      58.262  16.723   6.958  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      57.799  17.186   5.723  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      56.897  16.399   5.042  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      56.458  15.196   5.546  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      55.559  14.596   4.717  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      55.472  15.560   3.650  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      56.336  16.699   3.840  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      59.147  17.547   7.610  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      59.596  17.177   8.864  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      59.279  16.022   9.464  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      58.384  15.068   8.786  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      58.165  13.983   9.307  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      60.504  18.154   9.495  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      60.736  19.394   8.882  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      61.586  20.335   9.470  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      62.209  20.051  10.683  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      61.982  18.828  11.310  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      61.132  17.886  10.721  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      56.995  12.417   6.634  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      56.393  13.549   7.259  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.865      1.417      3.439
+REMARK INTER + INTRA:          -9.023
+REMARK INTER:                  -8.777
+REMARK INTRA:                  -0.246
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      61.814  22.790   8.924  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      61.114  21.679   8.428  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      61.155  20.457   9.127  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      61.888  20.327  10.312  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      62.558  21.437  10.774  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      62.521  22.639  10.106  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      63.239  23.601  10.750  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      63.715  22.875  11.899  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      63.303  21.492  11.911  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      60.490  19.331   8.711  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      59.698  19.409   7.579  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      59.591  20.502   6.813  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      60.334  21.723   7.173  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      60.292  22.689   6.424  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      58.990  18.158   7.248  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      58.294  18.045   6.035  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      57.626  16.863   5.701  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      57.651  15.778   6.572  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      58.345  15.870   7.776  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      59.014  17.051   8.111  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      62.953  24.324   7.648  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      61.741  24.020   8.335  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.761      1.953      6.936
+REMARK INTER + INTRA:          -8.908
+REMARK INTER:                  -8.790
+REMARK INTRA:                  -0.118
+REMARK UNBOUND:                -0.239
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Phalerin.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2
+REMARK    2  A    between atoms: O1_2  and  C2_3
+REMARK    3  A    between atoms: C9_13  and  C12_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  UNL     1      58.927  19.520   6.363  0.00  0.00    +0.180 A 
+ATOM      2  C3  UNL     1      59.770  20.078   7.336  0.00  0.00    +0.109 A 
+ATOM      3  C4  UNL     1      60.285  19.264   8.365  0.00  0.00    +0.146 A 
+ATOM      4  C5  UNL     1      59.967  17.905   8.438  0.00  0.00    +0.096 A 
+ATOM      5  C6  UNL     1      59.142  17.387   7.465  0.00  0.00    +0.173 A 
+ATOM      6  C7  UNL     1      58.638  18.168   6.450  0.00  0.00    +0.208 A 
+ATOM      7  O2  UNL     1      57.862  17.448   5.593  0.00  0.00    -0.449 OA
+ATOM      8  C8  UNL     1      57.948  16.132   6.172  0.00  0.00    +0.467 C 
+ATOM      9  O3  UNL     1      58.743  16.090   7.375  0.00  0.00    -0.452 OA
+ATOM     10  O4  UNL     1      61.122  19.735   9.346  0.00  0.00    -0.454 OA
+ATOM     11  C9  UNL     1      61.525  21.057   9.296  0.00  0.00    +0.139 A 
+ATOM     12  C10 UNL     1      61.091  21.939   8.386  0.00  0.00    +0.098 A 
+ATOM     13  C11 UNL     1      60.139  21.509   7.347  0.00  0.00    +0.197 A 
+ATOM     14  O5  UNL     1      59.689  22.340   6.570  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  15
+ATOM     15  C12 UNL     1      62.461  21.446  10.368  0.00  0.00    +0.017 A 
+ATOM     16  C13 UNL     1      63.843  21.444  10.128  0.00  0.00    +0.011 A 
+ATOM     17  C14 UNL     1      64.744  21.819  11.129  0.00  0.00    +0.001 A 
+ATOM     18  C15 UNL     1      64.274  22.207  12.380  0.00  0.00    +0.000 A 
+ATOM     19  C16 UNL     1      62.904  22.223  12.633  0.00  0.00    +0.001 A 
+ATOM     20  C17 UNL     1      62.003  21.849  11.632  0.00  0.00    +0.011 A 
+ENDBRANCH  11  15
+BRANCH   1  22
+ATOM     21  C1  UNL     1      57.160  20.746   5.554  0.00  0.00    +0.277 C 
+ATOM     22  O1  UNL     1      58.468  20.240   5.297  0.00  0.00    -0.491 OA
+ENDBRANCH   1  22
+TORSDOF 2
+ENDMDL

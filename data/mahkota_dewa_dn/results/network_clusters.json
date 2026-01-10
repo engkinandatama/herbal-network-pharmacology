@@ -1,0 +1,24 @@
+{
+  "cluster_1": [
+    "PDE4D",
+    "ADORA2A",
+    "PDE5A",
+    "ADORA2B"
+  ],
+  "cluster_2": [
+    "AGTR1",
+    "AXL",
+    "KDR",
+    "SERPINE1",
+    "SLC5A2"
+  ],
+  "cluster_3": [
+    "RELA",
+    "HMGCR",
+    "CYP27B1",
+    "PPARG"
+  ],
+  "cluster_4": [
+    "VDR"
+  ]
+}

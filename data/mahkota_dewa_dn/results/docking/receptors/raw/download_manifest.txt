@@ -1,0 +1,8 @@
+# Step 1: Download PDB Manifest
+# Total: 5 downloaded, 0 failed
+
+PPARG	6MS7	data\mahkota_dewa_dn\results\docking\receptors\raw\6MS7.pdb
+HMGCR	1HWK	data\mahkota_dewa_dn\results\docking\receptors\raw\1HWK.pdb
+AGTR1	4YAY	data\mahkota_dewa_dn\results\docking\receptors\raw\4YAY.pdb
+PDE5A	1TBF	data\mahkota_dewa_dn\results\docking\receptors\raw\1TBF.pdb
+RELA	1VKX	data\mahkota_dewa_dn\results\docking\receptors\raw\1VKX.pdb

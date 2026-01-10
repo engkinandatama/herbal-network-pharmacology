@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:    -6.973      0.000      0.000
+REMARK INTER + INTRA:          -8.526
+REMARK INTER:                  -8.400
+REMARK INTRA:                  -0.127
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      59.793  18.568   8.117  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      59.842  17.387   8.865  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      60.614  17.348  10.018  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      61.333  18.471  10.417  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      61.291  19.648   9.680  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      60.504  19.713   8.522  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      60.437  20.918   7.683  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      60.436  22.169   8.168  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      60.357  23.369   7.323  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      60.880  23.473   6.229  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      59.646  24.371   7.860  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      59.537  24.999   7.117  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      62.099  18.422  11.547  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      62.801  17.773  11.339  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      60.704  16.225  10.792  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      59.967  16.234  11.426  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.709      2.646      3.590
+REMARK INTER + INTRA:          -8.209
+REMARK INTER:                  -8.083
+REMARK INTRA:                  -0.126
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      60.674  19.644   8.664  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      59.920  18.566   8.188  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      59.906  17.381   8.911  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      60.639  17.270  10.089  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      61.391  18.335  10.567  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      61.405  19.546   9.862  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      62.200  20.702  10.299  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      62.278  21.119  11.572  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      63.067  22.283  12.000  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      62.981  23.391  11.500  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      63.912  22.031  13.009  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      63.571  21.198  13.393  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      60.629  16.096  10.788  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      60.499  16.367  11.719  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      59.190  16.291   8.500  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      58.619  16.009   9.235  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.401      2.852      6.268
+REMARK INTER + INTRA:          -7.837
+REMARK INTER:                  -7.685
+REMARK INTRA:                  -0.152
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      59.476  17.390   8.487  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      60.151  18.615   8.432  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      61.035  18.944   9.450  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      61.240  18.068  10.511  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      60.574  16.851  10.574  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      59.689  16.491   9.548  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      58.931  15.231   9.567  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      58.060  14.868   8.612  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      57.297  13.612   8.644  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      57.528  12.652   7.932  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      56.300  13.600   9.540  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      56.562  14.288  10.185  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      62.104  18.404  11.514  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      62.814  18.908  11.068  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      61.726  20.124   9.455  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      62.275  20.158   8.654  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.350      1.086      1.983
+REMARK INTER + INTRA:          -7.776
+REMARK INTER:                  -7.648
+REMARK INTRA:                  -0.128
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      61.835  19.703  10.587  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      61.647  18.416  11.103  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      60.878  17.508  10.388  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      60.299  17.880   9.178  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      60.480  19.156   8.660  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      61.267  20.083   9.357  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      61.475  21.457   8.879  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      60.547  22.170   8.222  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      60.767  23.539   7.736  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      61.844  23.972   7.369  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      59.663  24.300   7.725  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      59.365  24.259   6.793  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      59.535  16.984   8.486  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      59.769  17.134   7.549  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      60.656  16.236  10.836  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      60.364  16.287  11.762  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.251      2.540      5.143
+REMARK INTER + INTRA:          -7.657
+REMARK INTER:                  -7.503
+REMARK INTRA:                  -0.154
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      60.953  17.864  10.273  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      61.750  18.573  11.179  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      62.102  19.884  10.887  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      61.669  20.478   9.705  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      60.879  19.781   8.801  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      60.499  18.462   9.084  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      59.687  17.660   8.157  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      58.985  16.576   8.523  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      58.186  15.772   7.589  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      57.314  14.991   7.928  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      58.493  15.965   6.298  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      57.742  16.495   5.960  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      62.029  21.765   9.420  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      62.971  21.706   9.164  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      62.878  20.630  11.729  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      62.614  20.428  12.643  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.216      3.090      4.312
+REMARK INTER + INTRA:          -7.615
+REMARK INTER:                  -7.464
+REMARK INTRA:                  -0.151
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      60.160  16.754  10.030  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      59.344  15.644   9.786  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      58.576  15.611   8.630  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      58.618  16.673   7.731  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      59.425  17.778   7.966  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      60.220  17.824   9.119  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      61.075  18.976   9.441  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      61.661  19.163  10.635  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      62.504  20.323  10.953  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      62.101  21.471  11.005  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      63.788  20.018  11.189  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      63.840  19.064  10.978  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      57.852  16.637   6.601  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      57.025  17.097   6.851  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      57.759  14.556   8.333  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      57.638  14.030   9.142  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.008      1.984      2.156
+REMARK INTER + INTRA:          -7.364
+REMARK INTER:                  -7.236
+REMARK INTRA:                  -0.129
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      60.588  20.191   8.378  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      60.368  18.827   8.597  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      60.874  18.238   9.748  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      61.594  18.997  10.665  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      61.817  20.352  10.455  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      61.301  20.970   9.308  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      61.524  22.392   9.012  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      62.331  23.189   9.730  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      62.540  24.613   9.435  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      63.428  25.043   8.721  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      61.656  25.430  10.026  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      61.442  26.081   9.326  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      62.098  18.407  11.790  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      62.765  17.774  11.457  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      60.694  16.910  10.021  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      60.825  16.776  10.975  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.919      2.408      5.941
+REMARK INTER + INTRA:          -7.257
+REMARK INTER:                  -7.127
+REMARK INTRA:                  -0.131
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      62.077  21.614  11.504  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      62.452  22.957  11.376  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      62.761  23.454  10.117  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      62.703  22.623   9.002  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      62.333  21.290   9.121  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      62.001  20.772  10.380  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      61.628  19.364  10.579  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      60.871  18.662   9.721  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      60.492  17.258   9.933  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      59.874  16.585   9.128  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      60.888  16.756  11.111  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      60.629  17.447  11.755  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      63.019  23.118   7.768  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      63.960  22.881   7.643  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      63.134  24.755   9.924  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      62.673  25.089   9.136  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.868      4.391      4.748
+REMARK INTER + INTRA:          -7.195
+REMARK INTER:                  -7.045
+REMARK INTRA:                  -0.150
+REMARK UNBOUND:                -0.127
+REMARK  Name = data/mahkota_dewa_dn/results/docking/ligands/pdb/Caffeic_acid.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O4_13
+REMARK    2  A    between atoms: C4_4  and  O3_12
+REMARK    3  A    between atoms: C6_6  and  C7_7
+REMARK    4  A    between atoms: C8_8  and  C9_9
+REMARK    5  A    between atoms: C9_9  and  O2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1      64.306  21.888   9.609  0.00  0.00    +0.012 A 
+ATOM      2  C2  UNL     1      65.280  21.044  10.155  0.00  0.00    +0.050 A 
+ATOM      3  C3  UNL     1      65.500  21.065  11.525  0.00  0.00    +0.158 A 
+ATOM      4  C4  UNL     1      64.765  21.920  12.340  0.00  0.00    +0.159 A 
+ATOM      5  C5  UNL     1      63.797  22.762  11.807  0.00  0.00    +0.057 A 
+ATOM      6  C6  UNL     1      63.546  22.744  10.428  0.00  0.00    -0.021 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1      62.556  23.628   9.796  0.00  0.00    +0.015 C 
+ATOM      8  C8  UNL     1      62.092  23.460   8.548  0.00  0.00    +0.092 C 
+BRANCH   8   9
+ATOM      9  C9  UNL     1      61.111  24.354   7.918  0.00  0.00    +0.330 C 
+ATOM     10  O1  UNL     1      61.384  25.432   7.423  0.00  0.00    -0.246 OA
+BRANCH   9  11
+ATOM     11  O2  UNL     1      59.855  23.884   7.929  0.00  0.00    -0.478 OA
+ATOM     12  H6  UNL     1      59.532  24.070   7.024  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  13
+ATOM     13  O3  UNL     1      64.996  21.943  13.686  0.00  0.00    -0.503 OA
+ATOM     14  H7  UNL     1      65.232  22.872  13.879  0.00  0.00    +0.292 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O4  UNL     1      66.437  20.266  12.120  0.00  0.00    -0.503 OA
+ATOM     16  H8  UNL     1      67.217  20.231  11.542  0.00  0.00    +0.292 HD
+ENDBRANCH   3  15
+TORSDOF 5
+ENDMDL

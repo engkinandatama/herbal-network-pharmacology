@@ -1,0 +1,7 @@
+# Step 3: Ligand Preparation Manifest
+# Total: 4 prepared, 0 failed
+
+Pioglitazone	data/mahkota_dewa_dn/results/docking/ligands/pdbqt/Pioglitazone.pdbqt
+Atorvastatin	data/mahkota_dewa_dn/results/docking/ligands/pdbqt/Atorvastatin.pdbqt
+Losartan	data/mahkota_dewa_dn/results/docking/ligands/pdbqt/Losartan.pdbqt
+Sildenafil	data/mahkota_dewa_dn/results/docking/ligands/pdbqt/Sildenafil.pdbqt

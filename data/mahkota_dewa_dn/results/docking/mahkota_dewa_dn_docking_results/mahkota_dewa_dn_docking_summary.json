@@ -1,0 +1,55 @@
+{
+  "total_jobs": 69,
+  "successful": 69,
+  "test_compounds": 13,
+  "control_compounds": 4,
+  "targets": [
+    "PPARG",
+    "HMGCR",
+    "AGTR1",
+    "PDE5A",
+    "RELA"
+  ],
+  "best_overall": [
+    {
+      "compound": "264-trihydroxy-4-methoxybenzophenone",
+      "target": "PPARG",
+      "pdb_id": "6MS7",
+      "binding_affinity": -9.531,
+      "type": "test",
+      "output_file": "results/PPARG_264-trihydroxy-4-methoxybenzophenone_docked.pdbqt"
+    },
+    {
+      "compound": "264-trihydroxy-4-methoxybenzophenone",
+      "target": "RELA",
+      "pdb_id": "3QXY",
+      "binding_affinity": -9.309,
+      "type": "test",
+      "output_file": "results/RELA_264-trihydroxy-4-methoxybenzophenone_docked.pdbqt"
+    },
+    {
+      "compound": "Phalerin",
+      "target": "RELA",
+      "pdb_id": "3QXY",
+      "binding_affinity": -9.263,
+      "type": "test",
+      "output_file": "results/RELA_Phalerin_docked.pdbqt"
+    },
+    {
+      "compound": "Pioglitazone",
+      "target": "PPARG",
+      "pdb_id": "6MS7",
+      "binding_affinity": -9.215,
+      "type": "control",
+      "output_file": "results/PPARG_Pioglitazone_docked.pdbqt"
+    },
+    {
+      "compound": "Losartan",
+      "target": "AGTR1",
+      "pdb_id": "4YAY",
+      "binding_affinity": -9.148,
+      "type": "control",
+      "output_file": "results/AGTR1_Losartan_docked.pdbqt"
+    }
+  ]
+}

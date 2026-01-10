@@ -1,0 +1,51 @@
+Bagian Tanaman,Senyawa/Compound,Temuan Farmakologis,Sumber
+Biji,"1-(ethenylthio)-octane, 2,2-dimethyl-5-(3-methyl-2-oxiranyl) cyclohexanone",Aktivitas antibakteri (moderat) dan antioksidan (baik),1
+Daun,Phalerin (benzophenone glycoside),Aktivitas anti-inflamasi dan sitotoksik terhadap sel mieloma,2
+Buah,Asam galat (Gallic acid),Efek anti-kanker (induksi apoptosis pada sel kanker esofagus) dan anti-hiperkolesterolemia,2
+Buah,Mangiferin,Aktivitas anti-diabetes (penurunan glukosa darah) dan antioksidan,2
+Batang,"Senyawa karbohidrat, fenolik, tanin, flavonoid, alkaloid",Aktivitas anti-diabetes (penghambatan alfa-glukosidase),2
+Kulit Batang,"Benzophenone glucoside (2,4'-dihydroxy-4-methoxy-benzophenone-6-O-β-D-glucopyranoside)",Aktivitas penghambatan terhadap sel leukemia L1210,2
+Biji,"Desacetylfevicordin A, 29-norcucurbitacin","Efek sitotoksik (toksisitas terhadap sel kanker payudara, serviks, dan udang air asin)","1, 2"
+Daun,"Mangiferin, saponin, polifenol","Aktivitas anti-diabetes, tumor, dan penyakit darah",2
+Buah,Icariside C3,Efek vasorelaksan (anti-hipertensi),2
+Buah (Perikarp/Mesokarp),"Naringin, Quercetin, Rutin, Kaempferol, Myricetin",Aktivitas antioksidan kuat dan anti-inflamasi,2
+Daun,"Vitexin, Isovitexin",Menghambat produksi Reactive Oxygen Species (ROS) dalam sel SH-SY5Y (pelindung sistem saraf),2
+Buah,Mangiferin,"Menunjukkan aktivitas penghambatan ACE (Angiotensin Converting Enzyme) yang kuat (IC50 0,025 mM) dengan kinetika penghambatan kompetitif; potensial sebagai anti-hipertensi.",3
+Buah,"6,4-dihydroxy-4-methoxybenzophenone–2-O-̠-D-glucopyranoside","Memiliki aktivitas penghambat ACE (IC50 0,055 mM) yang berguna untuk menurunkan tekanan darah.",3
+Buah,"4,4′-dihydroxy-6-methoxybenzophenone-2-O-̠-D-glucopyranoside (Mahkoside A)","Memiliki aktivitas penghambat ACE (IC50 0,07 mM).",3
+Kulit Batang,"6,4′-dihydroxy-6-methoxybenzophenone-2-O-̠-D-glucopyranoside","Menunjukkan aktivitas sitotoksik terhadap sel leukemia L1210 (IC50 5,1 µg/ml).",3
+Buah,Asam Galat (Gallic acid),Menunjukkan penghambatan signifikan terhadap proliferasi berbagai lini sel kanker dan menginduksi apoptosis pada sel kanker esofagus (TE-2).,4
+Buah,Phalerin,Diidentifikasi sebagai senyawa anti-inflamasi ringan melalui pengujian LOX dan XO.,5
+Daun,"2,6,4′-trihydroxy-4-methoxybenzophenone","Menunjukkan aktivitas antioksidan yang kuat pada pengujian DPPH (IC50 10,57 µg/mL).",4
+Biji,Fevicordin-A,"Berpotensi sebagai agen anti-kanker (antagonis reseptor estrogen) dengan selektivitas terhadap sel kanker payudara MCF-7 (IC50 6,4 µm).",5
+Buah (Daging Buah),"2,4′,6-trihydroxy-4-methoxybenzophenone",Menghambat proliferasi sel pada lini sel karsinoma kolon HT-29 dan menginduksi apoptosis.,5
+Batang,Ekstrak Heksana,Menunjukkan aktivitas penghambatan ̡-glukosidase yang lebih tinggi dibandingkan ekstrak daging buah dan daun (Anti-diabetes).,"3, 4"
+Biji,Asam Oleat dan Asam Linoleat,Merupakan konstituen asam lemak utama dalam minyak biji Mahkota Dewa.,5
+Kulit Batang,Macronone (Diepoxylignan),Menunjukkan aktivitas antioksidan meskipun lebih rendah dibandingkan ekstrak etil asetat kasarnya.,4
+Buah (Daging Buah),Phalerin (benzophenone glucoside),"Aktivitas anti-inflamasi (menekan ekspresi mRNA COX-2), anti-proliferasi, dan penginduksi apoptosis sel kanker payudara.","Source_7, 91, 1208, 1218"
+Buah,Mangiferin,"Aktivitas anti-diabetes (penghambatan alfa-glukosidase), antioksidan, dan penghambat ACE (Angiotensin Converting Enzyme) untuk anti-hipertensi.","Source_83, 84, 91, 1213, 1219"
+Buah,Asam Galat (Gallic Acid),"Aktivitas anti-kanker (menginduksi kematian sel pada kanker esofagus, lambung, kolon, payudara, dan serviks), antioksidan, serta pengatur homeostasis kolesterol (anti-hiperlipidemia).","Source_213, 1195, 1211, 1215"
+Daun,Phalerin,Aktivitas sitotoksik dan potensi anti-inflamasi.,"Source_8, 1201"
+Daun,"2,6,4’-trihydroxy-4-methoxybenzophenone",Aktivitas antioksidan yang kuat (IC50 10.57 μg/mL).,"Source_35, 1201"
+Biji,Fevicordin A,Aktivitas sitotoksik (anti-kanker) pada sel HeLa dan P-388.,"Source_8, 636, 1201"
+Biji,Quercetin dan Naringin,Aktivitas antioksidan dan antimikroba.,"Source_246, 1201, 1216"
+Batang/Kulit Batang,"Saponin, Alkaloid, Flavonoid, Tannin",Digunakan secara tradisional untuk pengobatan kanker tulang dan penyakit kulit.,"Source_7, 1201, 1221"
+Buah,Mahkoside A,Aktivitas penghambat ACE (anti-hipertensi) dan potensi sitotoksik (anti-leukemia).,"Source_118, 1195, 1201"
+Biji,Glikosida Sianogenik,"Menyebabkan toksisitas tinggi (bengkak, mati rasa), harus diolah/direbus sebelum digunakan.","Source_293, 326, 423"
+Buah,Icariside C3,Efek vasorelaksan (anti-hipertensi) melalui peningkatan messenger kedua (cAMP/cGMP).,"Source_121, 1221"
+Daun,Phalerin,Aktivitas antikanker yang kuat dengan menginduksi apoptosis pada sel leukemia HL-60 dan bekerja sinergis dalam mengurangi pertumbuhan tumor payudara.,"6, 7"
+Daging buah dan Daun,Mangiferin,"Antioksidan kuat, pengkelat logam (mengurangi kardiomiopati akibat kelebihan zat besi), dan inhibitor enzim pengonversi angiotensin (ACE) untuk hipertensi.","6, 8"
+Daun dan Buah,"2,6,4'-trihidroksi-4-metoksibenzofenon",Aktivitas anti-inflamasi melalui jalur inhibisi NF-̄̄̄B dan aktivitas sitotoksik terhadap sel kanker kolon HT-29.,6
+Cangkang biji dan Buah,Mahkoside A,Penanda kimia utama; memiliki potensi aktivitas biologi yang signifikan meskipun rincian efek spesifik terbatas pada peran mediator anti-inflamasi.,6
+Biji,Fevicordin A,"Efek sitotoksik yang kuat terhadap berbagai sel kanker (P388, HeLa, CasKi).","6, 8"
+Biji,Des-asetilflavicordin A,Aktivitas sitotoksik signifikan terhadap lini sel kanker payudara T47D melalui inhibisi COX-2.,"6, 8"
+Biji,Norkukurbitasin (Norcucurbitacins),Berkontribusi pada aktivitas antitumor dan toksisitas biji yang tinggi.,6
+Buah (Daging),Swertianin,Memiliki sifat sitotoksik terhadap sel tumor.,"6, 8"
+Buah,Icariside C3,Memiliki aktivitas relaksasi otot polos pembuluh darah (vasorelaksan) yang membantu menurunkan tekanan darah perifer.,"6, 8"
+Kulit buah (Perikarp) dan Daging buah (Mesokarp),Naringin dan Rutin,Memberikan kontribusi signifikan terhadap aktivitas penangkapan radikal bebas (antioksidan) yang sangat kuat.,6
+Buah,Asam Galat (Gallic Acid),Berperan dalam mengatur hemostasis kolesterol (antihiperlipidemia) dan memiliki efek anti-angiogenik pada sel kanker ovarium.,7-9
+Buah,Kaempferol-3-O-̂̂̂-D-glukosida,Melindungi sel hepatoma terhadap stres oksidatif dan berperan sebagai agen pelindung terhadap kanker dengan meningkatkan ekspresi caspase-3.,"6, 9"
+Biji,1-(eteniltio)-oktana,Aktivitas antimikroba potensial terhadap bakteri L. innocua dan S. marcescens.,"6, 8"
+Daun dan Buah,Saponin,"Memiliki efek antiviral, peningkat sistem imun, dan berperan sebagai inhibitor enzim ̂̂̂-glukosidase untuk manajemen diabetes.",6
+Buah dan Daun,Flavonoid (secara umum),"Bertanggung jawab atas aktivitas antioksidan, antibakteri, anti-proliferatif, serta menekan angiogenesis pada kasus endometriosis.",6
+Buah (PMFPAE),Protein Enzimatik,Menunjukkan aktivitas antiviral terhadap Human Herpesvirus tipe 1 (HHV-1) dengan menghambat replikasi virus.,"6, 8, 10"

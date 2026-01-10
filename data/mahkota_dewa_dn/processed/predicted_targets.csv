@@ -1,0 +1,1078 @@
+compound_name,target_name,gene_symbol,uniprot_id,chembl_id,target_class,probability,source
+Mangiferin,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Mangiferin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.106165761464,SwissTargetPrediction
+Mangiferin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.106165761464,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,"Alpha-(1,3)-fucosyltransferase 7",FUT7,Q11130,CHEMBL3596077,Transferase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase VB,CA5B,Q9Y2D0,CHEMBL3969,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,0.99940827534,SwissTargetPrediction
+Gallic acid,Squalene monooxygenase   (by homology),SQLE,Q14534,CHEMBL3592,Enzyme,0.150097810701,SwissTargetPrediction
+Gallic acid,L-lactate dehydrogenase A chain,LDHA,P00338,CHEMBL4835,Enzyme,0.125075959828,SwissTargetPrediction
+Gallic acid,L-lactate dehydrogenase B chain,LDHB,P07195,CHEMBL4940,Enzyme,0.125075959828,SwissTargetPrediction
+Gallic acid,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.125075959828,SwissTargetPrediction
+Gallic acid,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.125075959828,SwissTargetPrediction
+Gallic acid,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.125075959828,SwissTargetPrediction
+Gallic acid,Plasminogen activator inhibitor-1,SERPINE1,P05121,CHEMBL3475,Secreted protein,0.125075959828,SwissTargetPrediction
+Gallic acid,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.125075959828,SwissTargetPrediction
+Gallic acid,Apoptosis regulator Bcl-X,BCL2L1,Q07817,CHEMBL4625,Other ion channel,0.116739032206,SwissTargetPrediction
+Gallic acid,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.116739032206,SwissTargetPrediction
+Gallic acid,Catechol O-methyltransferase   (by homology),COMT,P21964,CHEMBL2023,Transferase,0.116739032206,SwissTargetPrediction
+Gallic acid,Thiopurine S-methyltransferase,TPMT,P51580,CHEMBL2500,Enzyme,0.116739032206,SwissTargetPrediction
+Quercetin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,1.0,SwissTargetPrediction
+Quercetin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,1.0,SwissTargetPrediction
+Quercetin,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,1.0,SwissTargetPrediction
+Quercetin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,1.0,SwissTargetPrediction
+Quercetin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,1.0,SwissTargetPrediction
+Quercetin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,1.0,SwissTargetPrediction
+Quercetin,Thrombin,F2,P00734,CHEMBL204,Protease,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,1.0,SwissTargetPrediction
+Quercetin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,1.0,SwissTargetPrediction
+Quercetin,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,1.0,SwissTargetPrediction
+Quercetin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,1.0,SwissTargetPrediction
+Quercetin,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,1.0,SwissTargetPrediction
+Quercetin,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,1.0,SwissTargetPrediction
+Quercetin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,1.0,SwissTargetPrediction
+Quercetin,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,1.0,SwissTargetPrediction
+Quercetin,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,1.0,SwissTargetPrediction
+Quercetin,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,1.0,SwissTargetPrediction
+Quercetin,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,1.0,SwissTargetPrediction
+Quercetin,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,1.0,SwissTargetPrediction
+Quercetin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,1.0,SwissTargetPrediction
+Quercetin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,1.0,SwissTargetPrediction
+Quercetin,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,1.0,SwissTargetPrediction
+Quercetin,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,1.0,SwissTargetPrediction
+Quercetin,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,1.0,SwissTargetPrediction
+Quercetin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,1.0,SwissTargetPrediction
+Quercetin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,1.0,SwissTargetPrediction
+Quercetin,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,1.0,SwissTargetPrediction
+Quercetin,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,1.0,SwissTargetPrediction
+Quercetin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,1.0,SwissTargetPrediction
+Quercetin,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,1.0,SwissTargetPrediction
+Quercetin,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,1.0,SwissTargetPrediction
+Quercetin,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,1.0,SwissTargetPrediction
+Quercetin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,1.0,SwissTargetPrediction
+Quercetin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,1.0,SwissTargetPrediction
+Quercetin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,1.0,SwissTargetPrediction
+Quercetin,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,1.0,SwissTargetPrediction
+Quercetin,Aldo-keto reductase family 1 member C2   (by homology),AKR1C2,P52895,CHEMBL5847,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Aldo-keto-reductase family 1 member C3   (by homology),AKR1C3,P42330,CHEMBL4681,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Aldo-keto reductase family 1 member C4   (by homology),AKR1C4,P17516,CHEMBL4999,Enzyme,1.0,SwissTargetPrediction
+Quercetin,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,1.0,SwissTargetPrediction
+Quercetin,Aldehyde reductase   (by homology),AKR1A1,P14550,CHEMBL2246,Enzyme,1.0,SwissTargetPrediction
+Quercetin,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Quercetin,Microtubule-associated protein tau,MAPT,P10636,CHEMBL1293224,Unclassified protein,0.68028359158,SwissTargetPrediction
+Quercetin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.68028359158,SwissTargetPrediction
+Quercetin,DNA topoisomerase II alpha,TOP2A,P11388,CHEMBL1806,Isomerase,0.68028359158,SwissTargetPrediction
+Quercetin,Insulin receptor,INSR,P06213,CHEMBL1981,Kinase,0.68028359158,SwissTargetPrediction
+Quercetin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.68028359158,SwissTargetPrediction
+Quercetin,"Myosin light chain kinase, smooth muscle",MYLK,Q15746,CHEMBL2428,Kinase,0.68028359158,SwissTargetPrediction
+Quercetin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,0.68028359158,SwissTargetPrediction
+Quercetin,PI3-kinase p110-gamma subunit,PIK3CG,P48736,CHEMBL3267,Enzyme,0.68028359158,SwissTargetPrediction
+Quercetin,DNA-(apurinic or apyrimidinic site) lyase,APEX1,P27695,CHEMBL5619,Enzyme,0.68028359158,SwissTargetPrediction
+Quercetin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.545871744949,SwissTargetPrediction
+Quercetin,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.545871744949,SwissTargetPrediction
+Quercetin,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.545871744949,SwissTargetPrediction
+Quercetin,Solute carrier family 22 member 12,SLC22A12,Q96S37,CHEMBL6120,Electrochemical transporter,0.545871744949,SwissTargetPrediction
+Quercetin,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,0.538061807395,SwissTargetPrediction
+Quercetin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.538061807395,SwissTargetPrediction
+Quercetin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.538061807395,SwissTargetPrediction
+Quercetin,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.498513190462,SwissTargetPrediction
+Quercetin,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.498513190462,SwissTargetPrediction
+Quercetin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.395895175206,SwissTargetPrediction
+Quercetin,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.395895175206,SwissTargetPrediction
+Quercetin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.395895175206,SwissTargetPrediction
+Quercetin,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.395895175206,SwissTargetPrediction
+Quercetin,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.261559713213,SwissTargetPrediction
+Quercetin,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.261559713213,SwissTargetPrediction
+Quercetin,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.261559713213,SwissTargetPrediction
+Quercetin,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.261559713213,SwissTargetPrediction
+Quercetin,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.261559713213,SwissTargetPrediction
+Quercetin,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,0.261559713213,SwissTargetPrediction
+Quercetin,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,0.261559713213,SwissTargetPrediction
+Quercetin,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,0.261559713213,SwissTargetPrediction
+Quercetin,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,0.261559713213,SwissTargetPrediction
+Quercetin,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.198389228663,SwissTargetPrediction
+Kaempferol,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,1.0,SwissTargetPrediction
+Kaempferol,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Kaempferol,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,1.0,SwissTargetPrediction
+Kaempferol,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,1.0,SwissTargetPrediction
+Kaempferol,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,1.0,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,1.0,SwissTargetPrediction
+Kaempferol,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,1.0,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,1.0,SwissTargetPrediction
+Kaempferol,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,1.0,SwissTargetPrediction
+Kaempferol,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,1.0,SwissTargetPrediction
+Kaempferol,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,1.0,SwissTargetPrediction
+Kaempferol,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,1.0,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,1.0,SwissTargetPrediction
+Kaempferol,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,1.0,SwissTargetPrediction
+Kaempferol,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,1.0,SwissTargetPrediction
+Kaempferol,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,1.0,SwissTargetPrediction
+Kaempferol,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,1.0,SwissTargetPrediction
+Kaempferol,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.795047263017,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.795047263017,SwissTargetPrediction
+Kaempferol,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.768469201135,SwissTargetPrediction
+Kaempferol,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.658019737641,SwissTargetPrediction
+Kaempferol,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,0.658019737641,SwissTargetPrediction
+Kaempferol,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,0.658019737641,SwissTargetPrediction
+Kaempferol,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,0.658019737641,SwissTargetPrediction
+Kaempferol,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.658019737641,SwissTargetPrediction
+Kaempferol,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.658019737641,SwissTargetPrediction
+Kaempferol,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.649780750482,SwissTargetPrediction
+Kaempferol,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.63332626242,SwissTargetPrediction
+Kaempferol,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.608446264357,SwissTargetPrediction
+Kaempferol,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.567301899877,SwissTargetPrediction
+Kaempferol,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,0.517921498424,SwissTargetPrediction
+Kaempferol,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.517921498424,SwissTargetPrediction
+Kaempferol,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.517921498424,SwissTargetPrediction
+Kaempferol,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.50153001777,SwissTargetPrediction
+Kaempferol,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.50153001777,SwissTargetPrediction
+Kaempferol,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.50153001777,SwissTargetPrediction
+Kaempferol,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.50153001777,SwissTargetPrediction
+Kaempferol,Solute carrier family 22 member 12,SLC22A12,Q96S37,CHEMBL6120,Electrochemical transporter,0.50153001777,SwissTargetPrediction
+Kaempferol,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.484896362689,SwissTargetPrediction
+Kaempferol,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,0.484896362689,SwissTargetPrediction
+Kaempferol,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,0.484896362689,SwissTargetPrediction
+Kaempferol,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,0.484896362689,SwissTargetPrediction
+Kaempferol,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.476835618279,SwissTargetPrediction
+Kaempferol,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.476835618279,SwissTargetPrediction
+Kaempferol,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.427205274608,SwissTargetPrediction
+Kaempferol,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.427205274608,SwissTargetPrediction
+Kaempferol,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,0.40264337958,SwissTargetPrediction
+Kaempferol,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Thrombin,F2,P00734,CHEMBL204,Protease,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,0.40264337958,SwissTargetPrediction
+Kaempferol,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.40264337958,SwissTargetPrediction
+Kaempferol,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.40264337958,SwissTargetPrediction
+Kaempferol,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,0.40264337958,SwissTargetPrediction
+Kaempferol,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.40264337958,SwissTargetPrediction
+Kaempferol,Aldo-keto reductase family 1 member C2   (by homology),AKR1C2,P52895,CHEMBL5847,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Aldo-keto-reductase family 1 member C3   (by homology),AKR1C3,P42330,CHEMBL4681,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Aldo-keto reductase family 1 member C4   (by homology),AKR1C4,P17516,CHEMBL4999,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,0.40264337958,SwissTargetPrediction
+Kaempferol,Aldehyde reductase   (by homology),AKR1A1,P14550,CHEMBL2246,Enzyme,0.40264337958,SwissTargetPrediction
+Kaempferol,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.295453304889,SwissTargetPrediction
+Kaempferol,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.295453304889,SwissTargetPrediction
+Kaempferol,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.295453304889,SwissTargetPrediction
+Kaempferol,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.295453304889,SwissTargetPrediction
+Kaempferol,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,0.295453304889,SwissTargetPrediction
+Kaempferol,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.270836923428,SwissTargetPrediction
+Kaempferol,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.270836923428,SwissTargetPrediction
+Kaempferol,Cystic fibrosis transmembrane conductance regulator,CFTR,P13569,CHEMBL4051,Other ion channel,0.270836923428,SwissTargetPrediction
+Kaempferol,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",PFKFB3,Q16875,CHEMBL2331053,Enzyme,0.262581505846,SwissTargetPrediction
+Kaempferol,AMY1C,AMY1A,P04745,CHEMBL2478,Enzyme,0.237885167579,SwissTargetPrediction
+Kaempferol,G protein-coupled receptor kinase 6,GRK6,P43250,CHEMBL6144,Kinase,0.237885167579,SwissTargetPrediction
+Kaempferol,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.229685699326,SwissTargetPrediction
+Kaempferol,Microtubule-associated protein tau,MAPT,P10636,CHEMBL1293224,Unclassified protein,0.171978589411,SwissTargetPrediction
+Naringin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,1.0,SwissTargetPrediction
+Rutin,Neuromedin-U receptor 2,NMUR2,Q9GZQ4,CHEMBL1075144,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Rutin,Alpha-2a adrenergic receptor,ADRA2A,P08913,CHEMBL1867,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Rutin,Adrenergic receptor alpha-2,ADRA2C,P18825,CHEMBL1916,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Rutin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,1.0,SwissTargetPrediction
+Rutin,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.59332095354,SwissTargetPrediction
+Rutin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.448822366323,SwissTargetPrediction
+Rutin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.439870618639,SwissTargetPrediction
+Rutin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.439870618639,SwissTargetPrediction
+Rutin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.439870618639,SwissTargetPrediction
+Rutin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.401230341882,SwissTargetPrediction
+Rutin,Ribosomal protein S6 kinase alpha 3,RPS6KA3,P51812,CHEMBL2345,Kinase,0.257300262028,SwissTargetPrediction
+Rutin,Quinone reductase 2,NQO2,P16083,CHEMBL3959,Enzyme,0.229011931476,SwissTargetPrediction
+Rutin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,0.133198489461,SwissTargetPrediction
+Myricetin,Microtubule-associated protein tau,MAPT,P10636,CHEMBL1293224,Unclassified protein,1.0,SwissTargetPrediction
+Myricetin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,1.0,SwissTargetPrediction
+Myricetin,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Myricetin,DNA topoisomerase II alpha,TOP2A,P11388,CHEMBL1806,Isomerase,1.0,SwissTargetPrediction
+Myricetin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,1.0,SwissTargetPrediction
+Myricetin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,1.0,SwissTargetPrediction
+Myricetin,Insulin receptor,INSR,P06213,CHEMBL1981,Kinase,1.0,SwissTargetPrediction
+Myricetin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,1.0,SwissTargetPrediction
+Myricetin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,1.0,SwissTargetPrediction
+Myricetin,"Myosin light chain kinase, smooth muscle",MYLK,Q15746,CHEMBL2428,Kinase,1.0,SwissTargetPrediction
+Myricetin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,1.0,SwissTargetPrediction
+Myricetin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,1.0,SwissTargetPrediction
+Myricetin,PI3-kinase p110-gamma subunit,PIK3CG,P48736,CHEMBL3267,Enzyme,1.0,SwissTargetPrediction
+Myricetin,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,1.0,SwissTargetPrediction
+Myricetin,DNA-(apurinic or apyrimidinic site) lyase,APEX1,P27695,CHEMBL5619,Enzyme,1.0,SwissTargetPrediction
+Myricetin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.718174334384,SwissTargetPrediction
+Myricetin,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.718174334384,SwissTargetPrediction
+Myricetin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Thrombin,F2,P00734,CHEMBL204,Protease,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.718174334384,SwissTargetPrediction
+Myricetin,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.718174334384,SwissTargetPrediction
+Myricetin,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.718174334384,SwissTargetPrediction
+Myricetin,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.718174334384,SwissTargetPrediction
+Myricetin,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.718174334384,SwissTargetPrediction
+Myricetin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.718174334384,SwissTargetPrediction
+Myricetin,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.718174334384,SwissTargetPrediction
+Myricetin,Aldo-keto reductase family 1 member C2   (by homology),AKR1C2,P52895,CHEMBL5847,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Aldo-keto-reductase family 1 member C3   (by homology),AKR1C3,P42330,CHEMBL4681,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Aldo-keto reductase family 1 member C4   (by homology),AKR1C4,P17516,CHEMBL4999,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,0.718174334384,SwissTargetPrediction
+Myricetin,Aldehyde reductase   (by homology),AKR1A1,P14550,CHEMBL2246,Enzyme,0.718174334384,SwissTargetPrediction
+Myricetin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.343149297058,SwissTargetPrediction
+Myricetin,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.259910103952,SwissTargetPrediction
+Myricetin,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.259910103952,SwissTargetPrediction
+Myricetin,Solute carrier family 22 member 12,SLC22A12,Q96S37,CHEMBL6120,Electrochemical transporter,0.259910103952,SwissTargetPrediction
+Myricetin,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,0.251528880603,SwissTargetPrediction
+Myricetin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.251528880603,SwissTargetPrediction
+Myricetin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.251528880603,SwissTargetPrediction
+Myricetin,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.251528880603,SwissTargetPrediction
+Myricetin,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.251528880603,SwissTargetPrediction
+Myricetin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.176593624722,SwissTargetPrediction
+Myricetin,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.176593624722,SwissTargetPrediction
+Myricetin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.176593624722,SwissTargetPrediction
+Myricetin,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.176593624722,SwissTargetPrediction
+Myricetin,Butyrylcholinesterase,BCHE,P06276,CHEMBL1914,Hydrolase,0.143269256947,SwissTargetPrediction
+Myricetin,Adenosine A3 receptor,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.143269256947,SwissTargetPrediction
+Myricetin,"Beta-galactoside alpha-2,6-sialyltransferase 1",ST6GAL1,P15907,CHEMBL3596075,Transferase,0.143269256947,SwissTargetPrediction
+Myricetin,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.134939008937,SwissTargetPrediction
+Myricetin,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.134939008937,SwissTargetPrediction
+Myricetin,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.134939008937,SwissTargetPrediction
+Myricetin,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.134939008937,SwissTargetPrediction
+Myricetin,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.134939008937,SwissTargetPrediction
+Myricetin,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,0.134939008937,SwissTargetPrediction
+Myricetin,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,0.134939008937,SwissTargetPrediction
+Icariside C3,Phosphodiesterase 5A,PDE5A,O76074,CHEMBL1827,Phosphodiesterase,0.249459939682,SwissTargetPrediction
+Phalerin,Adenosine A2a receptor,ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.127302569502,SwissTargetPrediction
+Phalerin,Adenosine A1 receptor,ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.127302569502,SwissTargetPrediction
+Phalerin,Adenosine A3 receptor,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.119403562123,SwissTargetPrediction
+Phalerin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.119403562123,SwissTargetPrediction
+Phalerin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.119403562123,SwissTargetPrediction
+Phalerin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.11150186548,SwissTargetPrediction
+Phalerin,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Stem cell growth factor receptor,KIT,P10721,CHEMBL1936,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Plasminogen,PLG,P00747,CHEMBL1801,Protease,0.11150186548,SwissTargetPrediction
+Phalerin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,AMY1C,AMY1A,P04745,CHEMBL2478,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Monoamine oxidase B,MAOB,P27338,CHEMBL2039,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.11150186548,SwissTargetPrediction
+Phalerin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonyl reductase [NADPH] 1,CBR1,P16152,CHEMBL5586,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Cytochrome P450 1A1,CYP1A1,P04798,CHEMBL2231,Cytochrome P450,0.11150186548,SwissTargetPrediction
+Phalerin,Cytochrome P450 1A2,CYP1A2,P05177,CHEMBL3356,Cytochrome P450,0.11150186548,SwissTargetPrediction
+Phalerin,"Nitric oxide synthase, inducible",NOS2,P35228,CHEMBL4481,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.11150186548,SwissTargetPrediction
+Phalerin,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Ornithine decarboxylase,ODC1,P11926,CHEMBL1869,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Cyclooxygenase-2   (by homology),PTGS2,P35354,CHEMBL230,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Metabotropic glutamate receptor 5,GRM5,P41594,CHEMBL3227,Family C G protein-coupled receptor,0.11150186548,SwissTargetPrediction
+Phalerin,G protein-coupled receptor kinase 6,GRK6,P43250,CHEMBL6144,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.11150186548,SwissTargetPrediction
+Phalerin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,0.11150186548,SwissTargetPrediction
+Phalerin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Tyrosine-protein kinase LCK,LCK,P06239,CHEMBL258,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.11150186548,SwissTargetPrediction
+Phalerin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Delta opioid receptor,OPRD1,P41143,CHEMBL236,Family A G protein-coupled receptor,0.11150186548,SwissTargetPrediction
+Phalerin,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.11150186548,SwissTargetPrediction
+Phalerin,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Acyl coenzyme A:cholesterol acyltransferase,CES1,P23141,CHEMBL2265,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Carboxylesterase 2,CES2,O00748,CHEMBL3180,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Voltage-gated potassium channel subunit Kv1.3,KCNA3,P22001,CHEMBL4633,Voltage-gated ion channel,0.11150186548,SwissTargetPrediction
+Phalerin,Dihydrofolate reductase,DHFR,P00374,CHEMBL202,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Adenosine A2b receptor,ADORA2B,P29275,CHEMBL255,Family A G protein-coupled receptor,0.11150186548,SwissTargetPrediction
+Phalerin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Branched-chain-amino-acid transferase,BCAT1,P54687,CHEMBL4679,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.11150186548,SwissTargetPrediction
+Phalerin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.11150186548,SwissTargetPrediction
+Phalerin,MAP kinase p38 alpha,MAPK14,Q16539,CHEMBL260,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Cytochrome P450 17A1,CYP17A1,P05093,CHEMBL3522,Cytochrome P450,0.11150186548,SwissTargetPrediction
+Phalerin,"Fructose-1,6-bisphosphatase",FBP1,P09467,CHEMBL3975,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,MAP kinase-interacting serine/threonine-protein kinase MNK1,MKNK1,Q9BUB5,CHEMBL4718,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,0.11150186548,SwissTargetPrediction
+Phalerin,Calmodulin,CALM1,P62158,CHEMBL6093,Unclassified protein,0.11150186548,SwissTargetPrediction
+Phalerin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.11150186548,SwissTargetPrediction
+Phalerin,Caspase-3,CASP3,P42574,CHEMBL2334,Protease,0.11150186548,SwissTargetPrediction
+Phalerin,Ephrin type-B receptor 2,EPHB2,P29323,CHEMBL3290,Kinase,0.11150186548,SwissTargetPrediction
+Phalerin,Caspase-7,CASP7,P55210,CHEMBL3468,Protease,0.11150186548,SwissTargetPrediction
+Phalerin,Mu opioid receptor,OPRM1,P35372,CHEMBL233,Family A G protein-coupled receptor,0.11150186548,SwissTargetPrediction
+Phalerin,NEDD8-activating enzyme E1 regulatory subunit,NAE1,Q13564,CHEMBL2016431,Unclassified protein,0.11150186548,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Adenosine A1 receptor,ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.613317503056,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Monoamine oxidase B,MAOB,P27338,CHEMBL2039,Oxidoreductase,0.534366194512,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Adenosine A3 receptor,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.534366194512,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.525530990786,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.499264036194,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.464153825252,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.420300065815,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.411407691146,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Taste receptor type 2 member 31,TAS2R31,P59538,CHEMBL2034804,Taste family G protein-coupled receptor,0.393972893247,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,0.314979836402,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Carbonyl reductase [NADPH] 1,CBR1,P16152,CHEMBL5586,Enzyme,0.306239351562,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.271107241944,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.236049336727,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.209711788228,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.200888069942,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Cyclooxygenase-1,PTGS1,P23219,CHEMBL221,Oxidoreductase,0.139523430439,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Testis-specific androgen-binding protein,SHBG,P04278,CHEMBL3305,Secreted protein,0.121986395249,SwissTargetPrediction
+"""2,6,4'-trihydroxy-4-methoxybenzophenone""",Metabotropic glutamate receptor 5,GRM5,P41594,CHEMBL3227,Family C G protein-coupled receptor,0.121986395249,SwissTargetPrediction
+Vitexin,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,0.986941022656,SwissTargetPrediction
+Vitexin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.126928723833,SwissTargetPrediction
+Vitexin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.126928723833,SwissTargetPrediction
+Vitexin,Equilibrative nucleoside transporter 1,SLC29A1,Q99808,CHEMBL1997,Electrochemical transporter,0.118883306718,SwissTargetPrediction
+Isovitexin,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.746316193185,SwissTargetPrediction
+Isovitexin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.118883306718,SwissTargetPrediction
+Isovitexin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.118883306718,SwissTargetPrediction
+Swertianin,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,0.265314501419,SwissTargetPrediction
+Swertianin,Ornithine decarboxylase,ODC1,P11926,CHEMBL1869,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Plasminogen,PLG,P00747,CHEMBL1801,Protease,0.113285953487,SwissTargetPrediction
+Swertianin,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Induced myeloid leukemia cell differentiation protein Mcl-1,MCL1,Q07820,CHEMBL4361,Other cytosolic protein,0.113285953487,SwissTargetPrediction
+Swertianin,Adenosine A3 receptor,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Mu opioid receptor   (by homology),OPRM1,P35372,CHEMBL233,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,"Nitric oxide synthase, inducible   (by homology)",NOS2,P35228,CHEMBL4481,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.113285953487,SwissTargetPrediction
+Swertianin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.113285953487,SwissTargetPrediction
+Swertianin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Delta opioid receptor,OPRD1,P41143,CHEMBL236,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Stem cell growth factor receptor,KIT,P10721,CHEMBL1936,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,0.113285953487,SwissTargetPrediction
+Swertianin,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.113285953487,SwissTargetPrediction
+Swertianin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.113285953487,SwissTargetPrediction
+Swertianin,Microtubule-associated protein tau,MAPT,P10636,CHEMBL1293224,Unclassified protein,0.113285953487,SwissTargetPrediction
+Swertianin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.113285953487,SwissTargetPrediction
+Swertianin,DNA topoisomerase II alpha,TOP2A,P11388,CHEMBL1806,Isomerase,0.113285953487,SwissTargetPrediction
+Swertianin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.113285953487,SwissTargetPrediction
+Swertianin,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,"Myosin light chain kinase, smooth muscle",MYLK,Q15746,CHEMBL2428,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,DNA-(apurinic or apyrimidinic site) lyase,APEX1,P27695,CHEMBL5619,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Aldo-keto reductase family 1 member C2   (by homology),AKR1C2,P52895,CHEMBL5847,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Aldo-keto-reductase family 1 member C3   (by homology),AKR1C3,P42330,CHEMBL4681,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Aldo-keto reductase family 1 member C4   (by homology),AKR1C4,P17516,CHEMBL4999,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.113285953487,SwissTargetPrediction
+Swertianin,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.113285953487,SwissTargetPrediction
+Swertianin,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.113285953487,SwissTargetPrediction
+Swertianin,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Adenosine A2a receptor,ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.113285953487,SwissTargetPrediction
+Swertianin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",PFKFB3,Q16875,CHEMBL2331053,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,0.113285953487,SwissTargetPrediction
+Swertianin,Phospholipase A2 group IIA,PLA2G2A,P14555,CHEMBL3474,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.113285953487,SwissTargetPrediction
+Swertianin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.113285953487,SwissTargetPrediction
+Swertianin,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Cytochrome P450 1A1,CYP1A1,P04798,CHEMBL2231,Cytochrome P450,0.113285953487,SwissTargetPrediction
+Swertianin,Cytochrome P450 1A2,CYP1A2,P05177,CHEMBL3356,Cytochrome P450,0.113285953487,SwissTargetPrediction
+Swertianin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Insulin receptor,INSR,P06213,CHEMBL1981,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,0.113285953487,SwissTargetPrediction
+Swertianin,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.113285953487,SwissTargetPrediction
+Swertianin,Toll-like receptor (TLR7/TLR9),TLR9,Q9NR96,CHEMBL5804,Toll-like and Il-1 receptors,0.113285953487,SwissTargetPrediction
+Swertianin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.113285953487,SwissTargetPrediction
+Swertianin,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C gamma,PRKCG,P05129,CHEMBL2938,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C delta,PRKCD,Q05655,CHEMBL2996,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C alpha,PRKCA,P17252,CHEMBL299,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C beta,PRKCB,P05771,CHEMBL3045,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C epsilon,PRKCE,Q02156,CHEMBL3582,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase C eta,PRKCH,P24723,CHEMBL3616,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Heat shock protein HSP 90-beta,HSP90AB1,P08238,CHEMBL4303,Other cytosolic protein,0.113285953487,SwissTargetPrediction
+Swertianin,Thrombopoietin receptor,MPL,P40238,CHEMBL1864,Membrane receptor,0.113285953487,SwissTargetPrediction
+Swertianin,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.113285953487,SwissTargetPrediction
+Swertianin,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.113285953487,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,1.0,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.920284478491,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Adrenergic receptor alpha-2,ADRA2C,P18825,CHEMBL1916,Family A G protein-coupled receptor,0.920284478491,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Quinone reductase 2,NQO2,P16083,CHEMBL3959,Enzyme,0.920284478491,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Ribosomal protein S6 kinase alpha 3,RPS6KA3,P51812,CHEMBL2345,Kinase,0.645992714639,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Neuromedin-U receptor 2,NMUR2,Q9GZQ4,CHEMBL1075144,Family A G protein-coupled receptor,0.181232775887,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Alpha-2a adrenergic receptor,ADRA2A,P08913,CHEMBL1867,Family A G protein-coupled receptor,0.181232775887,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.12313842565,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.12313842565,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Phosphodiesterase 5A,PDE5A,O76074,CHEMBL1827,Phosphodiesterase,0.12313842565,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.106542925976,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,TNF-alpha,TNF,P01375,CHEMBL1825,Secreted protein,0.106542925976,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Interleukin-2,IL2,P60568,CHEMBL5880,Secreted protein,0.106542925976,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,0.106542925976,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.106542925976,SwissTargetPrediction
+Kaempferol-3-O-beta-D-glucoside,Equilibrative nucleoside transporter 1,SLC29A1,Q99808,CHEMBL1997,Electrochemical transporter,0.106542925976,SwissTargetPrediction
+Mahkoside A,Epoxide hydratase,EPHX2,P34913,CHEMBL2409,Protease,0.231120270967,SwissTargetPrediction
+Mahkoside A,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.122827320367,SwissTargetPrediction
+Mahkoside A,Low affinity sodium-glucose cotransporter,SLC5A4,Q9NY91,CHEMBL1770047,Electrochemical transporter,0.122827320367,SwissTargetPrediction
+Mahkoside A,Sodium/glucose cotransporter 2,SLC5A2,P31639,CHEMBL3884,Electrochemical transporter,0.122827320367,SwissTargetPrediction
+Mahkoside A,Solute carrier family 28 member 3,SLC28A3,Q9HAS3,CHEMBL5707,Electrochemical transporter,0.106165761464,SwissTargetPrediction
+Mahkoside A,Sodium/glucose cotransporter 1,SLC5A1,P13866,CHEMBL4979,Electrochemical transporter,0.106165761464,SwissTargetPrediction
+Mahkoside A,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.106165761464,SwissTargetPrediction
+Mahkoside A,Equilibrative nucleoside transporter 1,SLC29A1,Q99808,CHEMBL1997,Electrochemical transporter,0.106165761464,SwissTargetPrediction
+Mahkoside A,Steroid 5-alpha-reductase 1,SRD5A1,P18405,CHEMBL1787,Oxidoreductase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.106165761464,SwissTargetPrediction
+Mahkoside A,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.106165761464,SwissTargetPrediction
+Mahkoside A,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.106165761464,SwissTargetPrediction
+Mahkoside A,"Troponin, cardiac muscle",TNNC1 TNNT2 TNNI3,P63316 P45379 P19429,CHEMBL2095202,Unclassified protein,0.106165761464,SwissTargetPrediction
+Mahkoside A,Histone deacetylase 6,HDAC6,Q9UBN7,CHEMBL1865,Eraser,0.106165761464,SwissTargetPrediction
+Mahkoside A,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Histone deacetylase 8,HDAC8,Q9BY41,CHEMBL3192,Eraser,0.106165761464,SwissTargetPrediction
+Mahkoside A,Histone deacetylase 1,HDAC1,Q13547,CHEMBL325,Eraser,0.106165761464,SwissTargetPrediction
+Mahkoside A,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.106165761464,SwissTargetPrediction
+Mahkoside A,Histone deacetylase 10,HDAC10,Q969S8,CHEMBL5103,Eraser,0.106165761464,SwissTargetPrediction
+Mahkoside A,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.106165761464,SwissTargetPrediction
+Apigenin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Aldose reductase   (by homology),AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,1.0,SwissTargetPrediction
+Apigenin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,1.0,SwissTargetPrediction
+Apigenin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,1.0,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,1.0,SwissTargetPrediction
+Apigenin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,1.0,SwissTargetPrediction
+Apigenin,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,1.0,SwissTargetPrediction
+Apigenin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,1.0,SwissTargetPrediction
+Apigenin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,1.0,SwissTargetPrediction
+Apigenin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Apigenin,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,1.0,SwissTargetPrediction
+Apigenin,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,1.0,SwissTargetPrediction
+Apigenin,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,1.0,SwissTargetPrediction
+Apigenin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,1.0,SwissTargetPrediction
+Apigenin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,1.0,SwissTargetPrediction
+Apigenin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,1.0,SwissTargetPrediction
+Apigenin,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,1.0,SwissTargetPrediction
+Apigenin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,1.0,SwissTargetPrediction
+Apigenin,Cystic fibrosis transmembrane conductance regulator,CFTR,P13569,CHEMBL4051,Other ion channel,1.0,SwissTargetPrediction
+Apigenin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,1.0,SwissTargetPrediction
+Apigenin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,1.0,SwissTargetPrediction
+Apigenin,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,1.0,SwissTargetPrediction
+Apigenin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.600253483442,SwissTargetPrediction
+Apigenin,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.600253483442,SwissTargetPrediction
+Apigenin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.559044784358,SwissTargetPrediction
+Apigenin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.559044784358,SwissTargetPrediction
+Apigenin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.559044784358,SwissTargetPrediction
+Apigenin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.559044784358,SwissTargetPrediction
+Apigenin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.485540261393,SwissTargetPrediction
+Apigenin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.477439841725,SwissTargetPrediction
+Apigenin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.411906406077,SwissTargetPrediction
+Apigenin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,0.370888463379,SwissTargetPrediction
+Apigenin,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.370888463379,SwissTargetPrediction
+Apigenin,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.370888463379,SwissTargetPrediction
+Apigenin,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.370888463379,SwissTargetPrediction
+Apigenin,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.370888463379,SwissTargetPrediction
+Apigenin,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.370888463379,SwissTargetPrediction
+Apigenin,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,0.370888463379,SwissTargetPrediction
+Apigenin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.370888463379,SwissTargetPrediction
+Apigenin,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.354464973753,SwissTargetPrediction
+Apigenin,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",PFKFB3,Q16875,CHEMBL2331053,Enzyme,0.329868485421,SwissTargetPrediction
+Apigenin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.329868485421,SwissTargetPrediction
+Apigenin,AMY1C,AMY1A,P04745,CHEMBL2478,Enzyme,0.329868485421,SwissTargetPrediction
+Apigenin,G protein-coupled receptor kinase 6,GRK6,P43250,CHEMBL6144,Kinase,0.329868485421,SwissTargetPrediction
+Apigenin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.272562660102,SwissTargetPrediction
+Apigenin,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.272562660102,SwissTargetPrediction
+Apigenin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.272562660102,SwissTargetPrediction
+Apigenin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.2562278396,SwissTargetPrediction
+Apigenin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.2562278396,SwissTargetPrediction
+Apigenin,Carbonyl reductase [NADPH] 1,CBR1,P16152,CHEMBL5586,Enzyme,0.247942822879,SwissTargetPrediction
+Apigenin,Androgen Receptor,AR,P10275,CHEMBL1871,Nuclear receptor,0.247942822879,SwissTargetPrediction
+Apigenin,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.239574695827,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.231637184894,SwissTargetPrediction
+Apigenin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.198833760448,SwissTargetPrediction
+Apigenin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.190656977035,SwissTargetPrediction
+Apigenin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.166097445484,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase LCK,LCK,P06239,CHEMBL258,Kinase,0.149732593856,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.141522086267,SwissTargetPrediction
+Apigenin,NEDD8-activating enzyme E1 regulatory subunit,NAE1,Q13564,CHEMBL2016431,Unclassified protein,0.141522086267,SwissTargetPrediction
+Apigenin,Thromboxane-A synthase,TBXAS1,P24557,CHEMBL1835,Cytochrome P450,0.141522086267,SwissTargetPrediction
+Apigenin,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.133337961498,SwissTargetPrediction
+Apigenin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Butyrylcholinesterase,BCHE,P06276,CHEMBL1914,Hydrolase,0.125142648574,SwissTargetPrediction
+Apigenin,Adenosine A3 receptor,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.125142648574,SwissTargetPrediction
+Apigenin,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.125142648574,SwissTargetPrediction
+Apigenin,Serotonin 2c (5-HT2c) receptor,HTR2C,P28335,CHEMBL225,Family A G protein-coupled receptor,0.125142648574,SwissTargetPrediction
+Apigenin,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.116965063224,SwissTargetPrediction
+Apigenin,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.116965063224,SwissTargetPrediction
+Apigenin,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.116965063224,SwissTargetPrediction
+Apigenin,Solute carrier family 22 member 12,SLC22A12,Q96S37,CHEMBL6120,Electrochemical transporter,0.116965063224,SwissTargetPrediction
+Apigenin,"Beta-galactoside alpha-2,6-sialyltransferase 1",ST6GAL1,P15907,CHEMBL3596075,Transferase,0.108770969359,SwissTargetPrediction
+Apigenin,Thrombin,F2,P00734,CHEMBL204,Protease,0.108770969359,SwissTargetPrediction
+Apigenin,Plasminogen,PLG,P00747,CHEMBL1801,Protease,0.108770969359,SwissTargetPrediction
+Apigenin,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,0.108770969359,SwissTargetPrediction
+Apigenin,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,0.108770969359,SwissTargetPrediction
+Apigenin,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.108770969359,SwissTargetPrediction
+Apigenin,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.108770969359,SwissTargetPrediction
+Apigenin,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.108770969359,SwissTargetPrediction
+Apigenin,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.108770969359,SwissTargetPrediction
+Apigenin,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.108770969359,SwissTargetPrediction
+Apigenin,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.108770969359,SwissTargetPrediction
+Apigenin,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.108770969359,SwissTargetPrediction
+Apigenin,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.108770969359,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.108770969359,SwissTargetPrediction
+Apigenin,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.108770969359,SwissTargetPrediction
+Apigenin,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.108770969359,SwissTargetPrediction
+Luteolin,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Cyclin-dependent kinase 5/CDK5 activator 1,CDK5R1 CDK5,Q15078 Q00535,CHEMBL1907600,Kinase,1.0,SwissTargetPrediction
+Luteolin,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,1.0,SwissTargetPrediction
+Luteolin,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,1.0,SwissTargetPrediction
+Luteolin,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,1.0,SwissTargetPrediction
+Luteolin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,1.0,SwissTargetPrediction
+Luteolin,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,1.0,SwissTargetPrediction
+Luteolin,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,1.0,SwissTargetPrediction
+Luteolin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,1.0,SwissTargetPrediction
+Luteolin,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,1.0,SwissTargetPrediction
+Luteolin,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,1.0,SwissTargetPrediction
+Luteolin,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,1.0,SwissTargetPrediction
+Luteolin,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,1.0,SwissTargetPrediction
+Luteolin,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,1.0,SwissTargetPrediction
+Luteolin,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,1.0,SwissTargetPrediction
+Luteolin,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,1.0,SwissTargetPrediction
+Luteolin,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,1.0,SwissTargetPrediction
+Luteolin,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,1.0,SwissTargetPrediction
+Luteolin,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,1.0,SwissTargetPrediction
+Luteolin,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,1.0,SwissTargetPrediction
+Luteolin,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,1.0,SwissTargetPrediction
+Luteolin,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,1.0,SwissTargetPrediction
+Luteolin,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,1.0,SwissTargetPrediction
+Luteolin,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,1.0,SwissTargetPrediction
+Luteolin,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.85702273779,SwissTargetPrediction
+Luteolin,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,0.658019737641,SwissTargetPrediction
+Luteolin,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.658019737641,SwissTargetPrediction
+Luteolin,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.600411799834,SwissTargetPrediction
+Luteolin,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.600411799834,SwissTargetPrediction
+Luteolin,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.534504956631,SwissTargetPrediction
+Luteolin,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.468552735936,SwissTargetPrediction
+Luteolin,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.460288741977,SwissTargetPrediction
+Luteolin,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.460288741977,SwissTargetPrediction
+Luteolin,Adenosine A2a receptor   (by homology),ADORA2A,P29274,CHEMBL251,Family A G protein-coupled receptor,0.460288741977,SwissTargetPrediction
+Luteolin,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.460288741977,SwissTargetPrediction
+Luteolin,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.435520295391,SwissTargetPrediction
+Luteolin,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.435520295391,SwissTargetPrediction
+Luteolin,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.38621198379,SwissTargetPrediction
+Luteolin,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.38621198379,SwissTargetPrediction
+Luteolin,Cystic fibrosis transmembrane conductance regulator,CFTR,P13569,CHEMBL4051,Other ion channel,0.38621198379,SwissTargetPrediction
+Luteolin,AMY1C,AMY1A,P04745,CHEMBL2478,Enzyme,0.361228277245,SwissTargetPrediction
+Luteolin,G protein-coupled receptor kinase 6,GRK6,P43250,CHEMBL6144,Kinase,0.361228277245,SwissTargetPrediction
+Luteolin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.33673963307,SwissTargetPrediction
+Luteolin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.33673963307,SwissTargetPrediction
+Luteolin,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.328395695981,SwissTargetPrediction
+Luteolin,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.320218721084,SwissTargetPrediction
+Luteolin,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.303816094671,SwissTargetPrediction
+Luteolin,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.287307298113,SwissTargetPrediction
+Luteolin,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.287307298113,SwissTargetPrediction
+Luteolin,Estrogen-related receptor alpha,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.287307298113,SwissTargetPrediction
+Luteolin,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.279037062104,SwissTargetPrediction
+Luteolin,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,0.279037062104,SwissTargetPrediction
+Luteolin,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Thrombin,F2,P00734,CHEMBL204,Protease,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Dopamine D4 receptor,DRD4,P21917,CHEMBL219,Family A G protein-coupled receptor,0.279037062104,SwissTargetPrediction
+Luteolin,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Tyrosine-protein kinase SRC,SRC,P12931,CHEMBL267,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.279037062104,SwissTargetPrediction
+Luteolin,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.279037062104,SwissTargetPrediction
+Luteolin,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.279037062104,SwissTargetPrediction
+Luteolin,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.279037062104,SwissTargetPrediction
+Luteolin,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.279037062104,SwissTargetPrediction
+Luteolin,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.279037062104,SwissTargetPrediction
+Luteolin,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,0.279037062104,SwissTargetPrediction
+Luteolin,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.279037062104,SwissTargetPrediction
+Luteolin,Aldo-keto reductase family 1 member C2   (by homology),AKR1C2,P52895,CHEMBL5847,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Aldo-keto-reductase family 1 member C3   (by homology),AKR1C3,P42330,CHEMBL4681,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Aldo-keto reductase family 1 member C4   (by homology),AKR1C4,P17516,CHEMBL4999,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,Carbonic anhydrase XIII   (by homology),CA13,Q8N1Q1,CHEMBL3912,Lyase,0.279037062104,SwissTargetPrediction
+Luteolin,Aldehyde reductase   (by homology),AKR1A1,P14550,CHEMBL2246,Enzyme,0.279037062104,SwissTargetPrediction
+Luteolin,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",PFKFB3,Q16875,CHEMBL2331053,Enzyme,0.147256737367,SwissTargetPrediction
+Luteolin,Plasminogen,PLG,P00747,CHEMBL1801,Protease,0.147256737367,SwissTargetPrediction
+Luteolin,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.147256737367,SwissTargetPrediction
+Luteolin,Androgen Receptor,AR,P10275,CHEMBL1871,Nuclear receptor,0.139061946948,SwissTargetPrediction
+Chlorogenic acid,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,1.0,SwissTargetPrediction
+Chlorogenic acid,Aldo-keto reductase family 1 member B10,AKR1B10,O60218,CHEMBL5983,Enzyme,1.0,SwissTargetPrediction
+Chlorogenic acid,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.17256261086,SwissTargetPrediction
+Chlorogenic acid,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.17256261086,SwissTargetPrediction
+Chlorogenic acid,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.139088623131,SwissTargetPrediction
+Chlorogenic acid,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.113979814646,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase VII,CA7,P43166,CHEMBL2326,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase VI,CA6,P23280,CHEMBL3025,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Matrix metalloproteinase 9,MMP9,P14780,CHEMBL321,Protease,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase XII,CA12,O43570,CHEMBL3242,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Matrix metalloproteinase 1,MMP1,P03956,CHEMBL332,Protease,0.73930393802,SwissTargetPrediction
+Caffeic acid,Matrix metalloproteinase 2,MMP2,P08253,CHEMBL333,Protease,0.73930393802,SwissTargetPrediction
+Caffeic acid,Protein-tyrosine phosphatase 1B,PTPN1,P18031,CHEMBL335,Phosphatase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase XIV,CA14,Q9ULX7,CHEMBL3510,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase VB,CA5B,Q9Y2D0,CHEMBL3969,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase VA,CA5A,P35218,CHEMBL4789,Lyase,0.73930393802,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase III,CA3,P07451,CHEMBL2885,Lyase,0.212408695957,SwissTargetPrediction
+Caffeic acid,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.150923844771,SwissTargetPrediction
+Caffeic acid,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.150923844771,SwissTargetPrediction
+Caffeic acid,Carbonic anhydrase IV,CA4,P22748,CHEMBL3729,Lyase,0.150923844771,SwissTargetPrediction
+beta-Sitosterol,Niemann-Pick C1-like protein 1,NPC1L1,Q9UHC9,CHEMBL2027,Other membrane protein,0.875914118523,SwissTargetPrediction
+beta-Sitosterol,LXR-alpha,NR1H3,Q13133,CHEMBL2808,Nuclear receptor,0.747494949275,SwissTargetPrediction
+beta-Sitosterol,Nuclear receptor ROR-gamma,RORC,P51449,CHEMBL1741186,Nuclear receptor,0.589276032706,SwissTargetPrediction
+beta-Sitosterol,Testis-specific androgen-binding protein,SHBG,P04278,CHEMBL3305,Secreted protein,0.456018460382,SwissTargetPrediction
+beta-Sitosterol,HMG-CoA reductase,HMGCR,P04035,CHEMBL402,Oxidoreductase,0.439393761626,SwissTargetPrediction
+beta-Sitosterol,Cytochrome P450 17A1,CYP17A1,P05093,CHEMBL3522,Cytochrome P450,0.38940029876,SwissTargetPrediction
+beta-Sitosterol,Sterol regulatory element-binding protein 2,SREBF2,Q12772,CHEMBL1795166,Unclassified protein,0.322747363996,SwissTargetPrediction
+beta-Sitosterol,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.314405075257,SwissTargetPrediction
+beta-Sitosterol,Androgen Receptor,AR,P10275,CHEMBL1871,Nuclear receptor,0.256112183139,SwissTargetPrediction
+beta-Sitosterol,Cytochrome P450 51   (by homology),CYP51A1,Q16850,CHEMBL3849,Cytochrome P450,0.256112183139,SwissTargetPrediction
+beta-Sitosterol,Nuclear receptor ROR-alpha,RORA,P35398,CHEMBL5868,Nuclear receptor,0.18109009917,SwissTargetPrediction
+beta-Sitosterol,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.156149436769,SwissTargetPrediction
+beta-Sitosterol,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.156149436769,SwissTargetPrediction
+beta-Sitosterol,Protein-tyrosine phosphatase 1B,PTPN1,P18031,CHEMBL335,Phosphatase,0.139453235615,SwissTargetPrediction
+beta-Sitosterol,Cytochrome P450 2C19,CYP2C19,P33261,CHEMBL3622,Cytochrome P450,0.131155749143,SwissTargetPrediction
+beta-Sitosterol,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.114494790121,SwissTargetPrediction
+beta-Sitosterol,Corticosteroid binding globulin,SERPINA6,P08185,CHEMBL2421,Secreted protein,0.114494790121,SwissTargetPrediction
+beta-Sitosterol,Glucose-6-phosphate 1-dehydrogenase,G6PD,P11413,CHEMBL5347,Enzyme,0.114494790121,SwissTargetPrediction
+beta-Sitosterol,Norepinephrine transporter,SLC6A2,P23975,CHEMBL222,Electrochemical transporter,0.114494790121,SwissTargetPrediction
+beta-Sitosterol,Serotonin transporter,SLC6A4,P31645,CHEMBL228,Electrochemical transporter,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Butyrylcholinesterase,BCHE,P06276,CHEMBL1914,Hydrolase,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Muscarinic acetylcholine receptor M2,CHRM2,P08172,CHEMBL211,Family A G protein-coupled receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Nuclear receptor subfamily 1 group I member 3   (by homology),NR1I3,Q14994,CHEMBL5503,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,LXR-beta,NR1H2,P55055,CHEMBL4093,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Vitamin D receptor,VDR,P11473,CHEMBL1977,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Prostanoid EP1 receptor   (by homology),PTGER1,P34995,CHEMBL1811,Family A G protein-coupled receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Prostanoid EP2 receptor   (by homology),PTGER2,P43116,CHEMBL1881,Family A G protein-coupled receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Thromboxane-A synthase,TBXAS1,P24557,CHEMBL1835,Cytochrome P450,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Prostaglandin E synthase,PTGES,O14684,CHEMBL5658,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Anti-estrogen binding site (AEBS)   (by homology),DHCR7,Q9UBM7,CHEMBL2169735,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Peroxisome proliferator-activated receptor delta,PPARD,Q03181,CHEMBL3979,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Squalene monooxygenase,SQLE,Q14534,CHEMBL3592,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Glycine receptor subunit alpha-1,GLRA1,P23415,CHEMBL5845,Ligand-gated ion channel,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,11-beta-hydroxysteroid dehydrogenase 1,HSD11B1,P28845,CHEMBL4235,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Protein-tyrosine phosphatase 1C,PTPN6,P29350,CHEMBL3166,Phosphatase,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,T-cell protein-tyrosine phosphatase,PTPN2,P17706,CHEMBL3807,Phosphatase,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Squalene synthetase   (by homology),FDFT1,P37268,CHEMBL3338,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Carboxylesterase 2,CES2,O00748,CHEMBL3180,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,"Nitric oxide synthase, inducible   (by homology)",NOS2,P35228,CHEMBL4481,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Peroxisome proliferator-activated receptor gamma,PPARG,P37231,CHEMBL235,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,UDP-glucuronosyltransferase 2B7,UGT2B7,P16662,CHEMBL4370,Enzyme,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,Glucocorticoid receptor,NR3C1,P04150,CHEMBL2034,Nuclear receptor,0.106165761464,SwissTargetPrediction
+beta-Sitosterol,DNA polymerase beta   (by homology),POLB,P06746,CHEMBL2392,Enzyme,0.106165761464,SwissTargetPrediction
+Pinoresinol,Induced myeloid leukemia cell differentiation protein Mcl-1,MCL1,Q07820,CHEMBL4361,Other cytosolic protein,0.141778404353,SwissTargetPrediction
+Pinoresinol,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.117454607039,SwissTargetPrediction
+Pinoresinol,Testis-specific androgen-binding protein,SHBG,P04278,CHEMBL3305,Secreted protein,0.117454607039,SwissTargetPrediction
+Pinoresinol,c-Jun N-terminal kinase 2,MAPK9,P45984,CHEMBL4179,Kinase,0.109339753231,SwissTargetPrediction
+Pinoresinol,Platelet activating factor receptor,PTAFR,P25105,CHEMBL250,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Pinoresinol,Sodium/glucose cotransporter 2,SLC5A2,P31639,CHEMBL3884,Electrochemical transporter,0.109339753231,SwissTargetPrediction
+Pinoresinol,Hypoxia-inducible factor 1 alpha   (by homology),HIF1A,Q16665,CHEMBL4261,Transcription factor,0.109339753231,SwissTargetPrediction
+Pinoresinol,Acyl coenzyme A:cholesterol acyltransferase 2,SOAT2,O75908,CHEMBL4465,Enzyme,0.109339753231,SwissTargetPrediction
+Pinoresinol,PI3-kinase p110-gamma subunit,PIK3CG,P48736,CHEMBL3267,Enzyme,0.109339753231,SwissTargetPrediction
+Pinoresinol,PI3-kinase p110-alpha subunit,PIK3CA,P42336,CHEMBL4005,Enzyme,0.109339753231,SwissTargetPrediction
+Pinoresinol,Mu opioid receptor,OPRM1,P35372,CHEMBL233,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Testis-specific androgen-binding protein,SHBG,P04278,CHEMBL3305,Secreted protein,1.0,SwissTargetPrediction
+Matairesinol,Dual specificity mitogen-activated protein kinase kinase 1,MAP2K1,Q02750,CHEMBL3587,Kinase,0.271660592088,SwissTargetPrediction
+Matairesinol,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.222961556849,SwissTargetPrediction
+Matairesinol,Norepinephrine transporter,SLC6A2,P23975,CHEMBL222,Electrochemical transporter,0.133683659669,SwissTargetPrediction
+Matairesinol,Acyl-protein thioesterase 1,LYPLA1,O75608,CHEMBL1681631,Enzyme,0.117454607039,SwissTargetPrediction
+Matairesinol,Acyl-protein thioesterase 2,LYPLA2,O95372,CHEMBL1932891,Enzyme,0.117454607039,SwissTargetPrediction
+Matairesinol,Dopamine transporter,SLC6A3,Q01959,CHEMBL238,Electrochemical transporter,0.109339753231,SwissTargetPrediction
+Matairesinol,Serotonin 1a (5-HT1a) receptor,HTR1A,P08908,CHEMBL214,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.109339753231,SwissTargetPrediction
+Matairesinol,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Glucagon receptor,GCGR,P47871,CHEMBL1985,Family B G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Calpain 1,CAPN1,P07384,CHEMBL3891,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase RAF,RAF1,P04049,CHEMBL1906,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase B-raf,BRAF,P15056,CHEMBL5145,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase WEE1,WEE1,P30291,CHEMBL5491,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Dynamin-1,DNM1,Q05193,CHEMBL4958,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Uridine phosphorylase 1   (by homology),UPP1,Q16831,CHEMBL4811,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Plasminogen activator inhibitor-1,SERPINE1,P05121,CHEMBL3475,Secreted protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,DYRK1B,Q9Y463,CHEMBL5543,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Heat shock protein HSP 90-alpha,HSP90AA1,P07900,CHEMBL3880,Other cytosolic protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase Aurora-B,AURKB,Q96GD4,CHEMBL2185,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Prostanoid FP receptor,PTGFR,P43088,CHEMBL1987,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase Aurora-A,AURKA,O14965,CHEMBL4722,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Pyruvate dehydrogenase kinase isoform 1,PDK1,Q15118,CHEMBL4766,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Dual specificity phosphatase Cdc25C,CDC25C,P30307,CHEMBL2378,Phosphatase,0.109339753231,SwissTargetPrediction
+Matairesinol,PI3-kinase p110-gamma subunit,PIK3CG,P48736,CHEMBL3267,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Dual specificity phosphatase Cdc25B,CDC25B,P30305,CHEMBL4804,Phosphatase,0.109339753231,SwissTargetPrediction
+Matairesinol,Dual specificty protein kinase CLK1,CLK1,P49759,CHEMBL4224,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,11-beta-hydroxysteroid dehydrogenase 1,HSD11B1,P28845,CHEMBL4235,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,DNA polymerase alpha subunit,POLA1,P09884,CHEMBL1828,Transferase,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase SYK,SYK,P43405,CHEMBL2599,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Alpha-1d adrenergic receptor,ADRA1D,P25100,CHEMBL223,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Alpha-1b adrenergic receptor,ADRA1B,P35368,CHEMBL232,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase Sgk1,SGK1,O00141,CHEMBL2343,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Ephrin receptor,EPHB4,P54760,CHEMBL5147,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,DNA excision repair protein ERCC-5,ERCC5,P28715,CHEMBL4736,Other nuclear protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Flap endonuclease 1,FEN1,P39748,CHEMBL5027,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Poly [ADP-ribose] polymerase-1,PARP1,P09874,CHEMBL3105,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Dual-specificity tyrosine-phosphorylation regulated kinase 1A,DYRK1A,Q13627,CHEMBL2292,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Aldo-keto-reductase family 1 member C3,AKR1C3,P42330,CHEMBL4681,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase Nek1,NEK1,Q96PY6,CHEMBL5855,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Nuclear factor NF-kappa-B p65 subunit,RELA,Q04206,CHEMBL5533,Transcription factor,0.109339753231,SwissTargetPrediction
+Matairesinol,Dihydropteridine reductase,QDPR,P09417,CHEMBL3730,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Receptor protein-tyrosine kinase erbB-2,ERBB2,P04626,CHEMBL1824,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase PIM2,PIM2,Q9P1W9,CHEMBL4523,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.109339753231,SwissTargetPrediction
+Matairesinol,Cyclin-dependent kinase 4,CDK4,P11802,CHEMBL331,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase JAK3,JAK3,P52333,CHEMBL2148,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Dopamine D5 receptor,DRD5,P21918,CHEMBL1850,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Coagulation factor VII/tissue factor,F3,P13726,CHEMBL4081,Surface antigen,0.109339753231,SwissTargetPrediction
+Matairesinol,Glycogen synthase kinase-3 beta,GSK3B,P49841,CHEMBL262,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Thymidylate synthase   (by homology),TYMS,P04818,CHEMBL1952,Transferase,0.109339753231,SwissTargetPrediction
+Matairesinol,Protein kinase C (PKC),PRKCZ,Q05513,CHEMBL3438,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Type-1 angiotensin II receptor   (by homology),AGTR1,P30556,CHEMBL227,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Glucocorticoid receptor,NR3C1,P04150,CHEMBL2034,Nuclear receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Cyclin-dependent kinase 2/cyclin E1,CCNE1 CDK2,P24864 P24941,CHEMBL1907605,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Thrombin,F2,P00734,CHEMBL204,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Cystinyl aminopeptidase,LNPEP,Q9UIQ6,CHEMBL2693,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Phenylethanolamine N-methyltransferase,PNMT,P11086,CHEMBL4617,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Cyclin-dependent kinase 2,CDK2,P24941,CHEMBL301,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Calcitonin gene-related peptide type 1 receptor,CALCRL,Q16602,CHEMBL3798,Family B G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,"Alkaline phosphatase, tissue-nonspecific isozyme",ALPL,P05186,CHEMBL5979,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Insulin receptor,INSR,P06213,CHEMBL1981,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Matrix metalloproteinase 16,MMP16,P51512,CHEMBL2200,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,MAP kinase-activated protein kinase 2,MAPKAPK2,P49137,CHEMBL2208,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Matrix metalloproteinase 15,MMP15,P51511,CHEMBL2963,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Matrix metalloproteinase 14,MMP14,P50281,CHEMBL3869,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Matrix metalloproteinase 26,MMP26,Q9NRE1,CHEMBL4707,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Proto-oncogene c-JUN,JUN,P05412,CHEMBL4977,Transcription factor,0.109339753231,SwissTargetPrediction
+Matairesinol,Trypsin I,PRSS1,P07477,CHEMBL209,Protease,0.109339753231,SwissTargetPrediction
+Matairesinol,Transitional endoplasmic reticulum ATPase,VCP,P55072,CHEMBL1075145,Primary active transporter,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase ABL,ABL1,P00519,CHEMBL1862,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,"Presequence protease, mitochondrial",PITRM1,Q5JRX3,CHEMBL3124731,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Glutaminyl-peptide cyclotransferase-like protein,QPCTL,Q9NXS2,CHEMBL3638349,Transferase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase/endoribonuclease IRE1,ERN1,O75460,CHEMBL1163101,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Vasopressin V1a receptor,AVPR1A,P37288,CHEMBL1889,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Prostaglandin E synthase,PTGES,O14684,CHEMBL5658,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET,RET,P07949,CHEMBL2041,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase Chk1,CHEK1,O14757,CHEMBL4630,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serotonin 7 (5-HT7) receptor,HTR7,P34969,CHEMBL3155,Family A G protein-coupled receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Quinone reductase 1,NQO1,P15559,CHEMBL3623,Enzyme,0.109339753231,SwissTargetPrediction
+Matairesinol,Peroxisome proliferator-activated receptor delta,PPARD,Q03181,CHEMBL3979,Nuclear receptor,0.109339753231,SwissTargetPrediction
+Matairesinol,Dihydrofolate reductase,DHFR,P00374,CHEMBL202,Oxidoreductase,0.109339753231,SwissTargetPrediction
+Matairesinol,Ephrin type-A receptor 2,EPHA2,P29317,CHEMBL2068,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase YES,YES1,P07947,CHEMBL2073,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,CDK9/cyclin T1,CDK9 CCNT1,P50750 O60563,CHEMBL2111389,Other cytosolic protein,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase BLK,BLK,P51451,CHEMBL2250,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Tyrosine-protein kinase CSK,CSK,P41240,CHEMBL2634,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Serine/threonine-protein kinase mTOR,MTOR,P42345,CHEMBL2842,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,CDK2/Cyclin A,CCNA2 CDK2,P20248 P24941,CHEMBL3038469,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Ephrin type-B receptor 2,EPHB2,P29323,CHEMBL3290,Kinase,0.109339753231,SwissTargetPrediction
+Matairesinol,Autotaxin,ENPP2,Q13822,CHEMBL3691,Enzyme,0.109339753231,SwissTargetPrediction
+Glycitin,Interleukin-2,IL2,P60568,CHEMBL5880,Secreted protein,0.280758901132,SwissTargetPrediction
+Glycitin,Aldehyde dehydrogenase,ALDH2,P05091,CHEMBL1935,Oxidoreductase,0.255898409683,SwissTargetPrediction
+Glycitin,TNF-alpha,TNF,P01375,CHEMBL1825,Secreted protein,0.106542925976,SwissTargetPrediction
+Glycitin,Adenosine A1 receptor   (by homology),ADORA1,P30542,CHEMBL226,Family A G protein-coupled receptor,0.106542925976,SwissTargetPrediction
+Glycitin,Equilibrative nucleoside transporter 1,SLC29A1,Q99808,CHEMBL1997,Electrochemical transporter,0.106542925976,SwissTargetPrediction
+Glycitin,Carbonic anhydrase I,CA1,P00915,CHEMBL261,Lyase,0.106542925976,SwissTargetPrediction
+Glycitin,Carbonic anhydrase IX,CA9,Q16790,CHEMBL3594,Lyase,0.106542925976,SwissTargetPrediction
+Glycitin,Carbonic anhydrase II,CA2,P00918,CHEMBL205,Lyase,0.106542925976,SwissTargetPrediction
+Glycitin,Carbonic anhydrase XIII,CA13,Q8N1Q1,CHEMBL3912,Lyase,0.106542925976,SwissTargetPrediction
+Naringeninchalcone,Aldose reductase,AKR1B1,P15121,CHEMBL1900,Enzyme,0.54289985377,SwissTargetPrediction
+Naringeninchalcone,Neuronal acetylcholine receptor protein alpha-7 subunit,CHRNA7,P36544,CHEMBL2492,Ligand-gated ion channel,0.346270483061,SwissTargetPrediction
+Naringeninchalcone,Epidermal growth factor receptor erbB1,EGFR,P00533,CHEMBL203,Kinase,0.313572766871,SwissTargetPrediction
+Naringeninchalcone,Telomerase reverse transcriptase,TERT,O14746,CHEMBL2916,Enzyme,0.215238178243,SwissTargetPrediction
+Naringeninchalcone,ATP-binding cassette sub-family G member 2,ABCG2,Q9UNQ0,CHEMBL5393,Primary active transporter,0.182484828777,SwissTargetPrediction
+Naringeninchalcone,Beta amyloid A4 protein,APP,P05067,CHEMBL2487,Membrane receptor,0.157929217109,SwissTargetPrediction
+Naringeninchalcone,Coagulation factor VII/tissue factor,F3,P13726,CHEMBL4081,Surface antigen,0.149732593856,SwissTargetPrediction
+Naringeninchalcone,Monoamine oxidase B,MAOB,P27338,CHEMBL2039,Oxidoreductase,0.141522086267,SwissTargetPrediction
+Naringeninchalcone,"Nitric oxide synthase, inducible   (by homology)",NOS2,P35228,CHEMBL4481,Enzyme,0.133337961498,SwissTargetPrediction
+Naringeninchalcone,Arachidonate 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.133337961498,SwissTargetPrediction
+Naringeninchalcone,Cytochrome P450 19A1,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.125142648574,SwissTargetPrediction
+Naringeninchalcone,Monoamine oxidase A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.125142648574,SwissTargetPrediction
+Naringeninchalcone,Beta-secretase 1,BACE1,P56817,CHEMBL4822,Protease,0.125142648574,SwissTargetPrediction
+Naringeninchalcone,Voltage-gated potassium channel subunit Kv1.3,KCNA3,P22001,CHEMBL4633,Voltage-gated ion channel,0.116965063224,SwissTargetPrediction
+Naringeninchalcone,Alpha-synuclein,SNCA,P37840,CHEMBL6152,Unclassified protein,0.108770969359,SwissTargetPrediction
+Naringeninchalcone,Aldehyde dehydrogenase,ALDH2,P05091,CHEMBL1935,Oxidoreductase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,3-phosphoinositide dependent protein kinase-1,PDPK1,O15530,CHEMBL2534,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cyclooxygenase-2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,P-glycoprotein 1,ABCB1,P08183,CHEMBL4302,Primary active transporter,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Estrogen receptor alpha,ESR1,P03372,CHEMBL206,Nuclear receptor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Carbonyl reductase [NADPH] 1,CBR1,P16152,CHEMBL5586,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Toll-like receptor (TLR7/TLR9),TLR9,Q9NR96,CHEMBL5804,Toll-like and Il-1 receptors,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Receptor-type tyrosine-protein phosphatase S,PTPRS,Q13332,CHEMBL2396508,Phosphatase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,AMY1C,AMY1A,P04745,CHEMBL2478,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,G protein-coupled receptor kinase 6,GRK6,P43250,CHEMBL6144,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Phosphodiesterase 4D,PDE4D,Q08499,CHEMBL288,Phosphodiesterase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tubulin beta-1 chain,TUBB1,Q9H4B7,CHEMBL1915,Structural protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Serine/threonine-protein kinase PIM1,PIM1,P11309,CHEMBL2147,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Calcium-activated potassium channel subunit alpha-1,KCNMA1,Q12791,CHEMBL4304,Voltage-gated ion channel,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Protein-tyrosine phosphatase 1B,PTPN1,P18031,CHEMBL335,Phosphatase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cathepsin L,CTSL,P07711,CHEMBL3837,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Aldo-keto-reductase family 1 member C3,AKR1C3,P42330,CHEMBL4681,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Steryl-sulfatase,STS,P08842,CHEMBL3559,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor I receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Estradiol 17-beta-dehydrogenase 2,HSD17B2,P37059,CHEMBL2789,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Estradiol 17-beta-dehydrogenase 1,HSD17B1,P14061,CHEMBL3181,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,NADPH oxidase 4,NOX4,Q9NPH5,CHEMBL1250375,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Xanthine dehydrogenase,XDH,P47989,CHEMBL1929,Oxidoreductase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tyrosine-protein kinase receptor FLT3,FLT3,P36888,CHEMBL1974,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Thrombin,F2,P00734,CHEMBL204,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Trypsin I,PRSS1,P07477,CHEMBL209,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Thrombin and coagulation factor X,F10,P00742,CHEMBL244,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Multidrug resistance-associated protein 1,ABCC1,P33527,CHEMBL3004,Primary active transporter,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Aryl hydrocarbon receptor,AHR,P35869,CHEMBL3201,Transcription factor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Urokinase-type plasminogen activator,PLAU,P00749,CHEMBL3286,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Protein farnesyltransferase,FNTA FNTB,P49354 P49356,CHEMBL2094108,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 3,IGFBP3,P17936,CHEMBL3997,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Dihydroorotate dehydrogenase,DHODH,Q02127,CHEMBL1966,Oxidoreductase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 6,IGFBP6,P24592,CHEMBL2139,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 4,IGFBP4,P22692,CHEMBL2310,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 5,IGFBP5,P24593,CHEMBL2665,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 2,IGFBP2,P18065,CHEMBL3088,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Insulin-like growth factor binding protein 1,IGFBP1,P08833,CHEMBL4178,Secreted protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Solute carrier family 22 member 12,SLC22A12,Q96S37,CHEMBL6120,Electrochemical transporter,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,G-protein coupled receptor 35,GPR35,Q9HC97,CHEMBL1293267,Family A G protein-coupled receptor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Death-associated protein kinase 1,DAPK1,P53355,CHEMBL2558,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,DNA-3-methyladenine glycosylase,MPG,P29372,CHEMBL3396943,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Flap endonuclease 1,FEN1,P39748,CHEMBL5027,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Lysine-specific demethylase 4D-like,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Arachidonate 15-lipoxygenase,ALOX15,P16050,CHEMBL2903,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Arachidonate 12-lipoxygenase,ALOX12,P18054,CHEMBL3687,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Vasopressin V2 receptor,AVPR2,P30518,CHEMBL1790,Family A G protein-coupled receptor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cyclin-dependent kinase 1/cyclin B,CCNB3 CDK1 CCNB1 CCNB2,Q8WWL7 P06493 P14635 O95067,CHEMBL2094127,Other cytosolic protein,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Glyoxalase I,GLO1,Q04760,CHEMBL2424,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Myeloperoxidase,MPO,P05164,CHEMBL2439,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,PI3-kinase p85-alpha subunit,PIK3R1,P27986,CHEMBL2506,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cyclin-dependent kinase 6,CDK6,Q00534,CHEMBL2508,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Liver glycogen phosphorylase,PYGL,P06737,CHEMBL2568,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Matrix metalloproteinase 13,MMP13,P45452,CHEMBL280,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Matrix metalloproteinase 3,MMP3,P08254,CHEMBL283,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Serine/threonine-protein kinase PLK1,PLK1,P53350,CHEMBL3024,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Protein kinase N1,PKN1,Q16512,CHEMBL3384,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Casein kinase II alpha,CSNK2A1,P68400,CHEMBL3629,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Hepatocyte growth factor receptor,MET,P08581,CHEMBL3717,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Serine/threonine-protein kinase NEK2,NEK2,P51955,CHEMBL3835,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Interleukin-8 receptor A,CXCR1,P25024,CHEMBL4029,Family A G protein-coupled receptor,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Cystic fibrosis transmembrane conductance regulator,CFTR,P13569,CHEMBL4051,Other ion channel,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,CaM kinase II beta,CAMK2B,Q13554,CHEMBL4121,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Serine/threonine-protein kinase AKT,AKT1,P31749,CHEMBL4282,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Serine/threonine-protein kinase NEK6,NEK6,Q9HC98,CHEMBL4309,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Matrix metalloproteinase 12,MMP12,P39900,CHEMBL4393,Protease,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Phospholipase A2 group 1B,PLA2G1B,P04054,CHEMBL4426,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Lymphocyte differentiation antigen CD38,CD38,P28907,CHEMBL4660,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tyrosine-protein kinase receptor UFO,AXL,P30530,CHEMBL4895,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,NUAK family SNF1-like kinase 1,NUAK1,O60285,CHEMBL5784,Kinase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tankyrase-2,TNKS2,Q9H2K2,CHEMBL6154,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Tankyrase-1,TNKS,O95271,CHEMBL6164,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Aldo-keto reductase family 1 member C1   (by homology),AKR1C1,Q04828,CHEMBL5905,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,DNA topoisomerase I   (by homology),TOP1,P11387,CHEMBL1781,Isomerase,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Arginase-1   (by homology),ARG1,P05089,CHEMBL1075097,Enzyme,0.100578902067,SwissTargetPrediction
+Naringeninchalcone,Aldehyde reductase   (by homology),AKR1A1,P14550,CHEMBL2246,Enzyme,0.100578902067,SwissTargetPrediction

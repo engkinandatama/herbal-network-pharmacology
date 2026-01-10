@@ -1,0 +1,5 @@
+name,smiles,pubchem_cid,type,target
+Pioglitazone,CCC1=CC=C(C=C1)CCOc2ccc(cc2)CC3C(=O)NC(=O)S3,4829,control,PPARG
+Atorvastatin,CC(C)c1c(C(=O)Nc2ccccc2)c(c(c3ccc(F)cc3)n1CC[C@@H](O)C[C@@H](O)CC(=O)O)c4ccc(F)cc4,60823,control,HMGCR
+Losartan,CCCCc1nc(Cl)c(n1Cc2ccc(cc2)c3ccccc3c4n[nH]nn4)CO,3961,control,AGTR1
+Sildenafil,CCCc1nn(C)c2c1nc(nc2c3cc(ccc3OCC)S(=O)(=O)N4CCN(C)CC4)O,5212,control,PDE5A

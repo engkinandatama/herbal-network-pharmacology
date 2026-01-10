@@ -1,0 +1,229 @@
+gene_symbol,gene_name,ensembl_id,uniprot_id,score,disease_name,source
+ACE,angiotensin I converting enzyme,ENSG00000159640,P12821,0.7654601381969072,Diabetic Nephropathy,OpenTargets
+AGTR1,angiotensin II receptor type 1,ENSG00000144891,P30556,0.5902786188068979,Diabetic Nephropathy,OpenTargets
+TCF7L2,transcription factor 7 like 2,ENSG00000148737,Q9NQB0,0.5130826601972674,Diabetic Nephropathy,OpenTargets
+INS,insulin,ENSG00000254647,P01308,0.4939346136258367,Diabetic Nephropathy,OpenTargets
+UMOD,uromodulin,ENSG00000169344,P07911,0.4840120931665205,Diabetic Nephropathy,OpenTargets
+COL4A3,collagen type IV alpha 3 chain,ENSG00000169031,Q01955,0.4821761656386922,Diabetic Nephropathy,OpenTargets
+IGF2BP2,insulin like growth factor 2 mRNA binding protein 2,ENSG00000073792,Q9Y6M1,0.4662243140004584,Diabetic Nephropathy,OpenTargets
+KCNQ1,potassium voltage-gated channel subfamily Q member 1,ENSG00000053918,P51787,0.4516920209845501,Diabetic Nephropathy,OpenTargets
+PTPN22,protein tyrosine phosphatase non-receptor type 22,ENSG00000134242,Q9Y2R2,0.4505426575864735,Diabetic Nephropathy,OpenTargets
+FTO,FTO alpha-ketoglutarate dependent dioxygenase,ENSG00000140718,Q9C0B1,0.4465151458204703,Diabetic Nephropathy,OpenTargets
+SLC30A8,solute carrier family 30 member 8,ENSG00000164756,Q8IWU4,0.4219752201408807,Diabetic Nephropathy,OpenTargets
+KCNJ11,potassium inwardly rectifying channel subfamily J member 11,ENSG00000187486,Q14654,0.4121469594206291,Diabetic Nephropathy,OpenTargets
+ZEB2,zinc finger E-box binding homeobox 2,ENSG00000169554,O60315,0.4072898178478765,Diabetic Nephropathy,OpenTargets
+PDE4D,phosphodiesterase 4D,ENSG00000113448,Q08499,0.4033941159024123,Diabetic Nephropathy,OpenTargets
+JAZF1,JAZF zinc finger 1,ENSG00000153814,Q86VZ6,0.3966344144282244,Diabetic Nephropathy,OpenTargets
+CDKAL1,CDKAL1 threonylcarbamoyladenosine tRNA methylthiotransferase,ENSG00000145996,Q5VV42,0.3934173499401701,Diabetic Nephropathy,OpenTargets
+SLC5A2,solute carrier family 5 member 2,ENSG00000140675,P31639,0.3880703985469516,Diabetic Nephropathy,OpenTargets
+APOE,apolipoprotein E,ENSG00000130203,P02649,0.3776211070961668,Diabetic Nephropathy,OpenTargets
+CDKN2B,cyclin dependent kinase inhibitor 2B,ENSG00000147883,P42772,0.3754667231475055,Diabetic Nephropathy,OpenTargets
+HMGA2,high mobility group AT-hook 2,ENSG00000149948,P52926,0.3748184899105681,Diabetic Nephropathy,OpenTargets
+ZMIZ1,zinc finger MIZ-type containing 1,ENSG00000108175,Q9ULJ6,0.373608243855291,Diabetic Nephropathy,OpenTargets
+CCND2,cyclin D2,ENSG00000118971,P30279,0.3733169330758216,Diabetic Nephropathy,OpenTargets
+WFS1,wolframin ER transmembrane glycoprotein,ENSG00000109501,O76024,0.372350138672802,Diabetic Nephropathy,OpenTargets
+CDC123,cell division cycle 123,ENSG00000151465,O75794,0.3548243452897613,Diabetic Nephropathy,OpenTargets
+ABCC8,ATP binding cassette subfamily C member 8,ENSG00000006071,Q09428,0.3488624029145067,Diabetic Nephropathy,OpenTargets
+EDNRA,endothelin receptor type A,ENSG00000151617,P25101,0.3443913472662918,Diabetic Nephropathy,OpenTargets
+PDE5A,phosphodiesterase 5A,ENSG00000138735,O76074,0.3403336661895816,Diabetic Nephropathy,OpenTargets
+PDE4A,phosphodiesterase 4A,ENSG00000065989,P27815,0.3370252560505078,Diabetic Nephropathy,OpenTargets
+PDE4B,phosphodiesterase 4B,ENSG00000184588,Q07343,0.3369447602171534,Diabetic Nephropathy,OpenTargets
+PDE4C,phosphodiesterase 4C,ENSG00000105650,Q08493,0.3362150066923328,Diabetic Nephropathy,OpenTargets
+CAMK1D,calcium/calmodulin dependent protein kinase ID,ENSG00000183049,Q8IU85,0.3358686847534951,Diabetic Nephropathy,OpenTargets
+PROX1,prospero homeobox 1,ENSG00000117707,Q92786,0.3323038993771792,Diabetic Nephropathy,OpenTargets
+PARN,poly(A)-specific ribonuclease,ENSG00000140694,O95453,0.3322109595121796,Diabetic Nephropathy,OpenTargets
+THADA,THADA armadillo repeat containing,ENSG00000115970,Q6YHU6,0.329627684218826,Diabetic Nephropathy,OpenTargets
+TOX,thymocyte selection associated high mobility group box,ENSG00000198846,O94900,0.3294418897398028,Diabetic Nephropathy,OpenTargets
+DYNLRB2,dynein light chain roadblock-type 2,ENSG00000168589,Q8TF09,0.3290412092717171,Diabetic Nephropathy,OpenTargets
+PPARG,peroxisome proliferator activated receptor gamma,ENSG00000132170,P37231,0.3232355895153489,Diabetic Nephropathy,OpenTargets
+OC90,otoconin 90,ENSG00000253117,Q02509,0.3188587181558045,Diabetic Nephropathy,OpenTargets
+MEIS2,Meis homeobox 2,ENSG00000134138,O14770,0.3186207203407908,Diabetic Nephropathy,OpenTargets
+GRAMD2B,GRAM domain containing 2B,ENSG00000155324,Q96HH9,0.3173046831819097,Diabetic Nephropathy,OpenTargets
+DYSF,dysferlin,ENSG00000135636,O75923,0.3145709465246171,Diabetic Nephropathy,OpenTargets
+PDILT,"protein disulfide isomerase like, testis expressed",ENSG00000169340,Q8N807,0.3143384189585311,Diabetic Nephropathy,OpenTargets
+ADAMTS9,ADAM metallopeptidase with thrombospondin type 1 motif 9,ENSG00000163638,Q9P2N4,0.3105866639620565,Diabetic Nephropathy,OpenTargets
+VDR,vitamin D receptor,ENSG00000111424,P11473,0.3081467973773242,Diabetic Nephropathy,OpenTargets
+NR3C2,nuclear receptor subfamily 3 group C member 2,ENSG00000151623,P08235,0.3077564671592876,Diabetic Nephropathy,OpenTargets
+DNAH8,dynein axonemal heavy chain 8,ENSG00000124721,Q96JB1,0.3073174762783348,Diabetic Nephropathy,OpenTargets
+TH,tyrosine hydroxylase,ENSG00000180176,P07101,0.3058299126630284,Diabetic Nephropathy,OpenTargets
+NFE2L2,NFE2 like bZIP transcription factor 2,ENSG00000116044,Q16236,0.3040663483190056,Diabetic Nephropathy,OpenTargets
+PAM,peptidylglycine alpha-amidating monooxygenase,ENSG00000145730,P19021,0.3039275145925316,Diabetic Nephropathy,OpenTargets
+NKX6-3,NK6 homeobox 3,ENSG00000165066,A6NJ46,0.303588197668625,Diabetic Nephropathy,OpenTargets
+SNCAIP,synuclein alpha interacting protein,ENSG00000064692,Q9Y6H5,0.3025874176495245,Diabetic Nephropathy,OpenTargets
+SLC8A1,solute carrier family 8 member A1,ENSG00000183023,P32418,0.3011963240334721,Diabetic Nephropathy,OpenTargets
+SOCS5,suppressor of cytokine signaling 5,ENSG00000171150,O75159,0.3004838963867177,Diabetic Nephropathy,OpenTargets
+ZNF385D,zinc finger protein 385D,ENSG00000151789,Q9H6B1,0.3003097799696783,Diabetic Nephropathy,OpenTargets
+MACF1,microtubule actin crosslinking factor 1,ENSG00000127603,Q9UPN3,0.2946199354320846,Diabetic Nephropathy,OpenTargets
+GLP1R,glucagon like peptide 1 receptor,ENSG00000112164,P43220,0.2943873422168175,Diabetic Nephropathy,OpenTargets
+ZC3H12C,zinc finger CCCH-type containing 12C,ENSG00000149289,Q9C0D7,0.2935468663082295,Diabetic Nephropathy,OpenTargets
+PDE9A,phosphodiesterase 9A,ENSG00000160191,O76083,0.2929380361865334,Diabetic Nephropathy,OpenTargets
+ADORA2B,adenosine A2b receptor,ENSG00000170425,P29275,0.2914387647201493,Diabetic Nephropathy,OpenTargets
+TMEM132D,transmembrane protein 132D,ENSG00000151952,Q14C87,0.2911932564832099,Diabetic Nephropathy,OpenTargets
+STAC,SH3 and cysteine rich domain,ENSG00000144681,Q99469,0.2908427582200958,Diabetic Nephropathy,OpenTargets
+PDE1A,phosphodiesterase 1A,ENSG00000115252,P54750,0.2895504169848519,Diabetic Nephropathy,OpenTargets
+PDE3B,phosphodiesterase 3B,ENSG00000152270,Q13370,0.2892783651473757,Diabetic Nephropathy,OpenTargets
+HBB,hemoglobin subunit beta,ENSG00000244734,P68871,0.2882347612451522,Diabetic Nephropathy,OpenTargets
+ADORA2A,adenosine A2a receptor,ENSG00000128271,P29274,0.2879566038615242,Diabetic Nephropathy,OpenTargets
+NFIB,nuclear factor I B,ENSG00000147862,O00712,0.2867535098977585,Diabetic Nephropathy,OpenTargets
+PDE3A,phosphodiesterase 3A,ENSG00000172572,Q14432,0.2863217263098981,Diabetic Nephropathy,OpenTargets
+KEAP1,kelch like ECH associated protein 1,ENSG00000079999,Q14145,0.285625953325939,Diabetic Nephropathy,OpenTargets
+PDE1C,phosphodiesterase 1C,ENSG00000154678,Q14123,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6A,phosphodiesterase 6A,ENSG00000132915,P16499,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE10A,phosphodiesterase 10A,ENSG00000112541,Q9Y233,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE1B,phosphodiesterase 1B,ENSG00000123360,Q01064,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE8B,phosphodiesterase 8B,ENSG00000113231,O95263,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE2A,phosphodiesterase 2A,ENSG00000186642,O00408,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6B,phosphodiesterase 6B,ENSG00000133256,P35913,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6G,phosphodiesterase 6G,ENSG00000185527,P18545,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6C,phosphodiesterase 6C,ENSG00000095464,P51160,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE8A,phosphodiesterase 8A,ENSG00000073417,O60658,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE7B,phosphodiesterase 7B,ENSG00000171408,Q9NP56,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6H,phosphodiesterase 6H,ENSG00000139053,Q13956,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE7A,phosphodiesterase 7A,ENSG00000205268,Q13946,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+PDE6D,phosphodiesterase 6D,ENSG00000156973,O43924,0.2853977766731864,Diabetic Nephropathy,OpenTargets
+RP1L1,RP1 like 1,ENSG00000183638,Q8IWN7,0.2850242359254977,Diabetic Nephropathy,OpenTargets
+HMG20A,high mobility group 20A,ENSG00000140382,Q9NP66,0.2842387373983078,Diabetic Nephropathy,OpenTargets
+SETD7,"SET domain containing 7, histone lysine methyltransferase",ENSG00000145391,Q8WTS6,0.2824787402490427,Diabetic Nephropathy,OpenTargets
+ZNF33B,zinc finger protein 33B,ENSG00000196693,Q06732,0.2824123398749101,Diabetic Nephropathy,OpenTargets
+CCND1,cyclin D1,ENSG00000110092,P24385,0.2809974425200989,Diabetic Nephropathy,OpenTargets
+IKBKB,inhibitor of nuclear factor kappa B kinase subunit beta,ENSG00000104365,O14920,0.279125185250621,Diabetic Nephropathy,OpenTargets
+HRH1,histamine receptor H1,ENSG00000196639,P35367,0.2776468658318822,Diabetic Nephropathy,OpenTargets
+SLC71A2,solute carrier family 71 member 2,ENSG00000148110,Q5SR56,0.2766511802524977,Diabetic Nephropathy,OpenTargets
+GPATCH2L,G-patch domain containing 2 like,ENSG00000089916,Q9NWQ4,0.2760405453550356,Diabetic Nephropathy,OpenTargets
+LETM1,leucine zipper and EF-hand containing transmembrane protein 1,ENSG00000168924,O95202,0.27567143286074,Diabetic Nephropathy,OpenTargets
+SMAD6,SMAD family member 6,ENSG00000137834,O43541,0.2754428192616829,Diabetic Nephropathy,OpenTargets
+TMEM178B,transmembrane protein 178B,ENSG00000261115,H3BS89,0.2741445372156213,Diabetic Nephropathy,OpenTargets
+AFF3,ALF transcription elongation factor 3,ENSG00000144218,P51826,0.273412309879736,Diabetic Nephropathy,OpenTargets
+PCNX2,pecanex 2,ENSG00000135749,A6NKB5,0.2698624489828302,Diabetic Nephropathy,OpenTargets
+ZBTB43,zinc finger and BTB domain containing 43,ENSG00000169155,O43298,0.2695204317599587,Diabetic Nephropathy,OpenTargets
+SACS,sacsin molecular chaperone,ENSG00000151835,Q9NZJ4,0.2689919417951313,Diabetic Nephropathy,OpenTargets
+GPC5,glypican 5,ENSG00000179399,P78333,0.2685650117609677,Diabetic Nephropathy,OpenTargets
+KCNMB2,potassium calcium-activated channel subfamily M regulatory beta subunit 2,ENSG00000197584,Q9Y691,0.2680235832288421,Diabetic Nephropathy,OpenTargets
+MYO7A,myosin VIIA,ENSG00000137474,Q13402,0.2654423951525352,Diabetic Nephropathy,OpenTargets
+GALNTL6,polypeptide N-acetylgalactosaminyltransferase like 6,ENSG00000174473,Q49A17,0.2652670248632605,Diabetic Nephropathy,OpenTargets
+LRMDA,leucine rich melanocyte differentiation associated,ENSG00000148655,Q9H2I8,0.2652670248632605,Diabetic Nephropathy,OpenTargets
+RBFOX1,RNA binding fox-1 homolog 1,ENSG00000078328,Q9NWB1,0.2652670248632605,Diabetic Nephropathy,OpenTargets
+HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ENSG00000113161,P04035,0.2641911786426384,Diabetic Nephropathy,OpenTargets
+CACNA1C,calcium voltage-gated channel subunit alpha1 C,ENSG00000151067,Q13936,0.2592602680613183,Diabetic Nephropathy,OpenTargets
+CACNA1F,calcium voltage-gated channel subunit alpha1 F,ENSG00000102001,O60840,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+CACNA1S,calcium voltage-gated channel subunit alpha1 S,ENSG00000081248,Q13698,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+CACNA1D,calcium voltage-gated channel subunit alpha1 D,ENSG00000157388,Q01668,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+FKBP1A,FKBP prolyl isomerase 1A,ENSG00000088832,P62942,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+CYSLTR1,cysteinyl leukotriene receptor 1,ENSG00000173198,Q9Y271,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+IMPDH1,inosine monophosphate dehydrogenase 1,ENSG00000106348,P20839,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+HCN4,hyperpolarization activated cyclic nucleotide gated potassium channel 4,ENSG00000138622,Q9Y3Q4,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+IMPDH2,inosine monophosphate dehydrogenase 2,ENSG00000178035,P12268,0.2587058982792912,Diabetic Nephropathy,OpenTargets
+SLC37A1,solute carrier family 37 member 1,ENSG00000160190,P57057,0.256426718944587,Diabetic Nephropathy,OpenTargets
+PTPRN2,protein tyrosine phosphatase receptor type N2,ENSG00000155093,Q92932,0.2502035078440265,Diabetic Nephropathy,OpenTargets
+LPP,LIM domain containing preferred translocation partner in lipoma,ENSG00000145012,Q93052,0.2500687490489961,Diabetic Nephropathy,OpenTargets
+ABCB5,ATP binding cassette subfamily B member 5,ENSG00000004846,Q2M3G0,0.2490650438420157,Diabetic Nephropathy,OpenTargets
+VPS8,VPS8 subunit of CORVET complex,ENSG00000156931,Q8N3P4,0.2479825987629574,Diabetic Nephropathy,OpenTargets
+UBE3C,ubiquitin protein ligase E3C,ENSG00000009335,Q15386,0.247516905327871,Diabetic Nephropathy,OpenTargets
+HHEX,hematopoietically expressed homeobox,ENSG00000152804,Q03014,0.2468651187049154,Diabetic Nephropathy,OpenTargets
+GNPDA2,glucosamine-6-phosphate deaminase 2,ENSG00000163281,Q8TDQ7,0.2468232901263246,Diabetic Nephropathy,OpenTargets
+CLVS1,clavesin 1,ENSG00000177182,Q8IUQ0,0.2447402640352244,Diabetic Nephropathy,OpenTargets
+NRXN3,neurexin 3,ENSG00000021645,Q9HDB5,0.2438389746806643,Diabetic Nephropathy,OpenTargets
+GPSM1,G protein signaling modulator 1,ENSG00000160360,Q86YR5,0.2391003502452664,Diabetic Nephropathy,OpenTargets
+ANKRD55,ankyrin repeat domain 55,ENSG00000164512,Q3KP44,0.2389401191635414,Diabetic Nephropathy,OpenTargets
+LINGO2,leucine rich repeat and Ig domain containing 2,ENSG00000174482,Q7L985,0.2384800667877361,Diabetic Nephropathy,OpenTargets
+WDR11,WD repeat domain 11,ENSG00000120008,Q9BZH6,0.2374456882796109,Diabetic Nephropathy,OpenTargets
+MGST2,microsomal glutathione S-transferase 2,ENSG00000085871,Q99735,0.236230520427926,Diabetic Nephropathy,OpenTargets
+NADSYN1,NAD synthetase 1,ENSG00000172890,Q6IA69,0.2255951780663203,Diabetic Nephropathy,OpenTargets
+DCDC2C,doublecortin domain containing 2C,ENSG00000214866,A8MYV0,0.2236991308700635,Diabetic Nephropathy,OpenTargets
+C2CD4A,C2 calcium dependent domain containing 4A,ENSG00000198535,Q8NCU7,0.2229182776399156,Diabetic Nephropathy,OpenTargets
+CNTN4,contactin 4,ENSG00000144619,Q8IWV2,0.2208751454809693,Diabetic Nephropathy,OpenTargets
+SOD2,superoxide dismutase 2,ENSG00000291237,P04179,0.2205161261426421,Diabetic Nephropathy,OpenTargets
+PEAK1,pseudopodium enriched atypical kinase 1,ENSG00000173517,Q9H792,0.2186288593652005,Diabetic Nephropathy,OpenTargets
+PPDPFL,pancreatic progenitor cell differentiation and proliferation factor like,ENSG00000168333,Q8WWR9,0.2175078861318977,Diabetic Nephropathy,OpenTargets
+SRSF6,serine and arginine rich splicing factor 6,ENSG00000124193,Q13247,0.2138402705877391,Diabetic Nephropathy,OpenTargets
+PLEKHA5,pleckstrin homology domain containing A5,ENSG00000052126,Q9HAU0,0.2133887660438188,Diabetic Nephropathy,OpenTargets
+ABCA4,ATP binding cassette subfamily A member 4,ENSG00000198691,P78363,0.212988663960649,Diabetic Nephropathy,OpenTargets
+ALLC,allantoicase,ENSG00000151360,Q8N6M5,0.2129766143354807,Diabetic Nephropathy,OpenTargets
+EFHB,EF-hand domain family member B,ENSG00000163576,Q8N7U6,0.2087052933064585,Diabetic Nephropathy,OpenTargets
+SCAF8,SR-related CTD associated factor 8,ENSG00000213079,Q9UPN6,0.2058518961764627,Diabetic Nephropathy,OpenTargets
+IRS1,insulin receptor substrate 1,ENSG00000169047,P35568,0.2051264815590421,Diabetic Nephropathy,OpenTargets
+ASCC3,activating signal cointegrator 1 complex subunit 3,ENSG00000112249,Q8N3C0,0.2017220928854635,Diabetic Nephropathy,OpenTargets
+AUTS2,activator of transcription and developmental regulator AUTS2,ENSG00000158321,Q8WXX7,0.1992623048423425,Diabetic Nephropathy,OpenTargets
+ZNF254,zinc finger protein 254,ENSG00000213096,O75437,0.1965757536089447,Diabetic Nephropathy,OpenTargets
+PCDH10,protocadherin 10,ENSG00000138650,Q9P2E7,0.1964341973372603,Diabetic Nephropathy,OpenTargets
+ASAP2,"ArfGAP with SH3 domain, ankyrin repeat and PH domain 2",ENSG00000151693,O43150,0.1941683916998428,Diabetic Nephropathy,OpenTargets
+GULP1,GULP PTB domain containing engulfment adaptor 1,ENSG00000144366,Q9UBP9,0.1930285314070745,Diabetic Nephropathy,OpenTargets
+TCF4,transcription factor 4,ENSG00000196628,P15884,0.192892470874628,Diabetic Nephropathy,OpenTargets
+TMEM132E,transmembrane protein 132E,ENSG00000181291,Q6IEE7,0.1921470865663515,Diabetic Nephropathy,OpenTargets
+RPS29,ribosomal protein S29,ENSG00000213741,P62273,0.189992902344749,Diabetic Nephropathy,OpenTargets
+TCF7L1,transcription factor 7 like 1,ENSG00000152284,Q9HCS4,0.1899291293278604,Diabetic Nephropathy,OpenTargets
+UQCRFS1,"ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1",ENSG00000169021,P47985,0.187952724862737,Diabetic Nephropathy,OpenTargets
+TRPS1,transcriptional repressor GATA binding 1,ENSG00000104447,Q9UHF7,0.1875130082885108,Diabetic Nephropathy,OpenTargets
+LINC03051,long intergenic non-protein coding RNA 3051,ENSG00000239268,,0.1868911325982825,Diabetic Nephropathy,OpenTargets
+TBL1XR1,TBL1X/Y related 1,ENSG00000177565,Q9BZK7,0.1865873791855442,Diabetic Nephropathy,OpenTargets
+SSPN,sarcospan,ENSG00000123096,Q14714,0.1853301365627861,Diabetic Nephropathy,OpenTargets
+KYNU,kynureninase,ENSG00000115919,Q16719,0.182240273315673,Diabetic Nephropathy,OpenTargets
+MMADHC,metabolism of cobalamin associated D,ENSG00000168288,Q9H3L0,0.182240273315673,Diabetic Nephropathy,OpenTargets
+CDH19,cadherin 19,ENSG00000071991,Q9H159,0.182240273315673,Diabetic Nephropathy,OpenTargets
+NCAM2,neural cell adhesion molecule 2,ENSG00000154654,O15394,0.182240273315673,Diabetic Nephropathy,OpenTargets
+ADARB2,adenosine deaminase RNA specific B2 (inactive),ENSG00000185736,Q9NS39,0.1802562826444959,Diabetic Nephropathy,OpenTargets
+KLHL29,kelch like family member 29,ENSG00000119771,Q96CT2,0.1779535921039453,Diabetic Nephropathy,OpenTargets
+GRIP1,glutamate receptor interacting protein 1,ENSG00000155974,Q9Y3R0,0.1762043500180787,Diabetic Nephropathy,OpenTargets
+CADPS2,calcium dependent secretion activator 2,ENSG00000081803,Q86UW7,0.1749550267043262,Diabetic Nephropathy,OpenTargets
+HS6ST1,heparan sulfate 6-O-sulfotransferase 1,ENSG00000136720,O60243,0.1745425516425609,Diabetic Nephropathy,OpenTargets
+KRT6B,keratin 6B,ENSG00000185479,P04259,0.1735433591860792,Diabetic Nephropathy,OpenTargets
+B3GAT1,"beta-1,3-glucuronyltransferase 1",ENSG00000109956,Q9P2W7,0.1726274327456089,Diabetic Nephropathy,OpenTargets
+ELAVL2,ELAV like RNA binding protein 2,ENSG00000107105,Q12926,0.171925336647349,Diabetic Nephropathy,OpenTargets
+MBOAT2,membrane bound glycerophospholipid O-acyltransferase 2,ENSG00000143797,Q6ZWT7,0.1705935581377326,Diabetic Nephropathy,OpenTargets
+NUDT5,nudix hydrolase 5,ENSG00000165609,Q9UKK9,0.1702788328572334,Diabetic Nephropathy,OpenTargets
+GBA3,glucosylceramidase beta 3 (gene/pseudogene),ENSG00000249948,,0.1694226137341737,Diabetic Nephropathy,OpenTargets
+RABGAP1,RAB GTPase activating protein 1,ENSG00000011454,Q9Y3P9,0.1680728608055971,Diabetic Nephropathy,OpenTargets
+CDKN2A,cyclin dependent kinase inhibitor 2A,ENSG00000147889,P42771,0.1609010515548047,Diabetic Nephropathy,OpenTargets
+BMP8A,bone morphogenetic protein 8a,ENSG00000183682,Q7Z5Y6,0.1576367914052057,Diabetic Nephropathy,OpenTargets
+SCARB1,scavenger receptor class B member 1,ENSG00000073060,,0.1574850691033335,Diabetic Nephropathy,OpenTargets
+CLTCL1,clathrin heavy chain like 1,ENSG00000070371,P53675,0.1547479019643918,Diabetic Nephropathy,OpenTargets
+VPS13C,vacuolar protein sorting 13 homolog C,ENSG00000129003,Q709C8,0.141867839769935,Diabetic Nephropathy,OpenTargets
+XPO1,exportin 1,ENSG00000082898,O14980,0.141771767279336,Diabetic Nephropathy,OpenTargets
+CNKSR3,CNKSR family member 3,ENSG00000153721,Q6P9H4,0.1406867178096836,Diabetic Nephropathy,OpenTargets
+AP3S2,adaptor related protein complex 3 subunit sigma 2,ENSG00000157823,P59780,0.1378734295236043,Diabetic Nephropathy,OpenTargets
+CRTC1,CREB regulated transcription coactivator 1,ENSG00000105662,Q6UUV9,0.137318562182321,Diabetic Nephropathy,OpenTargets
+DIS3L2,DIS3 like 3'-5' exoribonuclease 2,ENSG00000144535,Q8IYB7,0.1346130891729489,Diabetic Nephropathy,OpenTargets
+GALNT7,polypeptide N-acetylgalactosaminyltransferase 7,ENSG00000109586,Q86SF2,0.12886649870001,Diabetic Nephropathy,OpenTargets
+MOB3A,MOB kinase activator 3A,ENSG00000172081,Q96BX8,0.1281050224439486,Diabetic Nephropathy,OpenTargets
+ARPIN,actin related protein 2/3 complex inhibitor,ENSG00000242498,Q7Z6K5,0.1280437606961189,Diabetic Nephropathy,OpenTargets
+GVQW3,GVQW motif containing 3,ENSG00000179240,Q3ZCU0,0.1235660357921747,Diabetic Nephropathy,OpenTargets
+PPIF,peptidylprolyl isomerase F,ENSG00000108179,P30405,0.1210913376421815,Diabetic Nephropathy,OpenTargets
+GRB14,growth factor receptor bound protein 14,ENSG00000115290,Q14449,0.1183680475312958,Diabetic Nephropathy,OpenTargets
+MAP3K5,mitogen-activated protein kinase kinase kinase 5,ENSG00000197442,Q99683,0.1175660807141744,Diabetic Nephropathy,OpenTargets
+CCR2,C-C motif chemokine receptor 2,ENSG00000121807,P41597,0.1160537550339632,Diabetic Nephropathy,OpenTargets
+MAP3K21,mitogen-activated protein kinase kinase kinase 21,ENSG00000143674,Q5TCX8,0.115242379425003,Diabetic Nephropathy,OpenTargets
+MCM2,minichromosome maintenance complex component 2,ENSG00000073111,P49736,0.1150112414277962,Diabetic Nephropathy,OpenTargets
+BCL11A,BCL11 transcription factor A,ENSG00000119866,Q9H165,0.1142822375548448,Diabetic Nephropathy,OpenTargets
+JAK2,Janus kinase 2,ENSG00000096968,O60674,0.1131829181026052,Diabetic Nephropathy,OpenTargets
+KL,klotho,ENSG00000133116,Q9UEF7,0.1126592574731727,Diabetic Nephropathy,OpenTargets
+CCL2,C-C motif chemokine ligand 2,ENSG00000108691,P13500,0.1116383944799826,Diabetic Nephropathy,OpenTargets
+TGFB1,transforming growth factor beta 1,ENSG00000105329,P01137,0.1113823638203819,Diabetic Nephropathy,OpenTargets
+GABPA,GA binding protein transcription factor subunit alpha,ENSG00000154727,Q06546,0.1072602443480129,Diabetic Nephropathy,OpenTargets
+RPGRIP1L,RPGRIP1 like,ENSG00000103494,Q68CZ1,0.1071025864159235,Diabetic Nephropathy,OpenTargets
+FABP1,fatty acid binding protein 1,ENSG00000163586,P07148,0.1063131582483382,Diabetic Nephropathy,OpenTargets
+REN,renin,ENSG00000143839,P00797,0.1053601174258458,Diabetic Nephropathy,OpenTargets
+ALB,albumin,ENSG00000163631,P02768,0.102429010304036,Diabetic Nephropathy,OpenTargets
+YAP1,Yes1 associated transcriptional regulator,ENSG00000137693,P46937,0.1018508809804492,Diabetic Nephropathy,OpenTargets
+TXNIP,thioredoxin interacting protein,ENSG00000265972,Q9H3M7,0.1016124003439382,Diabetic Nephropathy,OpenTargets
+NUDT12,nudix hydrolase 12,ENSG00000112874,Q9BQG2,0.1008776326589333,Diabetic Nephropathy,OpenTargets
+STH,saitohin,ENSG00000256762,Q8IWL8,0.1000775635393917,Diabetic Nephropathy,OpenTargets
+VEGFA,vascular endothelial growth factor A,,,1.0,Diabetic Nephropathy,DisGeNET
+AGT,angiotensinogen,,,1.0,Diabetic Nephropathy,DisGeNET
+FN1,fibronectin 1,,,0.9,Diabetic Nephropathy,DisGeNET
+ACE2,angiotensin converting enzyme 2,,,0.9,Diabetic Nephropathy,DisGeNET
+ADIPOQ,"adiponectin, C1Q and collagen domain containing",,,0.9,Diabetic Nephropathy,DisGeNET
+NOS3,nitric oxide synthase 3,,,0.8,Diabetic Nephropathy,DisGeNET
+CNDP1,carnosine dipeptidase 1,,,0.8,Diabetic Nephropathy,DisGeNET
+SERPINE1,serpin family E member 1,,,0.8,Diabetic Nephropathy,DisGeNET
+ELMO1,engulfment and cell motility 1,,,0.75,Diabetic Nephropathy,DisGeNET
+RELA,"RELA proto-oncogene, NF-kB subunit",,,0.75,Diabetic Nephropathy,DisGeNET
+LEPR,leptin receptor,,,0.7,Diabetic Nephropathy,DisGeNET
+GAS6,growth arrest specific 6,,,0.7,Diabetic Nephropathy,DisGeNET
+AXL,AXL receptor tyrosine kinase,,,0.7,Diabetic Nephropathy,DisGeNET
+COL4A1,collagen type IV alpha 1 chain,,,0.65,Diabetic Nephropathy,DisGeNET
+TGFBI,transforming growth factor beta induced,,,0.65,Diabetic Nephropathy,DisGeNET
+KDR,kinase insert domain receptor,,,0.65,Diabetic Nephropathy,DisGeNET
+PON1,paraoxonase 1,,,0.65,Diabetic Nephropathy,DisGeNET
+CDKN1A,cyclin dependent kinase inhibitor 1A,,,0.65,Diabetic Nephropathy,DisGeNET
+YY1,YY1 transcription factor,,,0.65,Diabetic Nephropathy,DisGeNET
+TGFBR2,transforming growth factor beta receptor 2,,,0.65,Diabetic Nephropathy,DisGeNET

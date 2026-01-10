@@ -1,0 +1,9 @@
+{
+  "total_compounds": 25,
+  "lipinski_pass": 22,
+  "lipinski_pass_pct": "88.0%",
+  "veber_pass": 14,
+  "veber_pass_pct": "56.0%",
+  "drug_like": 14,
+  "drug_like_pct": "56.0%"
+}
