@@ -32,7 +32,9 @@ sudo apt update
 sudo apt install gromacs
 ```
 
-### Proses Trajectory
+### Proses Trajectory (URUTAN PENTING!)
+
+> ⚠️ **PENTING:** Urutan harus **PBC dulu, baru Fit**. Jika terbalik, ligan akan "teleport".
 
 ```bash
 # Masuk ke folder project
@@ -41,32 +43,34 @@ cd /mnt/e/Project/herbal-network-pharmacology
 # === Untuk 264THM-PPARG ===
 cd kaggle-output-sim/264THM_PPARG/md/
 
-# Downsample (skip tiap 10 frame) + Fit protein ke tengah
+# LANGKAH 1: Tengahkan protein + Fix PBC (dari file asli)
 echo "1 0" | gmx trjconv -s md.tpr -f full_trajectory.xtc \
-    -o visual_ready_264THM.xtc -skip 10 -fit rot+trans
+    -o step1_centered.xtc -pbc mol -center -skip 10
 
-# Fix PBC (supaya ligan tidak loncat-loncat)
-echo "1 0" | gmx trjconv -s md.tpr -f visual_ready_264THM.xtc \
-    -o visual_ready_264THM_fixed.xtc -pbc mol -center
+# LANGKAH 2: Fit rotasi/translasi (dari hasil langkah 1)
+echo "1 0" | gmx trjconv -s md.tpr -f step1_centered.xtc \
+    -o visual_final_264THM.xtc -fit rot+trans
 
 cd /mnt/e/Project/herbal-network-pharmacology
 
 # === Untuk Luteolin-PDE5A ===
 cd kaggle-output-luteolin/Luteolin_PDE5A/md/
 
+# LANGKAH 1: Tengahkan + Fix PBC
 echo "1 0" | gmx trjconv -s md.tpr -f full_trajectory.xtc \
-    -o visual_ready_Luteolin.xtc -skip 10 -fit rot+trans
+    -o step1_centered.xtc -pbc mol -center -skip 10
 
-echo "1 0" | gmx trjconv -s md.tpr -f visual_ready_Luteolin.xtc \
-    -o visual_ready_Luteolin_fixed.xtc -pbc mol -center
+# LANGKAH 2: Fit
+echo "1 0" | gmx trjconv -s md.tpr -f step1_centered.xtc \
+    -o visual_final_Luteolin.xtc -fit rot+trans
 
 cd /mnt/e/Project/herbal-network-pharmacology
 ```
 
 **Output:**
 
-- `visual_ready_264THM_fixed.xtc`
-- `visual_ready_Luteolin_fixed.xtc`
+- `visual_final_264THM.xtc`
+- `visual_final_Luteolin.xtc`
 
 ---
 
@@ -186,13 +190,13 @@ open mysession.cxs
 ### 264THM-PPARG
 
 - Struktur: `kaggle-output-sim/264THM_PPARG/md/md.gro`
-- Trajectory: `kaggle-output-sim/264THM_PPARG/md/visual_ready_264THM_fixed.xtc`
+- Trajectory: `kaggle-output-sim/264THM_PPARG/md/visual_final_264THM.xtc`
 - Video Output: `videos/264THM_HD.mp4`
 
 ### Luteolin-PDE5A
 
 - Struktur: `kaggle-output-luteolin/Luteolin_PDE5A/md/md.gro`
-- Trajectory: `kaggle-output-luteolin/Luteolin_PDE5A/md/visual_ready_Luteolin_fixed.xtc`
+- Trajectory: `kaggle-output-luteolin/Luteolin_PDE5A/md/visual_final_Luteolin.xtc`
 - Video Output: `videos/Luteolin_HD.mp4`
 
 ---
