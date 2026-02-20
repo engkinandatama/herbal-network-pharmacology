@@ -1,0 +1,55 @@
+{
+    "project": "Mahkota Dewa (Phaleria macrocarpa) Network Pharmacology - Molecular Docking",
+    "vina_params": {
+        "exhaustiveness": 32,
+        "num_modes": 9,
+        "energy_range": 3
+    },
+    "receptors": {
+        "1HWK": {
+            "gene": "HMGCR",
+            "full_name": "HMG-CoA Reductase"
+        },
+        "1TBF": {
+            "gene": "RELA",
+            "full_name": "NF-kB p65"
+        },
+        "3QXY": {
+            "gene": "AGTR1",
+            "full_name": "Angiotensin II Type 1 Receptor"
+        },
+        "4YAY": {
+            "gene": "PPARG",
+            "full_name": "Peroxisome Proliferator-Activated Receptor Gamma"
+        },
+        "6MS7": {
+            "gene": "PDE5A",
+            "full_name": "Phosphodiesterase 5A"
+        }
+    },
+    "controls": {
+        "Atorvastatin": "1HWK",
+        "Losartan": "3QXY",
+        "Pioglitazone": "4YAY",
+        "Sildenafil": "6MS7"
+    },
+    "compounds": [
+        "264THM",
+        "Apigenin",
+        "Caffeic_acid",
+        "Gallic_acid",
+        "Kaempferol",
+        "Lariciresinol",
+        "Luteolin",
+        "Mangiferin",
+        "Matairesinol",
+        "Myricetin",
+        "Naringeninchalcone",
+        "Phalerin",
+        "Pinoresinol",
+        "Quercetin",
+        "Swertianin"
+    ],
+    "total_jobs": 79,
+    "job_breakdown": "15 compounds x 5 targets = 75, + 4 controls x 1 target = 4"
+}

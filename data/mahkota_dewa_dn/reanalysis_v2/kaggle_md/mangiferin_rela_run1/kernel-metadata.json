@@ -1,0 +1,15 @@
+{
+    "id": "engkinandatama/md-mangiferin-rela",
+    "title": "MD Mangiferin RELA",
+    "code_file": "md_mangiferin_rela.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": "true",
+    "enable_gpu": "true",
+    "enable_internet": "true",
+    "dataset_sources": [
+        "engkinandatama/md-mangiferin-rela-input"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+}

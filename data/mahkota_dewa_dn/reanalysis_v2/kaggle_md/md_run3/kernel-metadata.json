@@ -1,0 +1,17 @@
+{
+    "id": "engkinandatama/md-phalerin-agtr1-run3",
+    "title": "MD Phalerin AGTR1 Run3",
+    "code_file": "md_phalerin_agtr1_run3.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": "true",
+    "enable_gpu": "true",
+    "enable_internet": "true",
+    "dataset_sources": [
+        "engkinandatama/mahkota-dewa-docking",
+        "engkinandatama/md-phalerin-agtr1-run1",
+        "engkinandatama/md-phalerin-agtr1-run2"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+}

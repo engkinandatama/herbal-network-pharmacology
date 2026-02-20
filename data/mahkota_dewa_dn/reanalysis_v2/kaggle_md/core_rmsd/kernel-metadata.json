@@ -1,0 +1,15 @@
+{
+    "id": "engkinandatama/md-phalerin-agtr1-core-rmsd",
+    "title": "MD Phalerin AGTR1 Core RMSD",
+    "code_file": "md_core_rmsd.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": "true",
+    "enable_gpu": "false",
+    "enable_internet": "true",
+    "dataset_sources": [
+        "engkinandatama/md-phalerin-agtr1-final-output"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+}

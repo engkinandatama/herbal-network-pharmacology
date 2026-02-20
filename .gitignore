@@ -3,11 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
 .env/
 .venv/
+.venv_meeko/
+*.venv*/
 
 # IDE
 .vscode/
@@ -24,6 +26,12 @@ env/
 data/**/*.xtc
 data/**/*.trr
 data/**/*.edr
+data/**/*.dcd
+data/**/*.cpt
+
+# Kaggle dataset temp upload folders
+**/dataset_flat/
+**/dataset_upload/
 
 # Output files (regenerate from workflow)
 outputs/
@@ -32,7 +40,11 @@ outputs/
 # Logs
 logs/
 *.log
+!**/md-*.log
+!**/md-*-mmgbsa.log
+!**/mahkota-dewa-molecular-docking.log
 kaggle-logs/
+failed.log
 
 # OS files
 .DS_Store
@@ -55,6 +67,14 @@ htmlcov/
 *.temp
 .cache/
 fix_*.py
+_*.py
+
+# Utility/temp scripts (prefixed with underscore)
+**/_adapt_notebook.py
+**/_sanitize_and_convert.py
+**/_flatten_dataset.py
+**/_check_dataset.py
+**/_prepare_dataset.py
 
 # API keys and secrets (if any)
 .env
@@ -71,3 +91,9 @@ kaggle_output/
 
 # Simulation checkpoints
 checkpoints/
+
+# Video files
+videos/
+
+# Misc
+revisi-ST.txt

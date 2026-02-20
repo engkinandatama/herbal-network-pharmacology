@@ -91,25 +91,29 @@ Ketik perintah ini satu per satu di **Command Line** (bawah layar):
 
 ```chimerax
 # Background putih (standar publikasi)
+# 1. Background Putih (Standar Publikasi)
 set bg white
 
-# Sembunyikan air dan ion
+# 2. Sembunyikan Atom Air & Ion (Biar kelihatan protein + obat aja)
 hide solvent
 hide ions
 
-# Tampilkan protein sebagai ribbon
+# 3. Tampilkan Protein sebagai "Ribbon" Mulus
 show protein cartoons
-color protein #cccccc
+color protein #cccccc  (Abu-abu elegan)
 
-# Tampilkan ligan sebagai sphere merah
+# 4. Tampilkan Obat (Ligan)
 show ligand atoms
 style ligand sphere
-color ligand #ff0000
+color ligand #ff0000   (Merah menyala biar kontras)
 
-# Sembunyikan sidechain protein (opsional, biar bersih)
+# 5. Pasang Pencahayaan "Soft" (Opsional, butuh GPU dikit)
+light soft
+
+# 6. Sembunyikan sidechain protein (opsional, biar bersih)
 hide protein atoms
 
-# Pencahayaan soft (opsional)
+# 7. Pencahayaan soft (opsional)
 lighting soft
 ```
 

@@ -1,208 +1,140 @@
-# Network Pharmacology Toolkit
+# 🌿 Network Pharmacology of Mahkota Dewa (*Phaleria macrocarpa*) for Diabetic Nephropathy
 
-A modular Python toolkit for network pharmacology analysis of herbal medicines. Designed for reproducible research with config-based workflows.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Features
+## 📖 About
 
-- **Compound Collection**: Fetch compounds from KNApSAcK, PubChem, and literature
-- **Target Prediction**: Predict drug targets using SwissTargetPrediction
-- **Disease Genes**: Retrieve disease-associated genes from GeneCards, DisGeNET, OMIM
-- **Network Analysis**: Build and analyze PPI networks using STRING database
-- **Enrichment Analysis**: KEGG, GO, and Reactome pathway enrichment
-- **ADMET Prediction**: Drug-likeness evaluation (Lipinski, Veber rules)
-- **Visualization**: Publication-ready figures
+This repository contains the **data, scripts, and computational results** for the network pharmacology study of Mahkota Dewa (*Phaleria macrocarpa*) against Diabetic Nephropathy (DN). This repository serves as the **data availability** companion to the associated manuscript.
 
-## Installation
+### Study Overview
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd herbal-network-pharmacology
+An integrated network pharmacology approach combined with molecular docking and molecular dynamics (MD) simulation was used to investigate the therapeutic mechanisms of Mahkota Dewa against Diabetic Nephropathy.
 
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-# source venv/bin/activate  # Linux/Mac
+### Key Findings
 
-# Install dependencies
-pip install -r requirements.txt
-```
+- **13 intersection targets** identified between Mahkota Dewa compounds and DN-related genes
+- **PPARG** emerged as the top hub gene (degree=12)
+- **Phalerin** (avg. -8.56 kcal/mol) and **Mangiferin** (avg. -8.49 kcal/mol) are the top lead compounds
+- Both outperformed approved drugs (Pioglitazone, Losartan, Atorvastatin) at multiple targets
+- **100 ns MD simulations** validated binding stability:
+  - Mangiferin-RELA: RMSD 1.48 ± 0.15 Å (exceptionally stable)
+  - Phalerin-AGTR1: RMSD 2.90 ± 0.58 Å (stable, typical GPCR dynamics)
 
-## Quick Start
+> **📄 Full research summary**: [`data/mahkota_dewa_dn/RESEARCH_SUMMARY.md`](data/mahkota_dewa_dn/RESEARCH_SUMMARY.md)
 
-### 1. Create Project Config
+---
 
-Copy and customize the config file:
-
-```bash
-cp config/default.yaml config/projects/my_project.yaml
-```
-
-Edit `my_project.yaml` with your plant and disease information.
-
-### 2. Run Analysis
-
-**Using CLI:**
-
-```bash
-# Show project info
-python -m src.cli --config config/projects/mahkota_dewa_dn.yaml info
-
-# Run individual steps
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml collect
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml predict-targets
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml get-disease-genes
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml build-network
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml enrich
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml admet
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml visualize
-
-# Or run all at once
-python -m src.cli -c config/projects/mahkota_dewa_dn.yaml run-all
-```
-
-**Using Python:**
-
-```python
-from src.config_loader import load_config
-from src.compounds.collector import CompoundCollector
-from src.network.builder import NetworkBuilder
-
-# Load config
-config = load_config("config/projects/mahkota_dewa_dn.yaml")
-
-# Collect compounds
-collector = CompoundCollector(config)
-collector.collect_from_literature()
-collector.enrich_from_pubchem()
-collector.save_compounds()
-
-# Build network
-builder = NetworkBuilder(config)
-builder.find_common_targets()
-network = builder.build_ppi_network()
-```
-
-## Project Structure
+## 📁 Repository Structure
 
 ```
 herbal-network-pharmacology/
-├── config/
-│   ├── default.yaml              # Default config template
-│   └── projects/                 # Project-specific configs
-├── src/
-│   ├── cli.py                    # Command-line interface
-│   ├── config_loader.py          # Config management
-│   ├── compounds/                # Compound data collection
-│   ├── targets/                  # Target prediction
-│   ├── disease/                  # Disease gene retrieval
-│   ├── network/                  # Network analysis
-│   ├── enrichment/               # Pathway enrichment
-│   ├── admet/                    # ADMET prediction
-│   └── visualization/            # Figure generation
-├── notebooks/
-│   └── colab/                    # Google Colab notebooks
-│       ├── 03_molecular_docking.ipynb
-│       └── 04_md_simulation.ipynb
-├── data/                         # Data files
-├── outputs/                      # Generated outputs
-└── requirements.txt
+├── data/mahkota_dewa_dn/
+│   ├── RESEARCH_SUMMARY.md              # Full results & interpretation
+│   ├── raw/                             # Source compound & disease gene data
+│   │   ├── compounds.csv
+│   │   ├── disease_genes.csv
+│   │   └── source_references.csv
+│   ├── processed/                       # Intersection targets, predictions
+│   │   ├── intersection_targets.csv
+│   │   ├── intersection_genes.txt
+│   │   └── predicted_targets.csv
+│   ├── results/                         # Network analysis & enrichment
+│   │   ├── hub_genes.csv
+│   │   ├── network_statistics.json
+│   │   ├── network_centralities.csv
+│   │   ├── kegg_enrichment.csv
+│   │   ├── go_bp_enrichment.csv
+│   │   ├── admet_predictions.csv
+│   │   └── docking/                     # Docking receptor/ligand files & figures
+│   └── reanalysis_v2/                   # Molecular docking & MD simulation
+│       ├── ligands/                     # Prepared ligand files (SDF + PDBQT)
+│       ├── receptors/                   # Prepared receptor files (PDB + PDBQT)
+│       ├── controls/                    # Control drug files
+│       ├── kaggle_docking_output/       # AutoDock Vina docking results
+│       ├── results_moldock/             # Docking results (backup)
+│       ├── kaggle_md/                   # MD simulation scripts & output
+│       │   ├── Mangiferin_RELA/         # MD raw data
+│       │   ├── analysis_output/         # MD analysis timeseries
+│       │   ├── combined_plots/          # Publication-ready plots
+│       │   └── *.py / *.ipynb           # Simulation & analysis notebooks
+│       ├── md-mmgbsa-mangiferin-rela.log
+│       └── md-phalerin-agtr1-mmgbsa.log
+├── notebooks/                           # Kaggle GPU notebooks
+│   └── kaggle/                          # MD simulation & docking notebooks
+├── src/                                 # Analysis scripts (Python)
+├── config/                              # Project configuration files
+└── references.md                        # Literature references
 ```
 
-## Workflow Overview
+---
 
-```
-1. Compound Collection
-   └── KNApSAcK, PubChem, Literature
-   
-2. Target Prediction
-   └── SwissTargetPrediction
-   
-3. Disease Genes
-   └── GeneCards, DisGeNET, OMIM
-   
-4. Network Analysis
-   └── STRING PPI, Hub Genes
-   
-5. Enrichment
-   └── KEGG, GO, Reactome
-   
-6. ADMET Prediction
-   └── Lipinski, Veber Rules
-   
-7. Molecular Docking (Colab)
-   └── AutoDock Vina
-   
-8. MD Simulation (Colab)
-   └── GROMACS 50ns
-```
+## 🔬 Methods Summary
 
-## Heavy Computation (Google Colab)
+| Step | Method | Tool/Database |
+|------|--------|---------------|
+| Compound Collection | Literature review | KNApSAcK, PubChem |
+| Target Prediction | Structure-based | SwissTargetPrediction (prob ≥ 0.1) |
+| Disease Genes | Database mining | OpenTargets, DisGeNET |
+| PPI Network | STRING interactions | STRING (score ≥ 0.7) |
+| Pathway Enrichment | Over-representation | KEGG, GO via Enrichr |
+| ADMET Screening | Lipinski + Veber rules | RDKit |
+| Molecular Docking | AutoDock Vina | exhaustiveness=32, num_modes=9 |
+| MD Simulation | 100 ns production | OpenMM 8.2 (ff14SB + GAFF2, GPU) |
+| Binding Free Energy | MM-GBSA | OpenMM GB model |
 
-For molecular docking and MD simulation, use the Colab notebooks in `notebooks/colab/`:
+---
 
-1. Upload notebook to Google Colab
-2. Upload required input files (compounds, protein structures)
-3. Run the notebook
-4. Download results
+## 📊 Key Data Files
 
-## Configuration
+| File | Description |
+|------|-------------|
+| `raw/compounds.csv` | 26 bioactive compounds with SMILES |
+| `processed/intersection_targets.csv` | 13 drug-disease common targets |
+| `results/hub_genes.csv` | Network centrality metrics (degree, betweenness) |
+| `results/kegg_enrichment.csv` | KEGG pathway enrichment results |
+| `reanalysis_v2/kaggle_docking_output/results/docking_results.csv` | Docking scores for all compound-target pairs |
+| `reanalysis_v2/kaggle_md/Mangiferin_RELA/md_summary.json` | MD simulation statistics |
+| `reanalysis_v2/md-mmgbsa-mangiferin-rela.log` | MM-GBSA binding free energy (Mangiferin-RELA) |
+| `reanalysis_v2/md-phalerin-agtr1-mmgbsa.log` | MM-GBSA binding free energy (Phalerin-AGTR1) |
 
-Key configuration options in YAML:
+---
 
-```yaml
-plant:
-  name: "Plant Name"
-  latin_name: "Genus species"
-  known_compounds:
-    - name: "Compound1"
-      pubchem_cid: 12345
-      smiles: "CCO"
+## 🖥️ Reproducibility
 
-disease:
-  name: "Disease Name"
-  disgenet_id: "C0011849"
+### Local Analysis (Network Pharmacology)
 
-analysis:
-  target_probability_threshold: 0.1
-  hub_gene_top_n: 10
-  enrichment_pvalue_threshold: 0.05
+The network pharmacology pipeline uses Python scripts in `src/`:
+
+```bash
+python -m venv venv && venv\Scripts\activate
+pip install -r requirements.txt
+python -m src.cli -c config/projects/mahkota_dewa_dn.yaml run-all
 ```
 
-## Output Files
+### GPU Computation (Docking & MD)
 
-After running the workflow, you'll find:
+Molecular docking and MD simulation were performed on **Kaggle GPU (T4 x2)**. Notebooks are available in `notebooks/kaggle/`.
 
-```
-data/<project>/
-├── raw/
-│   ├── compounds.csv
-│   └── disease_genes.csv
-├── processed/
-│   ├── predicted_targets.csv
-│   └── common_targets.txt
-└── results/
-    ├── network.graphml
-    ├── hub_genes.csv
-    ├── kegg_enrichment.csv
-    └── admet_predictions.csv
+---
 
-outputs/figures/<project>/
-├── compound_target_network.png
-├── ppi_network.png
-├── venn_diagram.png
-├── kegg_barplot.png
-└── enrichment_bubble.png
+## 📝 License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+## 📖 Citation
+
+If you use data from this repository, please cite:
+
+```bibtex
+@misc{nandatama2025mahkotadewa,
+  author = {Nandatama, Engki},
+  title = {Network Pharmacology Study of Mahkota Dewa (Phaleria macrocarpa) for Diabetic Nephropathy},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/engkinandatama/herbal-network-pharmacology}
+}
 ```
 
-## License
+---
 
-MIT License
-
-## Citation
-
-If you use this toolkit in your research, please cite:
-
-```
-[Your citation here]
-```
+*Developed by [Engki Nandatama](https://github.com/engkinandatama)*

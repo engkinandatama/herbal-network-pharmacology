@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "total_jobs": 79,
+    "completed": 79,
+    "failed": 0,
+    "exhaustiveness": 32,
+    "runtime_seconds": 6859.9
+  },
+  "results": [
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "264THM",
+      "type": "compound",
+      "best_affinity_kcal": -4.67,
+      "poses_found": 7,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Apigenin",
+      "type": "compound",
+      "best_affinity_kcal": -4.9,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Caffeic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -4.09,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Gallic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -4.05,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Kaempferol",
+      "type": "compound",
+      "best_affinity_kcal": -4.82,
+      "poses_found": 8,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Lariciresinol",
+      "type": "compound",
+      "best_affinity_kcal": -5.03,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Luteolin",
+      "type": "compound",
+      "best_affinity_kcal": -5.26,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Mangiferin",
+      "type": "compound",
+      "best_affinity_kcal": -5.79,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Matairesinol",
+      "type": "compound",
+      "best_affinity_kcal": -5.14,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Myricetin",
+      "type": "compound",
+      "best_affinity_kcal": -5.44,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Naringeninchalcone",
+      "type": "compound",
+      "best_affinity_kcal": -4.86,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Phalerin",
+      "type": "compound",
+      "best_affinity_kcal": -5.16,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Pinoresinol",
+      "type": "compound",
+      "best_affinity_kcal": -5.22,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Quercetin",
+      "type": "compound",
+      "best_affinity_kcal": -5.02,
+      "poses_found": 8,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Swertianin",
+      "type": "compound",
+      "best_affinity_kcal": -5.05,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "264THM",
+      "type": "compound",
+      "best_affinity_kcal": -7.1,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Apigenin",
+      "type": "compound",
+      "best_affinity_kcal": -8.95,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Caffeic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -6.78,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Gallic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -5.95,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Kaempferol",
+      "type": "compound",
+      "best_affinity_kcal": -8.78,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Lariciresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.68,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Luteolin",
+      "type": "compound",
+      "best_affinity_kcal": -9.03,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Mangiferin",
+      "type": "compound",
+      "best_affinity_kcal": -10.22,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Matairesinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.85,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Myricetin",
+      "type": "compound",
+      "best_affinity_kcal": -9.22,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Naringeninchalcone",
+      "type": "compound",
+      "best_affinity_kcal": -8.32,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Phalerin",
+      "type": "compound",
+      "best_affinity_kcal": -9.44,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Pinoresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.98,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Quercetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.93,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1TBF",
+      "gene": "RELA",
+      "ligand": "Swertianin",
+      "type": "compound",
+      "best_affinity_kcal": -8.68,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "264THM",
+      "type": "compound",
+      "best_affinity_kcal": -7.79,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Apigenin",
+      "type": "compound",
+      "best_affinity_kcal": -9.0,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Caffeic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -7.02,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Gallic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -6.0,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Kaempferol",
+      "type": "compound",
+      "best_affinity_kcal": -8.87,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Lariciresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.17,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Luteolin",
+      "type": "compound",
+      "best_affinity_kcal": -8.94,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Mangiferin",
+      "type": "compound",
+      "best_affinity_kcal": -9.59,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Matairesinol",
+      "type": "compound",
+      "best_affinity_kcal": -9.05,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Myricetin",
+      "type": "compound",
+      "best_affinity_kcal": -9.12,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Naringeninchalcone",
+      "type": "compound",
+      "best_affinity_kcal": -8.75,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Phalerin",
+      "type": "compound",
+      "best_affinity_kcal": -9.96,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Pinoresinol",
+      "type": "compound",
+      "best_affinity_kcal": -9.05,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Quercetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.96,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Swertianin",
+      "type": "compound",
+      "best_affinity_kcal": -8.54,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "264THM",
+      "type": "compound",
+      "best_affinity_kcal": -7.14,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Apigenin",
+      "type": "compound",
+      "best_affinity_kcal": -8.28,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Caffeic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -6.82,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Gallic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -5.66,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Kaempferol",
+      "type": "compound",
+      "best_affinity_kcal": -8.19,
+      "poses_found": 8,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Lariciresinol",
+      "type": "compound",
+      "best_affinity_kcal": -7.97,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Luteolin",
+      "type": "compound",
+      "best_affinity_kcal": -8.2,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Mangiferin",
+      "type": "compound",
+      "best_affinity_kcal": -7.85,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Matairesinol",
+      "type": "compound",
+      "best_affinity_kcal": -7.96,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Myricetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.2,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Naringeninchalcone",
+      "type": "compound",
+      "best_affinity_kcal": -7.82,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Phalerin",
+      "type": "compound",
+      "best_affinity_kcal": -8.98,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Pinoresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.85,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Quercetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.12,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Swertianin",
+      "type": "compound",
+      "best_affinity_kcal": -8.11,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "264THM",
+      "type": "compound",
+      "best_affinity_kcal": -7.14,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Apigenin",
+      "type": "compound",
+      "best_affinity_kcal": -8.11,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Caffeic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -6.14,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Gallic_acid",
+      "type": "compound",
+      "best_affinity_kcal": -5.66,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Kaempferol",
+      "type": "compound",
+      "best_affinity_kcal": -8.12,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Lariciresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.26,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Luteolin",
+      "type": "compound",
+      "best_affinity_kcal": -8.29,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Mangiferin",
+      "type": "compound",
+      "best_affinity_kcal": -9.0,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Matairesinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.42,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Myricetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.27,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Naringeninchalcone",
+      "type": "compound",
+      "best_affinity_kcal": -7.5,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Phalerin",
+      "type": "compound",
+      "best_affinity_kcal": -9.27,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Pinoresinol",
+      "type": "compound",
+      "best_affinity_kcal": -8.95,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Quercetin",
+      "type": "compound",
+      "best_affinity_kcal": -8.39,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Swertianin",
+      "type": "compound",
+      "best_affinity_kcal": -8.15,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "1HWK",
+      "gene": "HMGCR",
+      "ligand": "Atorvastatin",
+      "type": "control",
+      "best_affinity_kcal": -5.31,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "3QXY",
+      "gene": "AGTR1",
+      "ligand": "Losartan",
+      "type": "control",
+      "best_affinity_kcal": -8.99,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "4YAY",
+      "gene": "PPARG",
+      "ligand": "Pioglitazone",
+      "type": "control",
+      "best_affinity_kcal": -8.26,
+      "poses_found": 9,
+      "status": "success"
+    },
+    {
+      "receptor": "6MS7",
+      "gene": "PDE5A",
+      "ligand": "Sildenafil",
+      "type": "control",
+      "best_affinity_kcal": -9.55,
+      "poses_found": 9,
+      "status": "success"
+    }
+  ]
+}

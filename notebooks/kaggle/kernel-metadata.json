@@ -1,14 +1,15 @@
 {
-    "id": "engkinandatama/md-analysis-264thm-pparg",
-    "title": "MD Analysis 264THM PPARG",
-    "code_file": "md_analysis_264THM_PPARG.ipynb",
+    "id": "engkinandatama/md-h-bond-analysis-264thm-luteolin",
+    "title": "MD H-Bond Analysis - 264THM & Luteolin",
+    "code_file": "md_hbond_analysis.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": true,
     "enable_gpu": false,
+    "enable_tpu": false,
     "enable_internet": true,
     "dataset_sources": [
-        "engkinandatama/264thm-pparg-md-analysis"
+        "engkinandatama/md-hbond-analysis"
     ],
     "competition_sources": [],
     "kernel_sources": []

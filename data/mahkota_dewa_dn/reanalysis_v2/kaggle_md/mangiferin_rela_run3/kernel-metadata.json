@@ -1,0 +1,17 @@
+{
+    "id": "engkinandatama/md-mangiferin-rela-run3",
+    "title": "MD Mangiferin RELA Run3",
+    "code_file": "md_mangiferin_rela_run3.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": "true",
+    "enable_gpu": "true",
+    "enable_internet": "true",
+    "dataset_sources": [
+        "engkinandatama/md-mangiferin-rela-input",
+        "engkinandatama/md-mangiferin-rela-run1-output",
+        "engkinandatama/md-mangiferin-rela-run2"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+}

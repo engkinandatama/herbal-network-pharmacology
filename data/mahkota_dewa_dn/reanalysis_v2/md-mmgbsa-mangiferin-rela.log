@@ -1,0 +1,160 @@
+7.1s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.1s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.1s 3 0.00s - to python to disable frozen modules.
+7.1s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.7s 7 0.00s - to python to disable frozen modules.
+7.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.9s 9 Kernel Python: 3.12 (/usr/bin/python3)
+8.9s 10 ============================================================
+8.9s 11 STEP 1: Installing Miniforge3...
+8.9s 12 ============================================================
+8.9s 13 Downloading...
+15.4s 14 ✅ Miniforge3 installed (7s)
+15.4s 15 
+15.4s 16 ============================================================
+15.4s 17 STEP 2: Mamba install...
+15.4s 18 ============================================================
+15.4s 19 → python=3.12 numpy openmm cudatoolkit openmmforcefields openff-toolkit ambertools pdbfixer parmed
+316.5s 20 ✅ Packages installed (308s)
+316.5s 21 Cleaning conda rdkit+scipy (will use pip versions)...
+320.7s 22 ✅ Removed conda rdkit+scipy (234 files)
+323.5s 23 Installing rdkit+scipy via pip...
+329.4s 24 ✅ pip: rdkit
+332.4s 25 ✅ pip: scipy
+332.4s 26 
+332.4s 27 ============================================================
+332.4s 28 STEP 3: Remove system numpy & patch paths...
+332.4s 29 ============================================================
+334.0s 30 ✅ Flushed 86 cached modules
+334.0s 31 ✅ sys.path += /tmp/miniforge/lib/python3.12/site-packages
+334.0s 32 ✅ sys.path += /tmp/miniforge/lib/python3.1/site-packages
+334.0s 33 ✅ Environment set
+334.0s 34 
+334.0s 35 ============================================================
+334.0s 36 STEP 4: Verifying...
+334.0s 37 ============================================================
+334.0s 38 ✅ numpy 2.4.2
+334.0s 39 ✅ OpenMM 8.2
+334.0s 40 ✅ CUDA: ready
+334.0s 41 ✅ openff.toolkit
+334.0s 42 ✅ openmmforcefields
+334.0s 43 ✅ mdtraj 1.11.1
+334.0s 44 
+334.0s 45 Setup: 325s
+334.0s 46 ============================================================
+334.1s 47 Searching for dataset...
+334.1s 48 Known slugs not found, searching recursively...
+334.3s 49 ============================================================
+334.3s 50 MM-GBSA: Mangiferin_RELA
+334.3s 51 Dataset: /kaggle/input/datasets/engkinandatama/md-mangiferin-rela-run2-output/md_results/Mangiferin_RELA
+334.3s 52 ============================================================
+334.3s 53 
+334.3s 54 Found 2 DCD files (stride=2):
+364.5s 55 production_run1.dcd: 2880 frames (3.71 GB on disk)
+385.5s 56 production_run2.dcd: 2065 frames (2.66 GB on disk)
+385.5s 57 production_run1.dcd time → 0-57.6 ns
+385.5s 58 production_run2.dcd time → 57.6-98.9 ns
+386.9s 59 
+386.9s 60 📊 Combined: 4,945 frames, 98.9 ns (~3.2 GB)
+386.9s 61 Protein: 5284 atoms
+386.9s 62 Ligand: 48 atoms
+386.9s 63 Ligand SDF: /kaggle/input/datasets/engkinandatama/mahkota-dewa-docking/Mangiferin.sdf
+391.0s 64 dcdplugin) detected standard 32-bit DCD file of native endianness
+391.0s 65 dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+391.0s 66 dcdplugin) detected standard 32-bit DCD file of native endianness
+391.0s 67 dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+391.2s 68 dcdplugin) detected standard 32-bit DCD file of native endianness
+391.2s 69 dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+391.2s 70 dcdplugin) detected standard 32-bit DCD file of native endianness
+391.2s 71 dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+391.2s 72 ============================================================
+391.2s 73 MM-GBSA BINDING FREE ENERGY
+391.2s 74 ============================================================
+391.2s 75 
+391.2s 76 Loading ligand molecule for GAFF template...
+391.2s 77 ✅ Loaded Mangiferin: 48 atoms
+391.2s 78 Setting up ForceField + GAFF2...
+391.7s 79 ✅ GAFF2 template registered (fixes UNL residue bug)
+391.7s 80 ⚡ Interior dielectric: ε = 4.0 (polar ligand screening)
+391.7s 81 
+391.7s 82 Analyzing 100 frames (from frame 989 to 4944)
+391.7s 83 Time range: 19.8 - 98.9 ns
+391.9s 84 ✅ Reference receptor PDB written
+391.9s 85 ✅ Ligand OpenMM topology built from SDF (48 atoms, 51 bonds)
+391.9s 86 ✅ Combined topology: 5284 receptor + 48 ligand = 5332 atoms
+391.9s 87 
+391.9s 88 Building 3 GB systems (complex, receptor, ligand)...
+454.2s 89 → complex (combined): CUDA ✅
+458.0s 90 → receptor: CUDA ✅
+458.2s 91 → ligand (OpenFF): CUDA ✅
+458.2s 92 ✅ All three systems built (complex uses combined topology)
+458.2s 93 Force groups (complex): {0: 'HarmonicBondForce', 1: 'PeriodicTorsionForce', 2: 'NonbondedForce', 3: 'CMMotionRemover', 4: 'HarmonicAngleForce', 5: 'CustomGBForce'}
+458.2s 94 
+458.2s 95 🚀 Computing 100 frames with energy decomposition...
+464.8s 96 [10/100] 10 OK, 0 err | last ΔG=93.2 | ETA: 57s
+467.9s 97 [20/100] 20 OK, 0 err | last ΔG=51.0 | ETA: 38s
+471.1s 98 [30/100] 30 OK, 0 err | last ΔG=47.1 | ETA: 29s
+474.2s 99 [40/100] 40 OK, 0 err | last ΔG=62.2 | ETA: 24s
+477.3s 100 [50/100] 50 OK, 0 err | last ΔG=71.7 | ETA: 19s
+480.4s 101 [60/100] 60 OK, 0 err | last ΔG=73.3 | ETA: 15s
+483.5s 102 [70/100] 70 OK, 0 err | last ΔG=103.3 | ETA: 11s
+486.6s 103 [80/100] 80 OK, 0 err | last ΔG=85.7 | ETA: 7s
+489.7s 104 [90/100] 90 OK, 0 err | last ΔG=87.7 | ETA: 3s
+492.7s 105 [100/100] 100 OK, 0 err | last ΔG=79.0 | ETA: 0s
+492.7s 106 
+492.7s 107 ⏱️  MM-GBSA completed in 34.3s (0.6 min)
+492.7s 108 ✅ GPU memory freed
+492.7s 109 
+492.7s 110 ============================================================
+492.7s 111 📊 MM-GBSA RESULTS (100/100 frames)
+492.7s 112 ============================================================
+492.7s 113 ΔG_total   =    85.96 ± 3.32 kcal/mol
+492.7s 114 ΔE_gas     =   -24.72 ± 3.37 kcal/mol  (VdW + Ele + bonded)
+492.7s 115 ΔE_vdw+ele =   -24.72 ± 3.37 kcal/mol  (NonbondedForce only)
+492.7s 116 ΔG_solv    =   110.68 ± 3.50 kcal/mol  (GB solvation)
+492.7s 117 Errors:    0
+492.7s 118 ============================================================
+492.7s 119 ✅ CSV and JSON saved
+492.7s 120 
+492.7s 121 ============================================================
+492.7s 122 📋 MM-GBSA FINAL REPORT: Mangiferin_RELA
+492.7s 123 ============================================================
+492.7s 124 
+492.7s 125 System: Mangiferin bound to 1NFI (RELA/NF-κB p65)
+492.7s 126 Simulation: 99 ns | Stride: 2 | Frames analyzed: 100
+492.7s 127 
+492.7s 128 MM-GBSA Energy Decomposition (kcal/mol):
+492.7s 129 ΔE_gas     =   -24.72 ± 3.37  (gas-phase: VdW + Ele + bonded)
+492.7s 130 ΔE_vdw+ele =   -24.72 ± 3.37  (NonbondedForce only)
+492.7s 131 ΔG_solv    =   110.68 ± 3.50  (GB polar solvation)
+492.7s 132 ─────────────────────────────────────
+492.7s 133 ΔG_total   =    85.96 ± 3.32
+492.7s 134 
+492.7s 135 Interpretation:
+492.7s 136 ❌ UNFAVORABLE binding (may indicate GB solvation overestimation for highly polar ligand)
+492.7s 137 Gas-phase is offset by solvation penalty
+492.7s 138 
+492.7s 139 NOTE: Plots will be generated locally from downloaded CSV files.
+492.7s 140 
+492.7s 141 Output files:
+492.7s 142 - mmgbsa_per_frame.csv (with decomposition)
+492.7s 143 - mmgbsa_summary.json
+492.7s 144 - mmgbsa_summary.csv
+492.7s 145 
+492.7s 146 
+492.7s 147 ⏱️  Total time: 8.1 min
+492.7s 148 🎉 MM-GBSA Analysis Complete!
+495.8s 149 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+495.8s 150 cells[i][c] = re.sub('\\\\\|', '|', cell)
+496.0s 151 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+496.0s 152 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+496.6s 153 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+496.6s 154 warn(
+496.6s 155 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+496.9s 156 [NbConvertApp] Writing 43111 bytes to __notebook__.ipynb
+499.4s 157 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+499.4s 158 warn(
+499.4s 159 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+500.3s 160 [NbConvertApp] Writing 413318 bytes to __results__.html
